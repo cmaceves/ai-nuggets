@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Genome Brief</title>
-    <description>A daily ~3-minute brief on viral clinical & wastewater genomics, biotech/pharma business news, AI in biomedicine, and a fun animal story to close.</description>
+    <description>A daily ~3-minute brief on viral clinical &amp; wastewater genomics, biotech/pharma business news, AI in biomedicine, and a fun animal story to close.</description>
     <link>https://github.com/andrewsu/ai-nuggets</link>
     <language>en-us</language>
     <itunes:author>Nigel</itunes:author>
@@ -11,5 +11,14 @@
     </itunes:owner>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Technology"/>
+    <item>
+      <title>Bundibugyo Ebola PHEIC update + Bedford lab on saltational SARS-CoV-2 + Jazz/AbCellera $4B TCE pact + BioBrain agentic microscopy + Cordyceps-mimic spider</title>
+      <description>WHO June 19 update on the Bundibugyo virus outbreak (DRC 896/232, Uganda 19/2). Bedford lab paper across 4.4M genomes traces SARS-CoV-2 saltational events to persistent human infections, not zoonosis. Jazz Pharmaceuticals and AbCellera ink an up-to-$4B T-cell engager pact in solid tumors. BioBrain, a multi-agent framework for natural-language microscopy analysis, quietly outperforms frontier LLMs on quantitative reproducibility. And Taczanowskia waska, a new Ecuadorian spider that mimics the Cordyceps-like fungus that normally kills its kind.</description>
+      <pubDate>Sun, 21 Jun 2026 13:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-06-21-bundibugyo-ebola-saltational-sars-jazz-abcellera-biobrain</guid>
+      <enclosure url="https://podcast.christineaceves22.workers.dev/p/genome-brief/u/christine/2026-06-21-bundibugyo-ebola-saltational-sars-jazz-abcellera-biobrain.mp3" length="2416056" type="audio/mpeg"/>
+      <itunes:duration>302</itunes:duration>
+      <itunes:summary>Bundibugyo Ebola PHEIC update (WHO DON, 19 June 2026); Bedford lab paper finds SARS-CoV-2 saltational events trace to persistent human infections (bioRxiv, 19 June 2026); Jazz/AbCellera up-to-$4B T-cell engager collaboration (June 17, 2026); BioBrain multi-agent microscopy analysis framework (bioRxiv, 21 June 2026); Taczanowskia waska, an Amazonian spider mimicking the parasitic fungus that infects spiders (Zootaxa, June 2026).</itunes:summary>
+    </item>
   </channel>
 </rss>
