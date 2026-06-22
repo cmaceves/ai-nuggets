@@ -5,11 +5,14 @@ compatibility_date = "2026-05-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "podcast"
-database_id = "458dc35f-a6be-4c8d-95df-7e30229e02de"
+database_id = "d834ec7f-6cba-4069-b744-fa0bec99918d"
 
-[[analytics_engine_datasets]]
-binding = "AE"
-dataset = "podcast_requests"
+# Analytics Engine disabled — optional per-request analytics. D1 already logs
+# the same request data. Re-enable by uncommenting after enabling Analytics
+# Engine on the account (dash → Workers → Analytics Engine).
+# [[analytics_engine_datasets]]
+# binding = "AE"
+# dataset = "podcast_requests"
 
 [[r2_buckets]]
 binding = "BUCKET"

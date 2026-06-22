@@ -118,6 +118,10 @@ hard-to-say tokens) are in `PIPELINE.md`. Show-specific rules:
 Voice config lives in `show.toml`. API keys in repo-root `.env`. Don't write
 your own TTS code — use `gen_tts.py --show genome-brief`.
 
+**Worker URL for this fork:** `https://podcast.christineaceves22.workers.dev`.
+Episode `<enclosure>` URLs in `feed.xml` must point at it, in the form
+`https://podcast.christineaceves22.workers.dev/p/genome-brief/u/<user>/<basename>.mp3`.
+
 # 5. Daily execution
 
 1. Write script to `podcasts/genome-brief/scripts/YYYY-MM-DD-slug.md` with a
