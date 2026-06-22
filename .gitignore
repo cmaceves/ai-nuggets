@@ -6,3 +6,6 @@ worker/node_modules/
 worker/.wrangler/
 docs/superpowers/specs/
 podcasts/*/episodes/*.mp3
+# Verbose agent debug transcripts can capture secrets (e.g. a cat of .env);
+# never commit them. Normal per-show cron.log stays tracked.
+podcasts/*/logs/*.jsonl

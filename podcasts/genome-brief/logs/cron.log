@@ -1,0 +1,59 @@
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcHZkMnrHyV5Y5zMcKWy8
+=== 2026-06-22T05:00:04-07:00 start genome-brief ===
+Everything is in place. The mp3 is in R2, the feed is updated, and the commit is made. Final summary below.
+
+## Episode published — 2026-06-22
+
+**Title:** Moderna mFlusiva mRNA flu wins FDA panel 9-0 + Australian XDR Shigella sonnei escalation + GENATATORs DNA language models for gene annotation + T. rex took 40 years to grow up
+
+- Script: `podcasts/genome-brief/scripts/2026-06-22-mflusiva-fda-panel-xdr-shigella-genatators-trex.md`
+- Audio: 293s, 2,344,376 bytes (Mistral primary, en_paul_neutral)
+- R2 upload: success (`ai-nuggets-episodes` bucket)
+- Feed: updated, parses; new `<item>` prepended
+- Commit: `52fe40d` (orchestrator pushes)
+
+### Candidate funnel
+
+**bioRxiv / medRxiv pathogen** — scanned ~149 bioRxiv + 11 medRxiv entries (2026-06-20 to 2026-06-22); ~5 substantive hits after discarding keyword-only matches (e.g. "phylogen" in plant evo papers, "variant" in unrelated genetics):
+- ✅ **Lacey/Sherry/Howden et al., Shigella sonnei XDR over 20 years in Victoria** — bioRxiv 2026-06-20 [chosen]
+- Kao et al., EpiLink threshold-free transmission clustering — medRxiv 2026-06-20 (methods paper, secondary)
+- Sabeti et al., U.S. blood-supply metagenomic surveillance proposal — medRxiv v1 from Feb, surfaced 2026-06-21 (not fresh)
+- Modeling smallpox in 19th-c. Copenhagen — historical, dropped
+- AMR Pyricularia oryzae rice blast — plant pathogen, off-audience
+
+**Biotech/pharma business** (last 1–2 days):
+- ✅ **Moderna mFlusiva (mRNA-1010) — FDA VRBPAC unanimous 9-0** (June 18; PDUFA Aug 5) [chosen]
+- Biogen × RayThera $1B preclinical immunology buyout (June 18)
+- cAMPfield $180M Series A — oral IBD (June 18)
+- Kardigan $400M biotech IPO (June 19)
+- uniQure Huntington's gene-therapy filing plan (June 19)
+- Pfizer/Innovent $10.5B oncology — actually announced May 28, retrospective coverage June 21 (out of recency)
+- GSK/Nuvalent $10.6B (June 11, out of recency)
+
+**AI in biomedicine** (last 2 days):
+- ✅ **GENATATORs — fine-tuned DNA LMs for gene annotation** (Fishman group; bioRxiv 2026-06-21) [chosen]
+- SAbDab2 — OPIG Oxford, ML-grade antibody DB with versioned splits (bioRxiv 2026-06-20; abstract-only, dropped per PIPELINE depth rule)
+- Polloni et al., generative AMP design with genomic transfer learning (bioRxiv 2026-06-20; abstract-only)
+- GENATATORs, RNAStabFormer, OracleScreen-LILRB4, SAbDab2 — several ML-in-bio preprints; GENATATORs strongest negative-result framing
+- BioBrain — featured in yesterday's episode, excluded
+
+**AI tools/platform updates** (last 1–2 days):
+- Skipped — John Jumper Google DeepMind→Anthropic (June 19) is a major personnel move, not a capability release; nothing else cleared the bar.
+
+**Fun animal**:
+- ✅ **T. rex took ~40 years to reach full size** — Woodward/Myhrvold/Horner, PeerJ, dated today [chosen]
+- Lakes browning → fish-community turnover (June 21) — ecology piece, dropped
+- Australian stem-nesting bees climate vulnerability (June 18) — sober, not delightful
+- Vaquita 3D digital skeleton (June 17) — moving but not light
+- Naked mole-rat HAS2 gene → mice longer life — older story (May 2026), out of recency
+
+**Source-level failures**: bioRxiv `.full` HTML behind Cloudflare 403'd direct WebFetch on multiple papers; `scripts/fetch_preprint.py` handled the bypass — got jina-full for GENATATORs and Shigella, fell back to abstract-only for SAbDab2 and the AMP paper (both new postings, body not yet rendered). Endpoints News 403'd; covered via Fierce Biotech and BioPharma Dive instead.
+
+Sources:
+- [Shigella sonnei preprint](https://www.biorxiv.org/content/10.64898/2026.06.17.728071v1)
+- [Moderna mFlusiva BioPharma Dive coverage](https://www.biopharmadive.com/news/moderna-mflusiva-mrna-flu-vaccine-fda-committee-vote/823275/)
+- [GENATATORs preprint](https://www.biorxiv.org/content/10.64898/2026.06.17.732686v1)
+- [T. rex ScienceDaily release](https://www.sciencedaily.com/releases/2026/06/260621110957.htm)
+=== 2026-06-22T05:10:27-07:00 done  genome-brief (exit 0) ===

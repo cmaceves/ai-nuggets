@@ -12,6 +12,15 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Technology"/>
     <item>
+      <title>Moderna mFlusiva mRNA flu wins FDA panel 9-0 + Australian XDR Shigella sonnei escalation + GENATATORs DNA language models for gene annotation + T. rex took 40 years to grow up</title>
+      <description>Moderna's mRNA-1010 flu vaccine (mFlusiva) clears FDA VRBPAC with unanimous 9-0 votes for adults 50-64 and 65+; PDUFA 5 August 2026. A 20-year Melbourne MDU-PHL genomic surveillance preprint tracks Shigella sonnei in Victoria from drug-sensitive through MDR to two distinct XDR sub-lineages, driving shifts in clinical management. GENATATORs benchmarks DNA language models on ab initio gene annotation and finds pretrained embeddings alone aren't enough — fine-tuning is essential, standard metrics miss what biologists actually care about. And a new PeerJ paper from Holly Woodward and colleagues across 17 specimens revises T. rex growth from ~25 to ~40 years.</description>
+      <pubDate>Mon, 22 Jun 2026 13:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-06-22-mflusiva-fda-panel-xdr-shigella-genatators-trex</guid>
+      <enclosure url="https://podcast.christineaceves22.workers.dev/p/genome-brief/u/christine/2026-06-22-mflusiva-fda-panel-xdr-shigella-genatators-trex.mp3" length="2344376" type="audio/mpeg"/>
+      <itunes:duration>293</itunes:duration>
+      <itunes:summary>Moderna's mRNA-1010 (mFlusiva) wins unanimous FDA VRBPAC backing 9-0 in 50-64 and 65+ adults (18 June 2026; PDUFA 5 August 2026). MDU-PHL Melbourne 20-year genomic surveillance of Shigella sonnei in Victoria documents sensitive to MDR to two distinct XDR sub-lineages (bioRxiv, 20 June 2026). GENATATORs: fine-tuned DNA language models for gene annotation outperform existing tools and generalize across deep evolutionary distance, but pretraining alone is insufficient and standard metrics miss the point (bioRxiv, 21 June 2026). T. rex took roughly 40 years to reach full size — Woodward, Myhrvold &amp; Horner in PeerJ (22 June 2026).</itunes:summary>
+    </item>
+    <item>
       <title>Bundibugyo Ebola PHEIC update + Bedford lab on saltational SARS-CoV-2 + Jazz/AbCellera $4B TCE pact + BioBrain agentic microscopy + Cordyceps-mimic spider</title>
       <description>WHO June 19 update on the Bundibugyo virus outbreak (DRC 896/232, Uganda 19/2). Bedford lab paper across 4.4M genomes traces SARS-CoV-2 saltational events to persistent human infections, not zoonosis. Jazz Pharmaceuticals and AbCellera ink an up-to-$4B T-cell engager pact in solid tumors. BioBrain, a multi-agent framework for natural-language microscopy analysis, quietly outperforms frontier LLMs on quantitative reproducibility. And Taczanowskia waska, a new Ecuadorian spider that mimics the Cordyceps-like fungus that normally kills its kind.</description>
       <pubDate>Sun, 21 Jun 2026 13:00:00 +0000</pubDate>
