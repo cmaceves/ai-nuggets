@@ -20,9 +20,14 @@ export interface Env {
   BUCKET: R2Bucket;
   IP_SALT: string;
   ALLOWED_PODCASTS: string;
+  FEED_BASE?: string;
 }
 
 const ROUTE = /^\/p\/([a-zA-Z0-9_-]+)\/u\/([a-zA-Z0-9_-]+)\/([a-zA-Z0-9_.-]+)\.mp3$/;
+// Feed route: /feed/:podcast.xml — proxies feed.xml from FEED_BASE and serves
+// it with an application/rss+xml content-type (GitHub raw serves text/plain,
+// which some podcast apps reject as "not an RSS address").
+const FEED_ROUTE = /^\/feed\/([a-zA-Z0-9_-]+)\.xml$/;
 
 const BOT_PATTERNS = [
   "bot", "crawler", "spider", "preview", "facebookexternalhit",
@@ -128,6 +133,31 @@ export default {
 
     if (method !== "GET" && method !== "HEAD") {
       return new Response("Not Found", { status: 404, headers: { "content-type": "text/plain" } });
+    }
+
+    const fm = FEED_ROUTE.exec(url.pathname);
+    if (fm) {
+      const feedPodcast = fm[1];
+      const allowedFeeds = env.ALLOWED_PODCASTS.split(",").map((s) => s.trim()).filter(Boolean);
+      if (!allowedFeeds.includes(feedPodcast)) {
+        return new Response("Unknown podcast", { status: 404, headers: { "content-type": "text/plain" } });
+      }
+      const base = (env.FEED_BASE ?? "").replace(/\/$/, "");
+      if (!base) {
+        return new Response("Feed base not configured", { status: 500, headers: { "content-type": "text/plain" } });
+      }
+      const upstream = await fetch(`${base}/${feedPodcast}/feed.xml`, { cf: { cacheTtl: 300 } });
+      if (!upstream.ok) {
+        return new Response("Feed not found", { status: 404, headers: { "content-type": "text/plain" } });
+      }
+      const body = await upstream.text();
+      return new Response(body, {
+        status: 200,
+        headers: {
+          "content-type": "application/rss+xml; charset=utf-8",
+          "cache-control": "public, max-age=300",
+        },
+      });
     }
 
     const m = ROUTE.exec(url.pathname);
