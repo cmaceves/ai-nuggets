@@ -40,3 +40,4 @@ error: failed to push some refs to 'https://github.com/cmaceves/ai-nuggets.git'
 From https://github.com/cmaceves/ai-nuggets
  * branch            main       -> FETCH_HEAD
 Already up to date.
+=== 2026-06-23T05:11:55-07:00 AUP-refusal detected for genome-brief; retrying in 180s ===

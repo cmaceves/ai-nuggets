@@ -58,3 +58,9 @@ Sources:
 - [T. rex ScienceDaily release](https://www.sciencedaily.com/releases/2026/06/260621110957.htm)
 === 2026-06-22T05:10:27-07:00 done  genome-brief (exit 0) ===
 === 2026-06-23T05:00:11-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcLAnd7yNtu2e8zL5Q8oV
+=== 2026-06-23T05:11:55-07:00 done  genome-brief (exit 0) ===
+=== 2026-06-23T05:11:55-07:00 AUP-refusal detected for genome-brief; retrying in 180s ===
+=== 2026-06-23T05:14:55-07:00 start genome-brief (retry 1) ===
