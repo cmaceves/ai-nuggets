@@ -64,3 +64,48 @@ Request ID: req_011CcLAnd7yNtu2e8zL5Q8oV
 === 2026-06-23T05:11:55-07:00 done  genome-brief (exit 0) ===
 === 2026-06-23T05:11:55-07:00 AUP-refusal detected for genome-brief; retrying in 180s ===
 === 2026-06-23T05:14:55-07:00 start genome-brief (retry 1) ===
+Episode shipped. Audio at `podcasts/genome-brief/episodes/2026-06-23-panres-pfizer-merck-arrepath-ballista.mp3` (353s, 2.83 MB, Mistral Paul Neutral), uploaded to R2, feed updated, committed (orchestrator handles the push per `PIPELINE.md`).
+
+## Candidate funnel — 2026-06-23 PM
+
+**This is a re-invocation.** The morning episode (`2026-06-23-bundibugyo-1000-abbvie-apogee-biomestat-heliconius`) covered Bundibugyo Ebola ≥1,000 cases, Maputo malaria+HIV pfkelch, AbbVie/Apogee $10.9B, Insilico/SK Biopharm, biomeStat, Heliconius. Excluded from this run.
+
+- **bioRxiv / medRxiv** — 213 bioRxiv + 157 medRxiv items spanning 2026-06-22 to 2026-06-23 pulled via details API (all pages). Filtered title+abstract for pathogen and AI keyword sets. ~53 pathogen + ~52 AI hits before disambiguating spurious matches (e.g. "variant" inside non-infectious-disease papers).
+- **Biotech business** — `endpoints.news` returned 403, BioPharma Dive and Fierce Biotech listings used. AbbVie/Apogee and Insilico/SK already shipped this morning.
+- **Science press** — ScienceDaily (animals, zoology, behavior), phys.org, EurekAlert, smithsonianmag, nationalgeographic. Heliconius and T. rex already shipped; pigeon-liver magnetic-sensor paper was May 28 (outside window).
+
+### Substantive shortlist
+
+Pathogen:
+- **PanRes (Munk lab, DTU)** — 3D HMM AMR database, +35.2% wastewater resistome hits over BLAST. `biorxiv.org/content/10.64898/2026.06.22.733705v1` — **PICKED (lead)**
+- **Dengue/CHIKV Kinshasa serosurvey** — `medrxiv.org/content/10.64898/2026.06.11.26355423v1` — **PICKED (secondary)**
+- P. vivax CHMI relapse model (Oxford) — `medrxiv.org/content/10.64898/2026.06.18.26355868v1` — solid but model-paper, second-tier vs. PanRes
+- Mozambique malaria HIV pfkelch — already shipped this morning
+- DRC Ebola health-zone risk map — already shipped this morning
+
+Biotech:
+- **Pfizer sigvotatug vedotin Phase 3 miss (SigVie-002, NSCLC)** — `biospace.com/.../pfizer-announces-topline-phase-3-results-...` — **PICKED**
+- **Merck tulisokibart Phase 3 win (ATLAS-UC induction)** — `merck.com/news/mercks-tulisokibart-met-primary-...` — **PICKED**
+- Corxel oral GLP-1 Ph2 — second-tier, not added
+- HHS Phase 1 acceleration plan — too policy-light to lead
+- Regenxbio FDA reversal — niche
+
+AI in biomedicine:
+- **Arrepath ML-guided antibiotic HTS** — `biorxiv.org/content/10.64898/2026.06.22.733866v1` — **PICKED (ties to AMR thread)**
+- EventHorizon clinical flow cytometry foundation model — strong; cut for time
+- HoloCell, OmniCell, DeepSpot-M, MosAICo — foundation-model day on bioRxiv; cut for time
+- HTS-Oracle X immune-checkpoint binders — cut (Arrepath is the more concrete real-world result)
+
+Animals:
+- **Ballista spider (Propostira sp.), Narendra lab/Macquarie, Current Biology 22 Jun** — **PICKED**
+- Insect humidity circadian cue (U Cincinnati) — fresh but milder
+- Lakes-browning fish shift — press release fresh but paper Jan 2025 (stale)
+
+Next steps for you: `git push` when ready (PIPELINE.md says the orchestrator owns the push; I did not push).
+
+Sources:
+- [BioPharma Dive June 22 headlines](https://www.biopharmadive.com/topic/biotech/)
+- [Pfizer sigvotatug vedotin Phase 3 results (BioSpace)](https://www.biospace.com/press-releases/pfizer-announces-topline-phase-3-results-for-sigvotatug-vedotin-in-previously-treated-metastatic-non-squamous-non-small-cell-lung-cancer)
+- [Merck tulisokibart Phase 3 ATLAS-UC win](https://www.merck.com/news/mercks-tulisokibart-met-primary-and-key-secondary-endpoints-in-the-phase-3-atlas-uc-induction-only-study-in-patients-with-moderately-to-severely-active-ulcerative-colitis-uc/)
+- [Ballista spider press release (EurekAlert)](https://www.eurekalert.org/news-releases/1132709)
+=== 2026-06-23T05:32:32-07:00 done  genome-brief (exit 0) (retry 1) ===
