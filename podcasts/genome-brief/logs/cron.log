@@ -109,3 +109,11 @@ Sources:
 - [Merck tulisokibart Phase 3 ATLAS-UC win](https://www.merck.com/news/mercks-tulisokibart-met-primary-and-key-secondary-endpoints-in-the-phase-3-atlas-uc-induction-only-study-in-patients-with-moderately-to-severely-active-ulcerative-colitis-uc/)
 - [Ballista spider press release (EurekAlert)](https://www.eurekalert.org/news-releases/1132709)
 === 2026-06-23T05:32:32-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-06-23T09:26:23-07:00 start genome-brief ===
+=== 2026-06-23T09:55:53-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcLYvVRQc5JcEhRErKvEM
+=== 2026-06-23T10:01:59-07:00 done  genome-brief (exit 0) ===
+=== 2026-06-23T10:01:59-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-23T10:04:59-07:00 start genome-brief (retry 1) ===

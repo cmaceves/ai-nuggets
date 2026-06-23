@@ -11,5 +11,14 @@
     </itunes:owner>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Technology"/>
+    <item>
+      <title>Episode 1: Hidden arboviruses in Kinshasa</title>
+      <description>Sero-survey out of Kinshasa Province finds 38% dengue and 24% chikungunya IgG seroprevalence with age-rising patterns, time-varying force of infection, and a peri-urban hotspot — strong evidence the DRC is sitting on substantial undetected arboviral circulation. Sanofi partners with Pangaea Data to mine US EHRs for undiagnosed alpha-1 antitrypsin deficiency, prepping the market for efdoralprin alfa. Sparse autoencoders applied to MolFormer reveal a clean layer-wise split: early layers parse SMILES grammar, later layers encode pharmacologically meaningful chemistry. And to close, genomics splits Japan's Ijima's leaf warbler into two species, naming the Tokara leaf warbler — Japan's first new bird in 40+ years, with one confirmed breeding island and immediate conservation implications.</description>
+      <pubDate>Tue, 23 Jun 2026 10:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-06-23-hidden-arboviruses-kinshasa</guid>
+      <enclosure url="https://podcast.christineaceves22.workers.dev/p/genome-brief/u/caceves/2026-06-23-hidden-arboviruses-kinshasa.mp3" length="5833290" type="audio/mpeg"/>
+      <itunes:duration>12:09</itunes:duration>
+      <itunes:summary>Sero-survey out of Kinshasa Province finds 38% dengue and 24% chikungunya IgG seroprevalence with age-rising patterns, time-varying force of infection, and a peri-urban hotspot. Sanofi partners with Pangaea Data to mine US EHRs for undiagnosed alpha-1 antitrypsin deficiency. Sparse autoencoders applied to MolFormer reveal grammar-then-chemistry layer organization. Genomics splits Japan's Ijima's leaf warbler into two species — Japan's first new bird in 40+ years.</itunes:summary>
+    </item>
   </channel>
 </rss>
