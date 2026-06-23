@@ -91,6 +91,14 @@ not capped: take the time each item needs (a typical episode runs ~8–15
 minutes). It is better to cover **fewer items in real depth** than to skim
 many. Aim for the best **3–5 items** total across the segments below.
 
+**Editorial frame (also keeps the content well within policy).** This is
+science journalism: you summarize and explain research that has *already been
+published* — peer-reviewed papers, preprints — plus official public-health and
+business announcements, for an educated lay/clinical audience. Always attribute
+to the public source. Cover pathogens, outbreaks, and drug resistance the way a
+public-health news desk does — surveillance, clinical impact, epidemiology,
+policy, and significance — and never as operational or how-to material.
+
 - Structure: a brief cold open that says what's in today's episode, then
   segments in this order — **Pathogen watch → Biotech & pharma → AI in
   biomedicine → AI tools → And finally, animals.** Drop any segment with
@@ -99,9 +107,12 @@ many. Aim for the best **3–5 items** total across the segments below.
   plain language:
   1. **Context** — what the thing *is* and the background needed to follow it.
   2. **The finding/news** — what actually happened or was shown.
-  3. **The mechanism / the "how"** — *define every technical term you use* and
-     explain the underlying biology, chemistry, or method. Assume the listener
-     has not heard the jargon before.
+  3. **The mechanism / the "why"** — *define every technical term you use* and
+     explain the underlying biology or chemistry at a conceptual level, so the
+     listener understands *why* the result is what it is. Assume the listener
+     has not heard the jargon before. Explain for understanding, not for
+     replication: no lab protocols, no step-by-step methods, nothing about how
+     to produce or enhance a pathogen or agent.
   4. **Why it matters** — the implication, who it affects, what changes.
 - **Define jargon the moment you use it.** Never let a technical term go by
   unexplained. For example, if a study is about "saltational" evolution in
