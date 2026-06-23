@@ -117,3 +117,39 @@ Request ID: req_011CcLYvVRQc5JcEhRErKvEM
 === 2026-06-23T10:01:59-07:00 done  genome-brief (exit 0) ===
 === 2026-06-23T10:01:59-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-06-23T10:04:59-07:00 start genome-brief (retry 1) ===
+Episode 1 of The Genome Brief is shipped. Commit `fea6414` (orchestrator will push).
+
+**Episode 1: Hidden arboviruses in Kinshasa** — 12:09, 4 items:
+
+1. **Pathogen watch** — Kinshasa Province sero-survey (medRxiv 2026-06-22): 38% dengue IgG, 24% chikungunya IgG in 1,250 dried blood spots; age-rising prevalence, peri-urban Kimpoko hotspot (55%), Bayesian catalytic FOI with time-varying transmission. Substantial under-recognized arboviral circulation in DRC. Noted abstract-only since Cloudflare blocked the full text.
+2. **Biotech & pharma** — Sanofi/Pangaea Data AATD-detection partnership announced 2026-06-23. EHR mining (structured + free-text notes) to surface undiagnosed AATD; Sanofi positioning for efdoralprin alfa franchise (Phase 2 endpoints hit Oct 2025).
+3. **AI in biomedicine** — "What Does a Chemical Language Model Know About Molecules?" (arXiv 2606.23443, 2026-06-22). Sparse autoencoders applied to MolFormer reveal early-layer SMILES-grammar features vs. late-layer pharmacology features; non-canonical SMILES more destabilizing than invalid ones; InterMol viz tool released.
+4. **AI tools** — Dropped (no significant frontier release in window).
+5. **Animals** — Tokara leaf warbler (*Phylloscopus tokaraensis*) — Per Alström lab, PNAS Nexus (fresh ScienceDaily syndication 2026-06-20). Genomic + acoustic split of Ijima's leaf warbler, ~3 Mya divergence, no gene flow; Japan's first new bird in 40+ years, breeds on one island.
+
+**Candidate funnel:**
+- bioRxiv (60 scanned across 2 pages, 2026-06-22 to 2026-06-23):
+  - ResistAgent resistance-aware lead optimization — strong but methodology-focused, didn't fit the four-segment depth budget
+  - Aedes koreicus invasive mosquito Hungary mitochondrial genetics — full text obtained, dropped (narrow methodological, mostly negative result)
+- medRxiv (60 scanned, 2026-06-22 to 2026-06-23):
+  - **Dengue/CHIKV Kinshasa seroprevalence** — *chosen*
+  - Bundibugyo introduction-risk model across DRC health zones — full text inaccessible (jina blocked, EPMC empty, API no record), abstract too thin
+  - Climate-driven malaria 350K children 26 SSA countries — full text inaccessible same way
+- arXiv day-cache (500 entries, 57 AI×biomed hits 2026-06-22):
+  - **MolFormer SAE chemical-language-model interpretability** — *chosen*
+  - EHR-Complex benchmarking medical agents — strong runner-up
+  - Closed-loop Auto Research molecular property prediction
+  - TTFT-Aware Graph Chain-of-Thought clinical fertility GraphRAG
+- Press feeds:
+  - **Sanofi/Pangaea Data AATD detection AI** (June 23) — *chosen*
+  - AbbVie eczema deal — already shipped in pre-reset episodes today; skipped
+- AI tools: Gemini 2.5 Deep Think searched — actually an Aug 2025 release, no genuine new frontier release in window. Segment dropped.
+- Animal candidates (2026-06-20 to 2026-06-23 syndication):
+  - **Tokara leaf warbler genomic species split** — *chosen* (fits genome-flavored remit)
+  - *Jian changmaensis* four-winged microraptorine — also fresh
+  - Heliconius longevity / T. rex growth — excluded (shipped in pre-reset 2026-06-22 episode)
+  - Lucy's hunter crocodile — March 2026 publication, outside window
+  - Honey bee drone flight tracking — February 2026 publication, outside window
+
+Source failures: bioRxiv/medRxiv full-text fetch failed for several preprints via Cloudflare; `fetch_preprint.py` correctly fell through all three channels for two of the three pathogen candidates. Aedes koreicus came through cleanly via jina.
+=== 2026-06-23T10:17:08-07:00 done  genome-brief (exit 0) (retry 1) ===
