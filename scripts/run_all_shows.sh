@@ -15,8 +15,8 @@
 
 set -u
 
-REPO=/home/asu/Science/ai-nuggets
-CLAUDE=/home/asu/.local/bin/claude
+REPO=${AI_NUGGETS_REPO:-/home/asu/Science/ai-nuggets}
+CLAUDE=${CLAUDE_BIN:-/home/asu/.local/bin/claude}
 STAGGER_SECONDS=${STAGGER_SECONDS:-600}
 
 cd "$REPO" || exit 1
@@ -85,36 +85,32 @@ run_show() {
         | "$CLAUDE" -p --permission-mode auto $model_arg
       echo "=== $(date -Iseconds) done  $slug (exit $?)$tag ==="
     } 2>&1 | tee -a "$log" > "$out"
-    if [ "$attempt" -lt 6 ] && \
-       grep -q "Claude Code is unable to respond to this request, which appears to violate our Usage Policy" "$out"; then
-      echo "=== $(date -Iseconds) AUP-refusal detected for $slug; retrying in 180s ===" | tee -a "$log"
-      rm -f "$out"
-      sleep 180
-      continue
-    fi
-    # An exit-0 with no AUP-refusal text doesn't actually mean an episode
-    # shipped — Haiku at the bottom of the model ladder has been observed
-    # to clear the AUP classifier but then produce a chat-style response
-    # asking the human for write/execute permission, exit 0, and leave no
-    # script or mp3 behind. Treat "no mp3 for today" as a soft failure so
-    # the ladder keeps trying instead of silently dropping the day.
+    # The only signal that matters is whether today's mp3 exists. If it does,
+    # the episode shipped — stop, regardless of what the transcript text says.
+    # (An AUP refusal, or Haiku producing a chat-style "may I?" reply with no
+    # files, both leave no mp3 behind; treat "no mp3 for today" as the single
+    # soft-failure condition that drives the retry/model ladder. Grepping the
+    # transcript for the AUP sentence is unreliable — the agent's own notes
+    # can quote that phrase and trigger a false retry / duplicate episode.)
     produced=$(compgen -G "$REPO/podcasts/$slug/episodes/$today*.mp3" 2>/dev/null | head -1 || true)
-    if [ "$attempt" -lt 6 ] && [ -z "$produced" ]; then
+    if [ -n "$produced" ]; then
+      rm -f "$out"
+      break
+    fi
+    if [ "$attempt" -lt 6 ]; then
       echo "=== $(date -Iseconds) no episode produced for $slug; retrying in 180s ===" | tee -a "$log"
       rm -f "$out"
       sleep 180
       continue
     fi
-    if [ -z "$produced" ]; then
-      echo "=== $(date -Iseconds) FAILED: no episode produced for $slug after all retries ===" | tee -a "$log"
-    fi
+    echo "=== $(date -Iseconds) FAILED: no episode produced for $slug after all retries ===" | tee -a "$log"
     rm -f "$out"
     break
   done
 }
 
 first=1
-for prompt in podcasts/*/PROMPT.md; do
+for prompt in ${SHOWS_GLOB:-podcasts/*/PROMPT.md}; do
   [ -f "$prompt" ] || continue
   slug=$(basename "$(dirname "$prompt")")
   if [ "$first" -eq 0 ]; then

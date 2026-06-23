@@ -5,11 +5,13 @@ documented in `podcasts/PIPELINE.md`, prepended above.
 
 # 1. Audience
 
-A working biomedical scientist who wants a fast morning brief while getting
-ready. Cares about pathogen genomics and surveillance, the biotech/pharma
-business landscape, and how AI is changing biomedical research — and likes to
-end the day's news on something fun. Comfortable with technical detail; does
-not want hype or fluff.
+A working biomedical scientist who listens each morning to genuinely
+*understand* the day's developments — not just hear headlines. Cares about
+pathogen genomics and surveillance, the biotech/pharma business landscape, and
+how AI is changing biomedical research — and likes to end on something fun.
+Comfortable with technical detail but is not a specialist in every subfield,
+so wants each story actually explained (concepts, mechanisms, significance).
+Prefers depth and clear explanation over speed; does not want hype or fluff.
 
 ## What they like
 
@@ -82,13 +84,35 @@ briefly and move on — a short episode beats a padded one.
 
 # 3. Episode format
 
-- **One episode per day, ~3–5 minutes.** This is a multi-segment *brief*,
-  not a single-item deep dive.
-- Structure: a one-line cold open, then short segments in this order —
-  **Pathogen watch → Biotech & pharma → AI in biomedicine → AI tools →
-  And finally, animals.** Cover the best 1–2 items per segment; drop any
-  segment with nothing fresh rather than padding it.
-- Each item: 2–4 punchy, opinionated sentences — why it matters, what's new.
+**This is an explainer show, not a headline reader.** The listener is smart
+but is NOT a specialist in every topic — they want to actually *understand*
+each story, not just hear that it happened. Depth beats breadth. Length is
+not capped: take the time each item needs (a typical episode runs ~8–15
+minutes). It is better to cover **fewer items in real depth** than to skim
+many. Aim for the best **3–5 items** total across the segments below.
+
+- Structure: a brief cold open that says what's in today's episode, then
+  segments in this order — **Pathogen watch → Biotech & pharma → AI in
+  biomedicine → AI tools → And finally, animals.** Drop any segment with
+  nothing genuinely fresh rather than padding it. The animal closer stays.
+- **For every item, explain it — don't just report it.** Walk through, in
+  plain language:
+  1. **Context** — what the thing *is* and the background needed to follow it.
+  2. **The finding/news** — what actually happened or was shown.
+  3. **The mechanism / the "how"** — *define every technical term you use* and
+     explain the underlying biology, chemistry, or method. Assume the listener
+     has not heard the jargon before.
+  4. **Why it matters** — the implication, who it affects, what changes.
+- **Define jargon the moment you use it.** Never let a technical term go by
+  unexplained. For example, if a study is about "saltational" evolution in
+  SARS-CoV-2, explain that *saltation* means the virus accumulated a large
+  batch of mutations all at once (a sudden jump) rather than one-at-a-time
+  drift, that these jumps are thought to happen inside long-term infections in
+  immunocompromised people, and that this matters because such leaps are how
+  surprise variants like Omicron seem to appear — then connect it back to the
+  finding. Hold every item to that standard: a curious non-expert should come
+  away understanding *what it means and why it's important*.
+- Be opinionated about significance, but ground claims in the source.
 - **Real, verified URLs only — never fabricate.** If you can't find the
   primary source for an item, drop it.
 - **Script file:** `podcasts/genome-brief/scripts/YYYY-MM-DD-<slug>.md` with a
@@ -96,8 +120,12 @@ briefly and move on — a short episode beats a padded one.
   what gets spoken.
 - **Episode basename:** `YYYY-MM-DD-<slug>`.
 - **Commit-message prefix:** `Episode`.
-- **Title format:** lead with the day's lead story in a short phrase; the
-  episode covers several segments, so the title names the standout item.
+- **Title format — `Episode N: Brief Title`.** N is the sequential episode
+  number: count the existing `<item>` entries in `feed.xml` and add 1 (so the
+  first episode after a reset is `Episode 1`). The Brief Title is a short,
+  human phrase naming the day's lead story or theme — keep it tight, not a
+  list of every segment. Example: `Episode 1: How surprise COVID variants are
+  born`. Put this exact `Episode N: Brief Title` string in the feed `<title>`.
 
 ## Writing for audio
 
