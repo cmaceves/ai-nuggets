@@ -172,3 +172,47 @@ Request ID: req_011CcN4kPfMbCuBFYXdNwTL1
 === 2026-06-24T05:13:52-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
 === 2026-06-24T05:13:52-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-06-24T05:16:52-07:00 start genome-brief (retry 3, --model claude-sonnet-4-6) ===
+Episode published successfully. Here is the candidate funnel for today's run:
+
+---
+
+**Candidate funnel — 2026-06-24**
+
+**Sources scanned:**
+
+- **bioRxiv (microbiology category, Jun 22–24):** 30 items scanned; 3 survived relevance filter
+  - ML-guided antibiotic screen (`10.64898/2026.06.22.733866`) — interesting but AI-in-drug-discovery angle, abstract-only; dropped for stronger candidates
+  - Malaria AP2-HCR (`10.64898/2026.06.23.733580`) — **CHOSEN** (full text fetched via jina)
+  - TB airborne transmission genes (`10.1101/2025.09.15.676370`) — new v2 Jun 23 but original Sep 2025; dropped for recency
+
+- **medRxiv (epidemiology category, Jun 22–24):** 18 items scanned; 2 survived filter
+  - Dengue/chikungunya Kinshasa (`10.64898/2026.06.11.26355423`) — covered in yesterday's Episode 1; excluded per re-invocation rules
+  - Artemisinin resistance + HIV malaria Mozambique (`10.64898/2026.06.19.26356057`) — relevant; all fetch channels failed (jina Cloudflare block, EPMC metadata-only, API no record); dropped for abstract-only limitation
+
+- **PubMed:** not queried directly; covered via medRxiv and web search
+
+- **Surveillance/press (H5N1 / SARS-CoV-2 / wastewater):** Web search; no fresh wastewater/SARS-CoV-2 variants within window; H5N1 udder receptor paper (Science Advances, Jun 19, press coverage Jun 20–23) — **CHOSEN** (mechanism read from UPMC press release + ScienceDaily; DOI verified from search results)
+
+- **Biotech & pharma news (Jun 22–24):** Multiple sources (GlobeNewswire, PRNewswire, BioPharma Dive)
+  - MoonLake sonelokimab VELA Phase 3 Week 52 (Jun 21/22) — **CHOSEN** (full press release fetched)
+  - InSilico + SK Biopharmaceuticals $2.5B deal (Jun 22) — **CHOSEN** (press release scanned; used for AI section)
+  - GSK/Nuvalent acquisition ($10.6B, Jun 9) — outside 1–2 day window; dropped
+  - Croívalve Series B ($20M, Jun 22) — too small for this audience; dropped
+
+- **AI in biomedicine (arXiv / press, Jun 22–24):** InSilico/SK deal covered above; no arXiv AI-in-biomedicine paper within window with clearly dominant significance
+
+- **Animal news (last few days):**
+  - Kākāpō flying ancestor Strigops insulaborealis (Alcheringa, Jun 23 ScienceDaily) — **CHOSEN**
+  - Jian changmaensis four-winged dinosaur (announced Jun 4, 2026) — outside recency window; dropped
+  - Tokara leaf warbler — covered in Episode 1; excluded
+  - Heliconius butterfly longevity (Nature Communications, Jun 16) — slightly outside "last few days" window; dropped for fresher pick
+
+**Shortlist chosen for today:**
+- ★ H5N1 mammary N-linked sialic acid receptor — Science Advances Jun 19, 2026 (https://www.science.org/doi/10.1126/sciadv.aea2068)
+- ★ Malaria PfAP2-HCR master transcription factor — bioRxiv Jun 23, 2026 (https://www.biorxiv.org/content/10.64898/2026.06.23.733580v1)
+- ★ MoonLake sonelokimab Phase 3 VELA Week 52 results — Jun 21/22, 2026
+- ★ InSilico Medicine + SK Biopharmaceuticals $2.5B AI deal — Jun 22, 2026
+- ★ Strigops insulaborealis kākāpō ancestor — Alcheringa Jun 23, 2026
+
+**Audio:** 7,850,988 bytes; 16:21 duration; generated via Mistral voxtral-mini-tts-2603 (7 chunks, all successful); published to R2 bucket ai-nuggets-episodes.
+=== 2026-06-24T05:33:38-07:00 done  genome-brief (exit 0) (retry 3, --model claude-sonnet-4-6) ===
