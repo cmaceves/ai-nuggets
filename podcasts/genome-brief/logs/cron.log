@@ -153,3 +153,22 @@ Episode 1 of The Genome Brief is shipped. Commit `fea6414` (orchestrator will pu
 
 Source failures: bioRxiv/medRxiv full-text fetch failed for several preprints via Cloudflare; `fetch_preprint.py` correctly fell through all three channels for two of the three pathogen candidates. Aedes koreicus came through cleanly via jina.
 === 2026-06-23T10:17:08-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-06-24T05:00:05-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcN3sPwoG7uxLfidnfveb
+=== 2026-06-24T05:02:14-07:00 done  genome-brief (exit 0) ===
+=== 2026-06-24T05:02:14-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-24T05:05:14-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcN4TJs9yY5ZxwXtGnax3
+=== 2026-06-24T05:09:51-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-06-24T05:09:51-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-24T05:12:51-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcN4kPfMbCuBFYXdNwTL1
+=== 2026-06-24T05:13:52-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-06-24T05:13:52-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-24T05:16:52-07:00 start genome-brief (retry 3, --model claude-sonnet-4-6) ===
