@@ -216,3 +216,16 @@ Episode published successfully. Here is the candidate funnel for today's run:
 
 **Audio:** 7,850,988 bytes; 16:21 duration; generated via Mistral voxtral-mini-tts-2603 (7 chunks, all successful); published to R2 bucket ai-nuggets-episodes.
 === 2026-06-24T05:33:38-07:00 done  genome-brief (exit 0) (retry 3, --model claude-sonnet-4-6) ===
+=== 2026-06-25T05:00:03-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcPwnvKLTmTu61PxtkqKW
+=== 2026-06-25T05:03:40-07:00 done  genome-brief (exit 0) ===
+=== 2026-06-25T05:03:40-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-25T05:06:40-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcPxC2LczTwa316r5nWLX
+=== 2026-06-25T05:08:54-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-06-25T05:08:54-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-25T05:11:54-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
