@@ -1,0 +1,24 @@
+slug          = "paper-overview"
+title         = "Paper Overview"
+description   = "Deep-dive walkthroughs of individual scientific papers — background, methods, results, and discussion, one paper per episode."
+host          = "Nigel"
+owner         = "caceves <caceves@scripps.edu>"
+podcast_slug  = "paper-overview"
+
+[paths]
+prompt   = "PROMPT.md"
+feed     = "feed.xml"
+episodes = "episodes"
+scripts  = "scripts"
+logs     = "logs"
+
+[rss]
+base_url = "https://github.com/cmaceves/ai-nuggets/raw/main"
+link     = "https://github.com/cmaceves/ai-nuggets"
+
+# TTS providers. Edit to match this show's voice. Supported providers:
+# "mistral", "elevenlabs".
+[tts.primary]
+provider = "mistral"
+model    = "voxtral-mini-tts-2603"
+voice    = "en_paul_neutral"

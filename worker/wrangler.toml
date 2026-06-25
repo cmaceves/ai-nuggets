@@ -19,5 +19,5 @@ binding = "BUCKET"
 bucket_name = "ai-nuggets-episodes"
 
 [vars]
-ALLOWED_PODCASTS = "biomedical-agentic-ai,blackbird-brief,calibr-briefing,justice-biotech-brief,receptor-and-reason,scripps-biomed-brief,genome-brief"
+ALLOWED_PODCASTS = "biomedical-agentic-ai,blackbird-brief,calibr-briefing,justice-biotech-brief,receptor-and-reason,scripps-biomed-brief,genome-brief,paper-overview"
 FEED_BASE = "https://raw.githubusercontent.com/cmaceves/ai-nuggets/main/podcasts"
