@@ -11,5 +11,14 @@
     </itunes:owner>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Technology"/>
+    <item>
+      <title>Episode 1: Wastewater sequencing catches H5N1 in California</title>
+      <description>A medRxiv preprint from UC Berkeley, the California Department of Public Health, and collaborators sets up genomic wastewater surveillance for influenza A across three California treatment plants during the 2024-2025 flu season. They combine a custom probe-capture enrichment panel covering 11 IAV subtypes with an expectation-maximization algorithm that can deconvolute multiple co-circulating subtypes from one sample — something existing tools, built for SARS-CoV-2, cannot do. Wastewater tracked seasonal H1N1pdm09 and H3N2 in agreement with clinical sequencing, and consistently detected H5N1 clade 2.3.4.4b at all three sites all season — while clinical H5N1 detections in people were sporadic and rare. Wastewater H5N1 sequences clustered mostly with dairy cow strains, with a smaller avian fraction; no PB2 E627K mammalian adaptation mutation was observed.</description>
+      <pubDate>Thu, 25 Jun 2026 10:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2026-06-25-wastewater-flu-h5n1-california</guid>
+      <enclosure url="https://podcast.christineaceves22.workers.dev/p/paper-overview/u/caceves/2026-06-25-wastewater-flu-h5n1-california.mp3" length="6242054" type="audio/mpeg"/>
+      <itunes:duration>13:00</itunes:duration>
+      <itunes:summary>UC Berkeley and CDPH-led medRxiv preprint: probe-capture enrichment + custom EM deconvolution recovers whole-genome influenza A from California wastewater across 11 subtypes simultaneously. Three WWTPs sampled weekly Nov 2024-Feb 2025. Seasonal H1N1pdm09 and H3N2 track clinical data; H5N1 clade 2.3.4.4b consistently detected in wastewater while clinical detections are sporadic. LA County mid-November H5N1 wastewater peak had no corresponding clinical signal. Phylogeny: wastewater H5N1 clusters mostly with dairy cow strains, smaller avian fraction; no PB2 E627K mammalian adaptation mutation.</itunes:summary>
+    </item>
   </channel>
 </rss>
