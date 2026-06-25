@@ -1,1 +1,8 @@
 === 2026-06-25T11:03:35-07:00 start paper-overview ===
+Episode 1 of Paper Overview shipped — a walkthrough of the medRxiv preprint on California wastewater influenza A surveillance (UC Berkeley / CDPH). Audio is 13:00 (6.24 MB), uploaded to R2, feed updated, paper marked done in the queue, commit `6e94f24` made (orchestrator pushes).
+
+Candidate funnel:
+- Queue source (`papers.md`): 1 pending entry surveyed.
+  - https://www.medrxiv.org/content/10.64898/2026.06.10.26355323v1 — "Genomic wastewater surveillance of human and animal influenza A viruses in California during the 2024-2025 flu season" — **chosen** (only pending paper)
+- Fetched full text via `scripts/fetch_preprint.py` (jina .full HTML, 61.7KB) — read in full before drafting.
+=== 2026-06-25T11:08:53-07:00 done  paper-overview (exit 0) ===
