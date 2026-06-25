@@ -229,3 +229,50 @@ Request ID: req_011CcPxC2LczTwa316r5nWLX
 === 2026-06-25T05:08:54-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-06-25T05:08:54-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-06-25T05:11:54-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Episode committed. Here is the candidate funnel for this run:
+
+---
+
+**Genome Brief — 2026-06-25 candidate funnel**
+
+**Sources scanned:**
+
+- **bioRxiv MCP** — HTTP 503 from upstream, one retry also 503; skipped. Direct bioRxiv details API for 2026-06-22 to 2026-06-25 returned 30 biorxiv papers; zero matched pathogen/AI keywords (all ecology, cell biology, structural biology).
+- **medRxiv details API** — 30 papers; 9 matched keywords. Best hits below.
+- **PubMed** — 159 results for broad pathogen query (last 5 days); 3 fetched in detail.
+- **General web / press** — WebSearch across biotech, AI biomedicine, AI tools, animal news.
+
+**Shortlist after filtering:**
+
+Pathogen watch candidates:
+- ✅ **SARS-CoV-2 JN.1/XEC deep mutational scanning** — Shao et al., Emerging Microbes & Infections, June 21; PMID 42324717; DOI 10.1080/22221751.2026.2686472. Full PMC text accessed. **CHOSEN (lead).**
+- ✅ **SARS-CoV-2 wastewater genomics workflow** — Manrique & Jones, Mol Biol Rep, June 23; PMID 42334739; DOI 10.1007/s11033-026-12220-z. Abstract + PubMed metadata. **CHOSEN.**
+- ❌ Multicountry TB proteomics severity signature (medRxiv 10.1101/2025.04.02...) — DOI prefix indicates original April 2025 submission, only a revision is dated June 23; outside recency window.
+- ❌ Long COVID GWAS risk loci (medRxiv, June 23) — not in the core audience scope (GWAS; no new surveillance angle).
+- ❌ H5N5 Washington death MMWR — event November 2025; MMWR report ~April/May 2026; outside recency window.
+
+Biotech/pharma candidates:
+- ✅ **Ollin Biosciences $330M Series B for OLN324** (June 24) — VEGF/Ang2 bispecific beating faricimab in JADE trial; Phase 3 launching H2 2026. **CHOSEN.**
+- ❌ Biogen acquires RayThera (June 17) — outside the 1–2 day window.
+- ❌ Incyte/Vega Therapeutics deal — no date confirmation in recency window.
+
+AI in biomedicine / AI tools:
+- ❌ Foundation Models for Translational Cancer Biology (Annual Reviews, June 24) — 403 on full text; insufficient detail to cover accurately. Dropped.
+- ❌ OpenAI GPT-5.5-Cyber (June 22) — cybersecurity focus; not biomedically significant.
+- ❌ MiniMax M2.5 — not biomedically relevant.
+- ❌ "Trustworthy agentic genomics" bioRxiv preprint — June 11; outside 2-day window.
+- AI in biomedicine and AI tools segments dropped (nothing within recency window).
+
+Animal candidates:
+- ✅ **Cape Floristic Region leopard genome** — Heredity, June 24; ScienceDaily June 23. Full details obtained. 90 positively selected body-size genes; 20,000-year local adaptation. **CHOSEN.**
+- ❌ Queen bee-making discovery (June 24) — interesting but less genomics-flavored than the leopard story.
+- ❌ H5N1 dairy cow udder receptor story (June 23 ScienceDaily) — covered in Episode 2.
+
+**Episode 3 final items:**
+1. JN.1/XEC DMS — antibody escape map (lead, full text read)
+2. Wastewater SARS-CoV-2 genomics workflow (full abstract + PubMed metadata)
+3. Ollin Biosciences OLN324 $330M Series B (press release)
+4. Cape Floristic Region leopard genome (full ScienceDaily + search)
+
+**Commit:** `cead78e` — `Episode: Genome Brief 2026-06-25 — Episode 3: Reading COVID's escape map`
+=== 2026-06-25T05:25:16-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
