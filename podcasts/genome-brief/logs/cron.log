@@ -293,3 +293,33 @@ API Error: Overloaded
 === 2026-06-26T05:20:28-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
 === 2026-06-26T05:20:28-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-06-26T05:23:28-07:00 start genome-brief (retry 3, --model claude-sonnet-4-6) ===
+Episode 4 is published. Here's the candidate funnel for today's run:
+
+---
+
+**Candidate funnel — 2026-06-26**
+
+**bioRxiv microbiology (Jun 23–24):** 30 items scanned. Relevant: H5N1 bovine reporter virus (doi 10.64898/2026.01.17.700109, v2 updated Jun 24) — full text fetched, adequate, but a virology methods paper rather than a surveillance/clinical finding; Malaria AP2-HCR (doi 10.64898/2026.06.23.733580) — full text fetched, strong, **excluded — already covered in Episode 2**.
+
+**bioRxiv epidemiology (Jun 23–24):** 13 items scanned. No pathogen keyword matches after filtering spurious hits.
+
+**medRxiv epidemiology (Jun 23–25):** 13 items scanned. Relevant: RSV nirsevimab 3-season durability (doi 10.64898/2026.06.22.26356264) — abstract-only (body not yet rendered), self-contained abstract, **selected**. Ebola 7-1-7 Uganda modeling (doi 10.64898/2026.06.22.26356214) — abstract-only, used as context for Ebola segment.
+
+**bioRxiv genomics (Jun 23–26):** 24 items scanned. Relevant: Plasmodium 8-oxoguanine (doi 10.64898/2026.06.21.733641) — abstract-only, not dominant.
+
+**PubMed (Jun 21–26):** 163 total results, 20 returned. Not reviewed individually — superseded by WHO/web outbreak news.
+
+**Public health surveillance (WHO, CDC):** WHO DON: Bundibugyo Ebola PHEIC in DRC/Uganda — 1,118 cases, 291 deaths as of Jun 25, no vaccine/treatment, WHO filovirus guidelines released Jun 17. **Selected as lead.**
+
+**bioRxiv bioinformatics (Jun 23):** biomeStat agentic AI for dengue genomic epidemiology (doi 10.64898/2026.06.10.731380) — abstract-only, self-contained for AI in biomedicine segment. **Selected.**
+
+**Biotech/pharma web search:** Oral carbapenem Utebzi FDA approval (Jun 17) — confirmed via multiple sources. **Selected.** AbbVie/Apogee acquisition (Jun 22, $10.9B) — confirmed via SEC filings. **Selected.**
+
+**AI tools web search:** Fable 5 export control suspension (Jun 12) — confirmed via Anthropic news page. **Selected.** Claude Opus 4.8 (May 28) mentioned as context.
+
+**Animal web search:** Taczanowskia waska fungus-mimicking spider (Ecuadorian Amazon, Jun 2026) — confirmed via ScienceDaily and multiple outlets. **Selected.**
+
+**arXiv:** No cache found at `/tmp/ai-nuggets-arxiv-cache.xml`; direct arXiv search not performed (biomeStat and other bioRxiv sources sufficient for AI in biomedicine).
+
+**Items chosen:** Bundibugyo Ebola (WHO DON), RSV nirsevimab (medRxiv), oral carbapenem Utebzi (FDA/news), AbbVie/Apogee (company announcement), biomeStat (bioRxiv), Fable 5 export control (Anthropic/news), Taczanowskia waska spider (ScienceDaily). Episode committed as `cb3dc29`. Audio: 15:11, 7,294,266 bytes.
+=== 2026-06-26T05:35:15-07:00 done  genome-brief (exit 0) (retry 3, --model claude-sonnet-4-6) ===
