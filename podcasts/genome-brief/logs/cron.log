@@ -276,3 +276,20 @@ Animal candidates:
 
 **Commit:** `cead78e` — `Episode: Genome Brief 2026-06-25 — Episode 3: Reading COVID's escape map`
 === 2026-06-25T05:25:16-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-06-26T05:00:04-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcRqSeY4T8PPBCwVeWDGM
+=== 2026-06-26T05:01:35-07:00 done  genome-brief (exit 0) ===
+=== 2026-06-26T05:01:35-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-26T05:04:35-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcRqo26exR9mzDXVWhU7R
+=== 2026-06-26T05:06:12-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-06-26T05:06:12-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-26T05:09:12-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+API Error: Overloaded
+=== 2026-06-26T05:20:28-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-06-26T05:20:28-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-26T05:23:28-07:00 start genome-brief (retry 3, --model claude-sonnet-4-6) ===
