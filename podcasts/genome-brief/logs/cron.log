@@ -323,3 +323,16 @@ Episode 4 is published. Here's the candidate funnel for today's run:
 
 **Items chosen:** Bundibugyo Ebola (WHO DON), RSV nirsevimab (medRxiv), oral carbapenem Utebzi (FDA/news), AbbVie/Apogee (company announcement), biomeStat (bioRxiv), Fable 5 export control (Anthropic/news), Taczanowskia waska spider (ScienceDaily). Episode committed as `cb3dc29`. Audio: 15:11, 7,294,266 bytes.
 === 2026-06-26T05:35:15-07:00 done  genome-brief (exit 0) (retry 3, --model claude-sonnet-4-6) ===
+=== 2026-06-27T05:00:08-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcTjHsL4RTvQufHcYeqb9
+=== 2026-06-27T05:02:08-07:00 done  genome-brief (exit 0) ===
+=== 2026-06-27T05:02:08-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-27T05:05:08-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcTju5yJGFPLr58Y8kRyE
+=== 2026-06-27T05:10:04-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-06-27T05:10:04-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-27T05:13:04-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
