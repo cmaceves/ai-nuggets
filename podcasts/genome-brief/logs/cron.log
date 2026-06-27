@@ -336,3 +336,29 @@ Request ID: req_011CcTju5yJGFPLr58Y8kRyE
 === 2026-06-27T05:10:04-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-06-27T05:10:04-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-06-27T05:13:04-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Committed. Here is the candidate funnel for today's run:
+
+---
+
+**Candidate funnel — 2026-06-27 Genome Brief**
+
+**Sources scanned:**
+
+- **bioRxiv (Jun 25–27):** 60 items across 2 pages. Matches: ~10 keyword hits. Substantive candidates after filter: 2 (TB drug gyrase surrogate, influenza hemagglutinin nanoparticles) — both abstract-only (body HTML not yet rendered by Cloudflare; preprints < 36h old), dropped per pipeline rules.
+- **medRxiv (Jun 25–27):** 60 items across 2 pages. Substantive candidates: 5 (Bundibugyo Ebola modeling, SARS-CoV-2 multiplex RT-PCR, Plasmodium falciparum asymptomatic stages, dengue IgG2 galactosylation/ADE, Bundibugyo glycoprotein seroreactivity) — all abstract-only, dropped. Ebola items noted as background context for news coverage.
+- **PubMed (Jun 22–27):** 260 hits matching pathogen keyword set; no individual papers fetched (news items dominated today's pathogen segment).
+- **WHO/CDC/ECDC outbreak feeds:** WHO DON updated — France confirmed Bundibugyo Ebola case June 24 via commercial flight. ✓ Selected.
+- **arXiv cache (500 entries):** Filtered for q-bio + biomedical cs.AI. Candidates: scBench-Long (q-bio.GN/cs.AI), SBI for epidemiological models (cs.AI), OncoSynth (cs.LG). Full text fetched for 2606.27286 (SBI). ✓ Selected 2606.27286.
+- **Biotech/pharma web search:** Ionis olezarsen sHTG FDA approval (June 24) ✓ Selected. RQ Bio $115M flu antibody Series A (June 24) — considered, dropped for depth. GSK/Nuvalent ($10.6B, June 9) and Incyte/Vega ($2B, June 8) — outside 1–2 day window, excluded.
+- **Major AI tools:** Claude Opus 4.8 (May 27), Microsoft MAI/Build, Google Gemma 4 — all > 2 days old; segment dropped.
+- **Animal:** Heliconius butterfly longevity (Nature Communications, June 16; ScienceDaily June 22). ✓ Selected.
+
+**Shortlist (post-filter):**
+- WHO DON — France confirms Bundibugyo Ebola case, commercial Air France flight, June 24 → **SELECTED (pathogen lead)**
+- arXiv 2606.27286 — Simulation-based inference vs. MCMC for epidemic calibration; full text read → **SELECTED (AI in biomedicine)**
+- Ionis olezarsen/Tryngolza sHTG FDA approval, June 24 — full press release read → **SELECTED (biotech)**
+- Nature Communications Heliconius butterfly longevity — full ScienceDaily summary read → **SELECTED (animals)**
+- RQ Bio $115M flu antibody Series A — considered; dropped to keep episode depth
+- medRxiv Bundibugyo network modeling — abstract-only, dropped; context used for Ebola narrative
+- scBench-Long (arXiv 2606.26563) — interesting but lower significance than SBI paper; dropped
+=== 2026-06-27T05:29:35-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
