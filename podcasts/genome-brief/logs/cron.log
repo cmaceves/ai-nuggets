@@ -375,3 +375,46 @@ Request ID: req_011CcVdbXAvBTUig1x9Bw9fR
 === 2026-06-28T05:08:36-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-06-28T05:08:36-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-06-28T05:11:36-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Episode committed. Here is the candidate funnel for the audit log:
+
+---
+
+**Candidate funnel — Genome Brief 2026-06-28 (Episode 6)**
+
+**Sources scanned:**
+
+- **bioRxiv** (June 26–28, pages 1–4): 120 papers scanned across 4 API pages (30 each), ~297 total posted in window. Keyword hits: ~25 across pathogen, AI, and genomics terms. Substantive shortlist after filtering spurious matches:
+  - `Cardiolipin modulation of MmpL3 in mycobacteria` (June 26, abstract-only via API, body not yet rendered) — interesting TB drug target mechanism but abstract-only; dropped per PIPELINE.md guidance
+  - `Small-molecule inhibition of Orientia tsutsugamushi OtDUB` (June 26, abstract-only) — scrub typhus drug development; abstract-only, not selected
+  - `Conjugation dynamics of carbapenem resistance gene blaOXA-72` (June 26) — AMR in Acinetobacter; abstract-only
+  - `Vertebrate Genomes Project Phase I` (June 24) — genomics scope story; outside pathogen focus
+
+- **medRxiv** (June 26–28): 30 papers scanned, 8 keyword hits. Substantive shortlist:
+  - `Point-of-Care Air Surveillance of Respiratory Pathogens Using the GeneXpert System` (June 26, full text retrieved via Jina) — **✓ SELECTED for Pathogen watch**
+  - `Genomic Epidemiology of the 2025 Guangdong CHIKV Outbreak` (DOI date June 16, appeared in June 26 search) — Chikungunya in China; submitted too early, dropped
+  - `Dynamics of Plasmodium falciparum asymptomatic stages in Burkina Faso` (DOI date Jan 2026) — malaria; dated
+  - `Agentic No-Code AI Workflow for Thyroid Nodule Classification` (June 26) — considered for AI segment but superseded by KG-TRACE
+
+- **arXiv** (via /tmp cache, June 24–25 submissions): 20 papers scanned in q-bio / cs.AI+biology search. Substantive shortlist:
+  - `KG-TRACE: Neuro-Symbolic Framework for AMR Prediction` (June 24) — **✓ SELECTED for AI in biomedicine** (note: 4 days old, outside strict "last 2 days" window; selected as best available AI-biomedicine paper with direct pathogen-genomics relevance)
+  - `pVACtools v6 for neoantigen prediction` (June 25) — strong candidate, not selected (KG-TRACE more significant for this audience)
+  - `Budget-Constrained Compound Library Prioritization` (June 25) — drug discovery tool; not selected
+
+- **Biotech/pharma news** (STAT, Fierce Biotech, BioPharma Dive, June 26–28): Substantive shortlist:
+  - `Moderna mRNA-6007 in vivo CAR-T for autoimmune disease` (June 26) — **✓ SELECTED for Biotech/pharma**
+  - `Replimune BLA resubmission accepted by FDA` (June 26) — minor regulatory update, not selected
+  - `Eli Lilly Jaypirca CHMP positive opinion` (June 26) — CLL in Europe, not selected
+  - `AbbVie/Apogee acquisition` (June 22) — already covered in Episode 4; ineligible
+
+- **Public-health surveillance** (ECDC June 26, CDC): SARS-CoV-2 variant landscape reviewed (XFG dominant globally, BA.3.2 under monitoring); no breaking development in last 2–3 days specific to justify a dedicated segment. H5N1: no unusual US activity (last CDC update June 5). Ebola: 37 new cases since June 25 — covered extensively in Episodes 4 and 5; no new development sufficient to re-lead. WHO Disease Outbreak News page returned no results.
+
+- **Fun animal news** (ScienceDaily, June 24–27): Substantive shortlist:
+  - `Ghost great white shark — Mediterranean juvenile capture` (ScienceDaily June 21–26 coverage) — **✓ SELECTED for animal closer**
+  - `Mountain lions changed California preserve ecology` (June 27) — compelling trophic cascade story; not selected (shark story stronger for this audience)
+  - `Goldfish as ecosystem disruptors` (June 26) — not selected
+
+**Episode produced:** Episode 6: Surveillance goes airborne
+**Items selected:** 4 (GeneXpert air surveillance, Moderna in vivo CAR-T, KG-TRACE TB AMR AI, ghost great white shark Mediterranean)
+**Audio:** 7,783,487 bytes, 16:13 duration, mistral voxtral-mini-tts-2603 / en_paul_neutral
+**Commit:** `31fd403`
+=== 2026-06-28T05:32:32-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
