@@ -362,3 +362,16 @@ Committed. Here is the candidate funnel for today's run:
 - medRxiv Bundibugyo network modeling — abstract-only, dropped; context used for Ebola narrative
 - scBench-Long (arXiv 2606.26563) — interesting but lower significance than SBI paper; dropped
 === 2026-06-27T05:29:35-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-06-28T05:00:04-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcVd41coHz2eEj75tWyd8
+=== 2026-06-28T05:01:34-07:00 done  genome-brief (exit 0) ===
+=== 2026-06-28T05:01:34-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-28T05:04:34-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcVdbXAvBTUig1x9Bw9fR
+=== 2026-06-28T05:08:36-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-06-28T05:08:36-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-28T05:11:36-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
