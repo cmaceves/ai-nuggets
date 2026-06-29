@@ -431,3 +431,43 @@ Request ID: req_011CcXXHWp982N4ycfAJRUQS
 === 2026-06-29T05:07:03-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-06-29T05:07:03-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-06-29T05:10:03-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Episode 7 is published. Here's the candidate funnel:
+
+---
+
+## Candidate funnel — 2026-06-29
+
+**bioRxiv/medRxiv (June 27–29)**
+- 10 microbiology items scanned; 1 survived relevance filter (HSV acyclovir resistance, Crawford et al.)
+- 10 genomics items scanned; 0 passed (maize SVs, vertebrate rDNA, pseudogenes — off-topic)
+- 30 medrxiv items scanned; 0 passed (neurology, radiology, epidemiology — off-topic)
+
+**PubMed (June 24–29)**
+- 2 items returned; 0 passed recency filter (abstracts unrelated to show topics)
+
+**WHO/CDC/public health surveillance**
+- Ebola DRC/Uganda WHO update (June 26): dropped — covered in Episodes 4 and 5
+- SARS-CoV-2 BA.3.2 MMWR: dropped — events through February 2026, stale
+
+**Biotech/pharma news (June 26–29)**
+- Replimune RP1 + nivolumab BLA accepted (June 26): **SELECTED** ✓
+- AbbVie/Apogee $10.9B: dropped — covered in Episode 4
+- Ionis olezarsen approval: dropped — covered in Episode 5
+- Lilly Jaypirca CHMP opinion (June 26): abstract-only, lower significance vs. Replimune
+
+**Pathogen surveillance (last 2–3 days)**
+- H5N1 Australia mainland detection (CIDRAP, June 27–28): **SELECTED** ✓
+- H5N1 dairy farm PLOS Biology (May 2026): dropped — outside recency window
+- HSV acyclovir resistance bioRxiv (June 27): **SELECTED** ✓
+
+**AI in biomedicine/AI tools**
+- Biohub protein world model: dropped — announced May 27, outside 2-day window
+- GPT-5.3 / model transitions: insufficient verified detail, not biomedically significant
+
+**Animal news**
+- Ballista spider Propostira sp., Current Biology (June 26): **SELECTED** ✓
+- Great white shark Mediterranean: covered in Episode 6
+- Taczanowskia waska fungus-mimicking spider: covered in Episode 4
+
+**Sources that failed:** None; all sources reachable. arXiv cache not checked (no AI biomedicine items met 2-day recency threshold).
+=== 2026-06-29T05:23:47-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
