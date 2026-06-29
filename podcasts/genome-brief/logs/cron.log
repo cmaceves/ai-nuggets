@@ -418,3 +418,16 @@ Episode committed. Here is the candidate funnel for the audit log:
 **Audio:** 7,783,487 bytes, 16:13 duration, mistral voxtral-mini-tts-2603 / en_paul_neutral
 **Commit:** `31fd403`
 === 2026-06-28T05:32:32-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-06-29T05:00:04-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcXWzYz9EQDeZ7NiuswVj
+=== 2026-06-29T05:03:23-07:00 done  genome-brief (exit 0) ===
+=== 2026-06-29T05:03:23-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-29T05:06:23-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcXXHWp982N4ycfAJRUQS
+=== 2026-06-29T05:07:03-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-06-29T05:07:03-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-06-29T05:10:03-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
