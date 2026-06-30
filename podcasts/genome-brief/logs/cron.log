@@ -472,3 +472,35 @@ Episode 7 is published. Here's the candidate funnel:
 **Sources that failed:** None; all sources reachable. arXiv cache not checked (no AI biomedicine items met 2-day recency threshold).
 === 2026-06-29T05:23:47-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
 === 2026-06-30T05:00:03-07:00 start genome-brief ===
+Episode 8 shipped: script written, audio generated (19:07, 9.18 MB), published to R2, feed updated, committed.
+
+## Candidate funnel
+
+**bioRxiv** (2026-06-28 → 2026-06-30, 353 items pulled, 4 pages via cursor): 12 substantive matches against pathogen/resistance keywords. Shortlist after discarding spurious "lineage/variant" matches in non-pathogen papers (vertebrate phylogeny, dendritic spines, etc.):
+- ★ Functional export of NDM-7 to OMVs in *K. pneumoniae* compromises imipenem and cefiderocol — https://www.biorxiv.org/content/10.64898/2026.06.26.734736v1
+- The structural context of mutations in proteins predicts effect on antibiotic resistance — https://www.biorxiv.org/content/10.1101/2025.09.23.676583
+- Host adaptation drives genome evolution in a bacterial zoonotic pathogen — https://www.biorxiv.org/content/10.64898/2026.06.29.734755
+
+**medRxiv** (2026-06-27 → 2026-06-30, 131 items, 4 pages): 13 keyword hits.
+- ★ Spatial structure and demographic decoupling of chikungunya transmission and severity in Brazil, 2015–2025 — https://www.medrxiv.org/content/10.64898/2026.06.26.26356655v1
+- High risk of hypoxemic COVID-19 pneumonia in myasthenia gravis with type-I IFN autoantibodies — https://www.medrxiv.org/content/10.64898/2026.03.27.26349525
+- Excess mortality in PLWHA with negative TB tests on TB treatment — https://www.medrxiv.org/content/10.64898/2026.06.24.26356079
+
+**arXiv** (q-bio.QM, sorted by submitted date desc):
+- ★ Clinical Reasoning Graphs: Structured Evaluation of LLM Diagnostic Reasoning — https://arxiv.org/abs/2606.29876 (UCSF, 2026-06-29)
+- Expert Evaluation of Clinical AI Tools on Real Point-of-Care Clinical Queries — https://arxiv.org/abs/2606.28960
+
+**Biotech business** (Fierce Biotech 2026-06-29/30):
+- ★ Ipsen acquires Kartos for navtemadlin myelofibrosis program (up to $1.75B) — https://www.ipsen.com/press-release/ipsen-to-acquire-kartos-therapeutics-expanding-hemato-oncology-late-stage-pipeline-3318643/
+- Boulevard Bio / Metis TechBio trispecific TCE (autoimmune) deal
+- Beeline $126M autoimmune Series extension
+- Evommune Phase 2b chronic urticaria failure
+
+**AI tools/platforms**: nothing genuinely fresh on June 30 worth a segment (recent OpenAI GPT-5.6 Sol preview, Anthropic Mythos 5 re-authorization on June 26 — both stale or non-biomedical). Segment dropped; the UCSF clinical-reasoning-graphs item carried the AI slot under "AI in biomedicine."
+
+**Fun animal news** (ScienceDaily, June 24–27):
+- ★ Mountain lions reshape Jasper Ridge — Stanford, *Ecology and Evolution*, 2026-06-27 — https://news.stanford.edu/stories/2026/06/mountain-lion-activity-jasper-ridge-research / https://www.sciencedaily.com/releases/2026/06/260620100424.htm
+- Goldfish as freshwater-ecosystem destroyers (2026-06-26)
+
+★ = chosen for today's episode. Full text was fetched for both bioRxiv/medRxiv leads via `fetch_preprint.py` (jina-full channel); both rendered abstract + metadata only because preprints were posted <36h ago. Per pipeline rule, these were treated as abstract-only depth but used because they were clearly dominant picks with no near runners-up.
+=== 2026-06-30T05:12:26-07:00 done  genome-brief (exit 0) ===
