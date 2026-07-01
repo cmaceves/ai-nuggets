@@ -517,3 +517,56 @@ Request ID: req_011CcbK1Wp4hzd2uwgVWAyw6
 === 2026-07-01T05:08:29-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-07-01T05:08:29-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-01T05:11:29-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Committed successfully. Here is the final candidate funnel for the audit log:
+
+---
+
+**Committed:** `Episode: Mpox doubles up in eastern Congo` — 4 files changed (script, mp3, feed.xml, logs)
+
+---
+
+## Candidate funnel — 2026-07-01
+
+### Sources scanned
+
+**bioRxiv / medRxiv (June 28 – July 1, 2026)**
+- microbiology category (biorxiv): ~30 items scanned. Relevance filter survivors: 1 (Plasmodium berghei liver stage lipid uptake — abstract only, no full text obtainable; dropped per pipeline rules)
+- genomics category (biorxiv): ~30 items scanned. Relevance filter survivors: 1 (GeneBench-Pro AI benchmark for genomics — full text obtained via Jina) ✓ **CHOSEN**
+- epidemiology category (medrxiv): ~17 items scanned. Relevance filter survivors: 2 (mpox Clade Ia+Ib co-circulation in DRC; measles wastewater surveillance — measles fetch failed all channels, dropped)
+
+**PubMed (June 26 – July 1, 2026)**
+- 621 total hits for pathogen keyword set. Top results reviewed by title/abstract. No items selected that weren't already found via bioRxiv/medRxiv.
+
+**Public-health surveillance pages**
+- WHO Disease Outbreak News: page returned no results for June-July 2026 (interface error).
+- H5N1 Australia coverage via general web — already covered in Episode 7; excluded per re-invocation rules.
+
+**Biotech & pharma business news (last 1–2 days)**
+- Zymeworks acquires Theravance Biopharma for $929M (June 29, 2026) — YUPELRI/revefenacin for COPD ✓ **CHOSEN**
+- SonoThera $125M Series B — Duchenne muscular dystrophy, early stage; deprioritized in favor of completed M&A deal with clearer significance
+
+**AI in biomedicine / AI tools (last 2 days)**
+- Claude Sonnet 5 release (Anthropic, June 30, 2026) ✓ **CHOSEN**
+- GeneBench-Pro benchmark (biorxiv, June 30, 2026) ✓ **CHOSEN**
+- "Language Modeling Materializes a World Model of Protein Biology" (biorxiv June 4, 2026) — outside 2-day recency window, excluded
+
+**Animal news (last few days)**
+- "Crabs can't hide from an octopus with a mirror" — Science News, June 30, 2026; Current Biology paper ✓ **CHOSEN**
+- "Researchers Discover New Beetle Species Hiding Just Steps from Their Lab" — ScienceDaily June 30, 2026; Kyushu University; not sufficiently delightful
+- "How honeybees really crown their queens" — ScienceDaily June 23, Nature paper; borderline on recency window, superseded by octopus story
+
+### Shortlist
+
+| Item | Source | Chosen? |
+|---|---|---|
+| Mpox Clade Ia + Clade Ib co-circulation in South Kivu, DRC (Jan–May 2026) | medRxiv 10.64898/2026.06.25.26356562 | ✓ |
+| Plasmodium berghei liver stage: damage-mimicking vacuole for lipid uptake | biorxiv 10.64898/2026.06.30.735545 — abstract only | dropped (abstract only, not dominant pick) |
+| Zymeworks acquires Theravance Biopharma ($929M, YUPELRI for COPD) | Bloomberg / TipRanks, June 29 | ✓ |
+| GeneBench-Pro: AI benchmark for multi-step genomics reasoning | biorxiv 10.64898/2026.06.29.735386 — full text | ✓ |
+| Claude Sonnet 5 launch (Anthropic, June 30) | anthropic.com/news/claude-sonnet-5 | ✓ |
+| Octopus bimaculoides uses mirror to locate hidden prey | Current Biology, Science News June 30 | ✓ |
+| H5N1 in Australia updates | general web — already covered Episode 7 | excluded |
+| SonoThera $125M Series B | press, June 2026 | deprioritized |
+
+**Source failures:** WHO Disease Outbreak News page returned no results (interface issue, not network). Measles wastewater medRxiv preprint — all fetch channels failed. Both noted here; neither affected selection since other candidates were available.
+=== 2026-07-01T05:30:04-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
