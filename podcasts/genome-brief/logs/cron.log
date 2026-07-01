@@ -504,3 +504,16 @@ Episode 8 shipped: script written, audio generated (19:07, 9.18 MB), published t
 
 ★ = chosen for today's episode. Full text was fetched for both bioRxiv/medRxiv leads via `fetch_preprint.py` (jina-full channel); both rendered abstract + metadata only because preprints were posted <36h ago. Per pipeline rule, these were treated as abstract-only depth but used because they were clearly dominant picks with no near runners-up.
 === 2026-06-30T05:12:26-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-01T05:00:03-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcbJetBcLp7iyb6mjwoi3
+=== 2026-07-01T05:03:51-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-01T05:03:51-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-01T05:06:51-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcbK1Wp4hzd2uwgVWAyw6
+=== 2026-07-01T05:08:29-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-01T05:08:29-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-01T05:11:29-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
