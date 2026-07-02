@@ -570,3 +570,4 @@ Committed successfully. Here is the final candidate funnel for the audit log:
 
 **Source failures:** WHO Disease Outbreak News page returned no results (interface issue, not network). Measles wastewater medRxiv preprint — all fetch channels failed. Both noted here; neither affected selection since other candidates were available.
 === 2026-07-01T05:30:04-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-07-02T05:00:05-07:00 start genome-brief ===
