@@ -571,3 +571,31 @@ Committed successfully. Here is the final candidate funnel for the audit log:
 **Source failures:** WHO Disease Outbreak News page returned no results (interface issue, not network). Measles wastewater medRxiv preprint — all fetch channels failed. Both noted here; neither affected selection since other candidates were available.
 === 2026-07-01T05:30:04-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
 === 2026-07-02T05:00:05-07:00 start genome-brief ===
+Episode 10 is published and committed. The orchestrator will handle the push.
+
+## Candidate funnel
+
+**Pathogen genomics (bioRxiv/medRxiv, 2026-06-28 to 2026-07-02)** — scanned ~600 preprints; substantive shortlist after keyword + full-text triage:
+- ★ Functional validation of *P. falciparum* K13 C580Y in Ethiopian isolates (bioRxiv, full text) — **CHOSEN**
+- The structural context of mutations in *M. tuberculosis* predicts antibiotic resistance (bioRxiv v1 from Sept 2025; not fresh)
+- Emerging parvovirus in Dutch/Danish pigs + foxes (bioRxiv, full text)
+- Detection of measles virus RNA in wastewater (medRxiv, abstract-only — too new for full text)
+- Measles genomic surveillance gaps in Bangladesh (medRxiv, abstract-only)
+- Non-SARS-CoV-2 respiratory virus sequence landscape in Africa (medRxiv, abstract-only)
+
+**Biotech/pharma (STAT, Endpoints, BioPharma Dive, FDA, 2026-06-30 to 2026-07-02)** — shortlist:
+- ★ FDA approves Tregzi (Orca Bio) — first Treg cell therapy for GVHD post-HSCT, 2026-07-01 — **CHOSEN**
+- Anthropic announces drug-development entry + Claude Science (skipped — yesterday's episode already featured Sonnet 5, avoiding same-vendor overlap)
+- Abivax Phase 3 obefazimod UC data (older; malignancy safety signal)
+
+**AI in biomedicine (bioRxiv, arXiv)** — shortlist:
+- ★ OpenGerminal open-source antibody design pipeline w/ first IgLM vs AbLang1 head-to-head (bioRxiv, 2026-06-29, full text) — **CHOSEN**
+- Pep2Mol diffusion for PPI-targeting small molecules; TCR generative design; MolSafeEval (arXiv 2026-07-01)
+
+**Animal news** — shortlist:
+- ★ University of Bristol pterosaur wing morphospace (Palaeobiology, published mid-June 2026, press release 2026-06-23) — **CHOSEN**
+- Deep-sea 31-species Brazil expedition (Schmidt Ocean, June 8 — too stale)
+- Cockatoo conformist learning (PLOS Biology, April — stale)
+
+**Sources logged**: bioRxiv/medRxiv details API, STAT News, FDA press announcements, MedCity News, University of Bristol news, arXiv. No source-level failures. Segment "Major AI tool updates" dropped intentionally — nothing genuinely fresh at the required significance bar and yesterday's episode heavily featured that beat.
+=== 2026-07-02T05:21:29-07:00 done  genome-brief (exit 0) ===
