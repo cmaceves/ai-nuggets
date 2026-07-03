@@ -606,3 +606,41 @@ Request ID: req_011Ccf67C3sEFXEKYZei7Rpg
 === 2026-07-03T05:01:38-07:00 done  genome-brief (exit 0) ===
 === 2026-07-03T05:01:38-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-03T05:04:38-07:00 start genome-brief (retry 1) ===
+Episode 11 shipped. Summary follows.
+
+## Episode 11 — A first shot at treating Bundibugyo Ebola
+
+**Committed as `36cb727`** — 16:07 mp3 (7.7 MB) generated, published to R2, feed updated. Orchestrator handles the push.
+
+## Candidate funnel
+
+**bioRxiv (biorxiv, 2-day window)**: 273 items across pages, ~50 with keyword hits, substantive shortlist:
+- `10.64898/2026.07.02.736091` — Genomic Surveillance of RSV in Bangladesh (medRxiv, first post-COVID RSV sequences from South Asia)
+- `10.64898/2026.06.01.729201` — Structural basis for HKU5-CoV main protease inhibition by nirmatrelvir and ensitrelvir
+- `10.1101/2025.11.19.689036` — PacBio HiFi de novo assembly of P. falciparum from Gambia (v5, dominated by earlier versions)
+- `10.64898/2026.05.08.723928` v2 — AI-discovered protein fragments as generalizable regulators of biomolecular condensates ✓ CHOSEN (AI)
+
+**medRxiv**: 70 items, notable:
+- `10.64898/2026.06.30.26356960` — Serological evidence of filovirus exposure in bats and humans in Ghana
+- `10.64898/2026.06.30.26356947` — Excess maternal deaths during COVID-19 pandemic (WHO/UN counterfactual)
+- `10.1101/2025.07.13.25331478` — Meteorological drivers of influenza in subtropical China
+
+**arXiv (cs.AI/cs.CL/cs.LG/q-bio day-cache)**: 500 items scanned, ~60 biomedical-AI hits, none dominated FragFold; StructureSAFE and ClonoTrace were the closest runners-up but narrower audience.
+
+**Public-health / press**:
+- WHO PARTNERS trial announcement (July 2, 2026) ✓ CHOSEN (pathogen)
+- WHO Nipah case, Kerala
+- WHO Hantavirus cruise-ship outbreak (declared over July 2)
+
+**Biotech news (last 2 days)**:
+- Ipsen ↔ Memo Therapeutics (July 1, €200M/€700M, potravitug/BK polyomavirus) ✓ CHOSEN (biotech)
+- Ipsen ↔ Kartos Therapeutics (July 2, $450M/$1.75B, navtemadlin/myelofibrosis) — already covered in Episode 8
+- Abivax safety data
+- AbbVie/Apogee closing (June 22 — too stale)
+
+**AI tool/platform updates**: Claude Sonnet 5 (June 30 — already covered in Episode 9). Nothing genuinely fresh on July 2–3.
+
+**Animal**: Landles et al., *Frontiers in Conservation Science* (July 2, 2026) — elk cause 62% of aggressive wildlife encounters in Canadian national parks ✓ CHOSEN (animal). Runners-up: octopus mirror study (June 30 coverage of June 3 paper — already covered Ep 9); walking shark *H. dudgeonae* (June 15 — too stale); great ape laughter (June 25).
+
+**Source failures**: none this run.
+=== 2026-07-03T05:20:26-07:00 done  genome-brief (exit 0) (retry 1) ===
