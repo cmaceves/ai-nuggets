@@ -599,3 +599,10 @@ Episode 10 is published and committed. The orchestrator will handle the push.
 
 **Sources logged**: bioRxiv/medRxiv details API, STAT News, FDA press announcements, MedCity News, University of Bristol news, arXiv. No source-level failures. Segment "Major AI tool updates" dropped intentionally — nothing genuinely fresh at the required significance bar and yesterday's episode heavily featured that beat.
 === 2026-07-02T05:21:29-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-03T05:00:04-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011Ccf67C3sEFXEKYZei7Rpg
+=== 2026-07-03T05:01:38-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-03T05:01:38-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-03T05:04:38-07:00 start genome-brief (retry 1) ===
