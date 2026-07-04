@@ -657,3 +657,31 @@ Request ID: req_011CcgzJUs2NMWgpCxdLggKG
 === 2026-07-04T05:06:44-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-07-04T05:06:44-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-04T05:09:44-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Episode committed successfully. Here's the candidate funnel for today's run:
+
+---
+
+**Candidate funnel — 2026-07-04**
+
+**bioRxiv (2026-07-02 to 2026-07-04, 463 total papers):**
+- Scanned first 450 via cursor pagination; filtered title+abstract for pathogen keywords
+- ~12 hits; substantive shortlist after removing spurious matches:
+  - `Clade 2.3.4.4b H5N1 influenza virus and SARS-CoV-2 seroprevalence among owned and feral cats in Philadelphia` | 10.64898/2026.07.03.736283 — **chosen** (read full text)
+  - `Genomic Surveillance of RSV among Patients in Bangladesh, Aug 2024–Dec 2025` | 10.64898/2026.07.02.736091 — read full text; dropped (reassuring findings but less significant for today)
+  - `Benchmarking AI-based drug-resistance prediction from M. tuberculosis WGS data` | 10.64898/2026.07.03.736369 — **chosen** (read full text)
+  - `Novel px1 locus associated with decreased susceptibility of P. falciparum to lumefantrine and DHA, emerging in Uganda` | 10.1101/2025.07.30.667738 — **chosen, lead** (read full text; revised preprint appearing July 3, 2026)
+  - `Resolving symmetry-masked allosteric cooperativity in the M. tuberculosis proteasome` | 10.64898/2026.07.02.736129 — dropped (structural biology, not surveillance-relevant)
+  - `SARS-CoV-2 pseudoknot ribosomal frameshifting modulators` | 10.64898/2026.07.02.735960 — dropped (mechanistic, abstract-only without clear significance signal)
+
+**medRxiv (2026-07-02 to 2026-07-04):**
+- ~5 hits after filtering; none stronger than bioRxiv picks above
+- `Effects of genomic recombination on SARS-CoV-2 evolution and XFG in Germany` | 10.1101/2025.11.17.25339653 — dropped (preprint dated 2025, unclear if newly revised)
+
+**PubMed (last 5 days):** 831 results; scanned metadata — no items cleared the bar above the bioRxiv picks
+
+**Biotech/pharma:** atacicept PDUFA July 7 for IgA nephropathy (Vera Therapeutics) — **chosen**; Ipsen-Kartos already covered in Episode 8
+
+**AI tools:** GPT-Rosalind (April 16, 2026) — outside recency window; no qualifying new releases found this week
+
+**Animal news:** Bumble bee spontaneous object-manipulation (Science, ~June 25 / July 2 pickup) — **chosen**; ape laughter study (June 26, borderline) — not used
+=== 2026-07-04T05:26:30-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
