@@ -644,3 +644,16 @@ Episode 11 shipped. Summary follows.
 
 **Source failures**: none this run.
 === 2026-07-03T05:20:26-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-04T05:00:05-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcgywbUoa3KEM1r8xdnQD
+=== 2026-07-04T05:02:02-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-04T05:02:02-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-04T05:05:02-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcgzJUs2NMWgpCxdLggKG
+=== 2026-07-04T05:06:44-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-04T05:06:44-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-04T05:09:44-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
