@@ -685,3 +685,10 @@ Episode committed successfully. Here's the candidate funnel for today's run:
 
 **Animal news:** Bumble bee spontaneous object-manipulation (Science, ~June 25 / July 2 pickup) — **chosen**; ape laughter study (June 26, borderline) — not used
 === 2026-07-04T05:26:30-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-07-05T05:00:07-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcishmkMostrcAjp9T967
+=== 2026-07-05T05:01:27-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-05T05:01:27-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-05T05:04:27-07:00 start genome-brief (retry 1) ===
