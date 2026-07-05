@@ -692,3 +692,43 @@ Request ID: req_011CcishmkMostrcAjp9T967
 === 2026-07-05T05:01:27-07:00 done  genome-brief (exit 0) ===
 === 2026-07-05T05:01:27-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-05T05:04:27-07:00 start genome-brief (retry 1) ===
+Episode 13 published locally (orchestrator will push).
+
+**Episode 13: A second filovirus surfaces in Uganda** — 10:39, 5.11 MB
+- Script: `podcasts/genome-brief/scripts/2026-07-05-genome-brief.md`
+- Audio: uploaded to R2 (`ai-nuggets-episodes`); mp3 gitignored per convention
+- Feed: updated, XML validates
+- Commit: `e086bad`
+
+Segments:
+- **Pathogen watch (lead):** Marburg confirmed in a 17-month-old in Kyegegwa District, Uganda (June 30), caught through enhanced Ebola surveillance — plus the WHO July-3 Bundibugyo Ebola update (1,481 cases, 454 deaths across DRC/Uganda/France).
+- **Pathogen genomics:** ICDDR,B RSV Bangladesh genomic surveillance preprint — 49 full genomes, F-protein substitutions outside mAb epitopes, but glycan drift worth watching.
+- **Biotech:** Roche's Krascendo 1 Phase 3 head-to-head — divarasib beats sotorasib and adagrasib on PFS and interim OS in 2L KRAS G12C NSCLC.
+- **Animals:** Warwick Communications Biology paper showing isochronous laughter across humans and four great-ape species — a 15-million-year-old vocal-rhythm scaffold.
+
+### Candidate funnel
+**bioRxiv/medRxiv (2026-07-03 → 07-05, 60 items scanned across both servers):**
+- RSV Bangladesh genomic surveillance (Alam et al., 10.64898/2026.07.02.736091) — **CHOSEN**
+- P. falciparum PacBio HiFi assemblies from The Gambia (Nyarko et al., 10.1101/2025.11.19.689036) — solid, but malaria fatigue after Eps 10 & 12
+- SARS-CoV-2 XFG recombinant + continued spread (Yi, 10.1101/2025.11.17.25339653) — dropped, full text unavailable via all fetch channels and single-author epi paper
+- TB swab-test spectrum-bias modeling (Zaidi et al.) — too niche
+- Malaria ceiling-nets qualitative study in Kenya — not depth-worthy
+- Chikungunya vaccine cost-effectiveness (31 countries) — interesting but modeling-only
+
+**Public-health surveillance:**
+- WHO DON 612 Bundibugyo update (2026-07-03) — **CHOSEN** (paired with Marburg)
+- STAT / Africa CDC Marburg case, Kyegegwa District Uganda (2026-06-30) — **CHOSEN**
+
+**Biotech/pharma (Jul 2–4):**
+- Roche divarasib Krascendo 1 head-to-head (2026-07-02) — **CHOSEN**
+- QuantumCell / AlzeCure ACD856 licensing ($12M up, $2.2B milestones) — real but small upfront, mechanism harder to justify at depth this week
+- Atacicept PDUFA (Jul 7) — already covered Ep 12
+- Q3 biotech scorecard items behind STAT+ paywall
+
+**AI in biomedicine:** arXiv cache scan and bioRxiv sweep produced no clearly dominant fresh item; segment intentionally dropped this episode rather than padded.
+
+**Animal closer:**
+- Great ape laughter isochrony, Communications Biology, De Gregorio et al., Jun 25 (broad coverage through Jul 1) — **CHOSEN**
+- Bumble bees ball task (Science) — already Ep 12
+- Ballista spider (Zool. Res.) and sea cucumber tissue immortality (Sci Adv) — both older than the "last few days" window
+=== 2026-07-05T05:16:46-07:00 done  genome-brief (exit 0) (retry 1) ===
