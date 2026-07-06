@@ -739,3 +739,27 @@ Request ID: req_011CckmnUJZoykSoHSHvm2vX
 === 2026-07-06T05:05:00-07:00 done  genome-brief (exit 0) ===
 === 2026-07-06T05:05:00-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-06T05:08:00-07:00 start genome-brief (retry 1) ===
+Episode 14 shipped — script written, audio generated (12:24, 5.95 MB), R2-published, feed updated, and committed.
+
+## Candidate funnel
+
+**bioRxiv (July 4–6):** 146 items surveyed, pathogen keyword filter yielded ~15 substantive candidates:
+- 10.64898/2026.01.20.700404 — *PfApiAT2 is a proline transporter essential for P. falciparum mosquito transmission* (Weill Cornell) — **CHOSEN**
+- 10.64898/2026.07.04.736489 — *Improving Generalizability in Whole-Cell Antibiotic Discovery Through Active Learning* (Harvard/Farhat, TB+Borrelia) — **CHOSEN**
+- 10.64898/2026.07.04.736460 — Molecular dissection of mycobacterial biofilm establishment
+- 10.64898/2026.07.02.736172 — S1P lyase suppresses influenza pathogenicity in mice
+- 10.1101/2025.09.15.676235 — CD24/CD27 in atypical memory B cells after malaria
+- 10.64898/2026.06.29.735254 — *Foldable respiratory siphon powers rowing in Helophilus larvae* — **CHOSEN (animal closer)**
+
+**medRxiv (July 4–6):** 62 items surveyed — HIV NC/integrase resistance selection under TLD, wildfire PM x TB in Brazil, ceiling-net malaria vector control in Kenya, novel TB swab test spectrum-bias modeling — no full text on any (jina abstract-only wall), none dominant enough for abstract-only pick.
+
+**WHO/CDC/ECDC:** Bundibugyo Ebola & Uganda Marburg — both covered in the last two episodes; no new DON.
+
+**Business (July 5–6):** Novartis-Myricx Bio acquisition, US$1.5B for first-in-class NMTi ADC payload — **CHOSEN**. Also on the table: Genentech restructuring + $490M breast cancer collab, Scribe Bio IPO prep, Celea $180M raise.
+
+**AI platform updates:** Nothing dominant on July 5–6 — Sonnet 5 covered July 1.
+
+**Animals:** Streetlights/pill-bug "death spirals" story cycled through July 6 news but underlying paper (Ecology & Evolution, Sheizaf et al.) posted April 13, 2026 — outside recency window; Baltic wolves re-run of a Nov 2025 PNAS paper; ancient bees in tooth sockets = June 25 (borderline). Picked the Helophilus rat-tailed maggot siphon-as-oar preprint instead — genuinely fresh (July 3) and delightful.
+
+**Sources with issues:** medRxiv full-text via jina — all four fresh medRxiv preprints I tried fell through to abstract-only (posted <36h, HTML not rendered). Skipped rather than summarize from abstracts.
+=== 2026-07-06T05:20:23-07:00 done  genome-brief (exit 0) (retry 1) ===
