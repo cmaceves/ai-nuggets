@@ -732,3 +732,10 @@ Segments:
 - Bumble bees ball task (Science) — already Ep 12
 - Ballista spider (Zool. Res.) and sea cucumber tissue immortality (Sci Adv) — both older than the "last few days" window
 === 2026-07-05T05:16:46-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-06T05:00:11-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CckmnUJZoykSoHSHvm2vX
+=== 2026-07-06T05:05:00-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-06T05:05:00-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-06T05:08:00-07:00 start genome-brief (retry 1) ===
