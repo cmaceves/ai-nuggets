@@ -776,3 +776,45 @@ Request ID: req_011CcnfdtaNwqorRoseU6rkK
 === 2026-07-07T05:05:29-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-07-07T05:05:29-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-07T05:08:29-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Episode 15 is published. Here is the candidate funnel for this run:
+
+---
+
+**Candidate funnel — 2026-07-07**
+
+**bioRxiv (microbiology, epidemiology, July 4–7):** ~73 preprints scanned; ~6 survived relevance filter.
+
+- `10.64898/2026.07.05.736580` — SARS-CoV-2 Spike H655Y drives protease preference but does not dictate cellular tropism (Cantoni et al., Glasgow MRC) ✓ **SELECTED — Pathogen Watch A**
+- `10.64898/2026.01.20.700404v3` — PfApiAT2 proline transporter — already featured Episode 14
+- `10.64898/2026.07.04.736374` — Bacillus/Pseudomonas rhizobacterium — not on-topic
+- `10.64898/2026.07.06.736764` — Microbiome pipeline benchmarking — not on-topic
+- `10.64898/2026.07.03.736267` — VirProtRAG viral protein annotation (City U Hong Kong) ✓ **SELECTED — AI in Biomedicine**
+- `10.64898/2026.07.05.736580` — SARS-CoV-2 H655Y (see above)
+
+**medRxiv (July 5–7):** ~30 preprints scanned; 2 survived relevance filter.
+
+- `10.64898/2026.07.01.26355335` — Simplified mpox serology algorithm (Nigeria/UK/Gambia) — informative but displaced by WHO situation report item
+- `10.64898/2026.07.02.26357163` — COVID-19 mRNA vaccination reduces GBS risk — full text unretrievable (abstract only); dropped
+
+**PubMed (July 2–7, pathogen keywords):** 130 results; scanned top 20 by date — no fresh items not already covered via bioRxiv/medRxiv.
+
+**WHO disease outbreak news:** Fetched WHO mpox situation report #66 (published May 31, 2026, data through May 17). Madagascar 780 cases in 6 weeks — top mpox country in Africa. ✓ **SELECTED — Pathogen Watch B**
+
+**Biotech/pharma (July 5–7):** Searched Endpoints/BioPharma Dive equivalents.
+
+- Atacicept PDUFA today (Vera Therapeutics) — July 7 PDUFA date for IgA nephropathy. ✓ **SELECTED — Biotech & Pharma**
+- Biogen/RayThera $1B acquisition — dated June 17, 2026; outside 1–2 day recency window
+- Biogen/Apellis $5.6B — too old
+
+**AI tools/platform updates:** No significant capability releases from major AI labs in the past 1–2 days. Segment dropped.
+
+**Animal news (last few days):** ScienceDaily Animals page (July 5, 2026 listings).
+
+- *Osnidum almontei* fossil bee nests in owl-pellet jawbones, Hispaniola cave (Royal Society Open Science, news cycle July 5) ✓ **SELECTED — Animals**
+- "Scientists Stunned as Bumble Bees Solve a Classic Intelligence Test" (July 2) — bumble bee problem-solving already featured Episode 12; duplicate theme
+- Wolf domestication — Baltic island wolves (PNAS/Glasgow) — first appeared November 2025; too old despite recent coverage
+
+**Full-text reads:** SARS-CoV-2 H655Y paper (Jina reader, full text); VirProtRAG (Jina reader, full text); WHO mpox report #66 (PDF, full); bee nests (ScienceDaily + Field Museum press).
+
+**Source failures:** None; all sources returned results.
+=== 2026-07-07T05:32:25-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
