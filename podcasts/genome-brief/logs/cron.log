@@ -763,3 +763,16 @@ Episode 14 shipped — script written, audio generated (12:24, 5.95 MB), R2-publ
 
 **Sources with issues:** medRxiv full-text via jina — all four fresh medRxiv preprints I tried fell through to abstract-only (posted <36h, HTML not rendered). Skipped rather than summarize from abstracts.
 === 2026-07-06T05:20:23-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-07T05:00:02-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcnfLaw1ckAoonuJ7beE6
+=== 2026-07-07T05:01:34-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-07T05:01:34-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-07T05:04:34-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcnfdtaNwqorRoseU6rkK
+=== 2026-07-07T05:05:29-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-07T05:05:29-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-07T05:08:29-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
