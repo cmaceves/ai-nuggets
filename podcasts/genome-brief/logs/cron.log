@@ -825,3 +825,38 @@ Request ID: req_011CcpZAyufQv6CwMx6BiJKr
 === 2026-07-08T05:01:54-07:00 done  genome-brief (exit 0) ===
 === 2026-07-08T05:01:54-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-08T05:04:54-07:00 start genome-brief (retry 1) ===
+Committed: `0d057e2 Episode: Bundibugyo Ebola gets its first field test` — mp3 published to R2, feed.xml updated, script committed. Orchestrator handles push.
+
+**Candidate funnel:**
+
+- **bioRxiv** (Jul 5–8, ~500 preprints scanned across 7 paginated pages): pathogen keyword filter surfaced ~10 papers; substantive after discarding false positives (evolutionary-biology "clades", host-antibiotic "resistance", etc.):
+  - `10.64898/2026.07.02.736172` — Sphingosine 1-phosphate lyase and pulmonary innate defense against influenza (influenza)
+  - `10.64898/2026.07.04.736489` — Active-learning antibiotic discovery, TB + Borrelia (already featured in Episode 14, dropped)
+  - `10.64898/2026.07.04.736425` — AlphaFold benchmark on antibody/TCR complexes ✓ **CHOSEN (AI in biomedicine)**
+  - `10.64898/2026.07.04.736518` — SpliSync: genomic LM splice-site correction for long-read RNA
+  - `10.64898/2026.06.30.735646` — LLM benchmark for ACMG/AMP variant interpretation (borderline recency)
+
+- **medRxiv** (Jul 5–8, 154 preprints scanned): pathogen keyword filter surfaced ~13 papers; substantive shortlist:
+  - `10.64898/2026.07.03.26357211` — Age-structured Ebola convalescence/re-emergence modeling (Bayesian)
+  - `10.64898/2026.07.03.26357228` — Tabular foundation model for dengue anticipatory action
+  - `10.64898/2026.07.02.26357126` — Global dengue thermal-suitability shifts under CMIP6
+  - `10.64898/2026.07.04.26355807` — "Immunity paradox of bed nets" — ITN/vaccine synergy modeling
+  - `10.64898/2026.07.05.26357313` — Leptospirosis as-common-as-malaria in adolescents, Hoima, Uganda
+  - `10.64898/2026.07.04.26357275` — Self-collected tongue swabs for M. tuberculosis diagnostic accuracy
+  - `10.64898/2026.07.03.26357218` — ESBL genomic epidemiology in a neonatal unit
+  - `10.64898/2026.07.01.26357045` — MPXV serological algorithm for exposure/vaccination status
+
+- **Public-health surveillance** (WHO / ECDC / CDC): WHO Bundibugyo diagnostic EUL announcement (Jul 2), WHO Bundibugyo situation update (Jul 3 DON, latest DRC totals 1,561 confirmed / 506 deaths as of Jul 5) ✓ **CHOSEN (Pathogen watch)**
+
+- **Biotech/pharma business** (Endpoints, STAT, BioPharma Dive, Seeking Alpha, Reuters via search): substantive shortlist:
+  - AstraZeneca × Sino Biopharm (Chia Tai Tianqing) TQC3721 licensing, US$200M upfront + US$1.9B milestones (Jul 8 announcement) ✓ **CHOSEN (Biotech)**
+  - Vertex-Crinetics US$10B acquisition (Jul 6) — dropped (older news)
+  - Vera Therapeutics / atacicept Trutakna approval (Jul 7) — already featured in Episode 15
+
+- **AI tools / platform updates**: Gemini 3.5 Pro (Google) still not GA as of Jul 7; GPT-5.6 preview restricted to ~20 partners; no genuinely new capability jumps in last 1–2 days. **Segment dropped** per PROMPT.md guidance ("Drop any segment with nothing genuinely fresh").
+
+- **Fun animal news** (ScienceDaily, phys.org, Ecology and Evolution): candidates included octopus mirror learning (older, June), walking-shark discovery, Fiordland black coral, GATA6/colorectal cancer story (not really animal news). Winner:
+  - Woodlice death spirals under streetlights, Armadillo sordidus, Sheizaf et al., Ecology and Evolution (published Jul 6) ✓ **CHOSEN (Animals)**
+
+Source failures: none — bioRxiv, medRxiv, WHO, ScienceDaily, and general web all returned data as expected. Encountered Mistral TTS API 429 rate-limit saturation mid-run; resolved by adding a 45-second backoff between retries in the local `gen_tts.py` (reverted from staged commit per pipeline discipline — flagging as a general infra improvement worth landing separately). Final mp3: 6,048,748 bytes, 12:36 duration.
+=== 2026-07-08T05:25:26-07:00 done  genome-brief (exit 0) (retry 1) ===
