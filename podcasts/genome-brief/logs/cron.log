@@ -818,3 +818,10 @@ Episode 15 is published. Here is the candidate funnel for this run:
 
 **Source failures:** None; all sources returned results.
 === 2026-07-07T05:32:25-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-07-08T05:00:01-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcpZAyufQv6CwMx6BiJKr
+=== 2026-07-08T05:01:54-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-08T05:01:54-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-08T05:04:54-07:00 start genome-brief (retry 1) ===
