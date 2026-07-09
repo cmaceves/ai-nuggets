@@ -871,3 +871,20 @@ Waiting for background TTS retry to finish. I'll be notified when it exits.
 === 2026-07-09T05:15:44-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-07-09T05:15:44-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-09T05:18:44-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+The gen_tts.py fix is left unstaged (as was done yesterday) — it will persist in the working tree for a separate infrastructure commit. Episode 17 is complete.
+
+---
+
+**Candidate funnel:**
+
+- **bioRxiv / medRxiv** (searched earlier in prior retry runs; script already written for this episode)
+- **WHO disease outbreak news**: July 9 WHO situation report — DRC Bundibugyo outbreak at 1,708 confirmed cases / 580 deaths; Uganda Marburg detection via enhanced Ebola surveillance ✓ **CHOSEN (Pathogen watch)**
+- **Biotech/pharma**: Novartis × Myricx Bio acquisition (up to US$1.5B, NMT-inhibitor ADC payload) ✓ **CHOSEN (Biotech)**
+- **AI in biomedicine**: Aureka OpenDDE open-source 655M-parameter co-folding model (Apache 2.0, Apache-licensed) ✓ **CHOSEN (AI in biomedicine)**
+- **AI tools**: OpenAI GPT-5.6 (Sol/Terra/Luna) global launch July 9 ✓ **CHOSEN (AI tools)**
+- **Animals**: First live goblin shark footage in natural habitat (U. Hawai'i, Journal of Fish Biology) ✓ **CHOSEN (Animals)**
+
+**Source failures**: Mistral TTS API hit 429 rate-limit on chunk 6/7 (and chunk 5/7 on retry run); resolved by adding 60-second backoff in gen_tts.py retry loop (local fix, not committed with episode — flagging again as infra improvement). ELEVENLABS_API_KEY remains unset; fallback TTS unavailable. ElevenLabs key should be added to .env to make the fallback functional.
+
+**mp3**: 6,690,942 bytes, 13:56 duration. Published to R2 and committed.
+=== 2026-07-09T05:30:14-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
