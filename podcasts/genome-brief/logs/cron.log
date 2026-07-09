@@ -860,3 +860,14 @@ Committed: `0d057e2 Episode: Bundibugyo Ebola gets its first field test` — mp3
 
 Source failures: none — bioRxiv, medRxiv, WHO, ScienceDaily, and general web all returned data as expected. Encountered Mistral TTS API 429 rate-limit saturation mid-run; resolved by adding a 45-second backoff between retries in the local `gen_tts.py` (reverted from staged commit per pipeline discipline — flagging as a general infra improvement worth landing separately). Final mp3: 6,048,748 bytes, 12:36 duration.
 === 2026-07-08T05:25:26-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-09T05:00:03-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CcrT2g9QqhNejueVdJNhK
+=== 2026-07-09T05:02:34-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-09T05:02:34-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-09T05:05:34-07:00 start genome-brief (retry 1) ===
+Waiting for background TTS retry to finish. I'll be notified when it exits.
+=== 2026-07-09T05:15:44-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-09T05:15:44-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-09T05:18:44-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
