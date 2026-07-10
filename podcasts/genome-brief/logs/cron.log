@@ -901,3 +901,26 @@ Request ID: req_011CctMWSB7ySc8ctskjqmJU
 === 2026-07-10T05:11:27-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-07-10T05:11:27-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-10T05:14:27-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Episode 18 is published. Here is the candidate funnel for today's run:
+
+---
+
+**Candidate funnel — 2026-07-10**
+
+**Sources scanned:**
+
+- **bioRxiv (microbiology, Jul 8–10)**: 30 items scanned; 2 survived relevance filter — CMX521 coronavirus antiviral preprint (selected), Ebola virus condensate/interferon preprint (v2 of a Sep 2025 submission, dropped as not fresh enough for pathogen watch)
+- **medRxiv (epidemiology, Jul 8–10)**: 13 items scanned; 2 survived — pediatric SARS-CoV-2 South Africa retrospective (dropped: covers 2020–2022 variants, not current surveillance), SSRI/Long COVID preprint (dropped: not squarely in show topics)
+- **bioRxiv (genomics, Jul 8–10)**: 18 items scanned; 0 pathogen-surveillance matches
+- **PubMed (H5N1/SARS-CoV-2/pathogen genomics, Jul 5–10)**: 4 H5N1 articles returned; metadata retrieval failed; proceeded without
+- **Biotech/pharma web**: Vertex/Crinetics $10B (selected), Roche tominersen/RG6496 discontinuation (selected), Atacicept FDA approval (covered in Episodes 15–17, dropped), Orca Bio Tregzi (June 30, dropped as outside window), Novartis/Myricx Bio (covered in Episodes 14 and 17, dropped)
+- **AI in biomedicine web**: Absentia Labs DILI model FDA ISTAND acceptance (selected), Aureka OpenDDE (covered in Episode 17, dropped)
+- **Animal news web**: Andean leaf-eared mouse in Science Jul 9 (selected), goblin shark (covered in Episode 17, dropped), bumblebee puzzle-solving (June 25 — outside recency window, dropped), Cretaceous giant octopus (April 23 — outside recency window, dropped)
+
+**Shortlist:**
+- ✅ CMX521 coronavirus RdRp two-pronged mechanism (biorxiv 10.64898/2026.07.07.737000) — **selected (pathogen watch)**
+- ✅ Vertex acquires Crinetics $10B (BioPharma Dive) — **selected (biotech)**
+- ✅ Roche discontinues tominersen + RG6496 (BioPharma Dive) — **selected (biotech)**
+- ✅ Absentia Labs DILI model enters FDA ISTAND (BioSpace) — **selected (AI in biomedicine)**
+- ✅ Phyllotis vaccarum Andean mouse, Science Jul 9 — **selected (animals)**
+=== 2026-07-10T05:31:35-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
