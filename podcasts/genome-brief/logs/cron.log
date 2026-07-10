@@ -888,3 +888,16 @@ The gen_tts.py fix is left unstaged (as was done yesterday) — it will persist 
 
 **mp3**: 6,690,942 bytes, 13:56 duration. Published to R2 and committed.
 === 2026-07-09T05:30:14-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-07-10T05:00:02-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CctM8eZPWBY31pnxy4LfX
+=== 2026-07-10T05:06:24-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-10T05:06:24-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-10T05:09:24-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CctMWSB7ySc8ctskjqmJU
+=== 2026-07-10T05:11:27-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-10T05:11:27-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-10T05:14:27-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
