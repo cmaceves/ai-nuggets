@@ -931,3 +931,24 @@ Request ID: req_011CcvEfnQE85wgXFj1PqWby
 === 2026-07-11T05:02:49-07:00 done  genome-brief (exit 0) ===
 === 2026-07-11T05:02:49-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-11T05:05:49-07:00 start genome-brief (retry 1) ===
+Episode 19 shipped. Here's the run summary for the log.
+
+**Episode 19: Which COVID wave hit kids hardest** — committed as `447b8d6` (no push per pipeline rules; orchestrator handles it).
+
+**Candidate funnel:**
+
+- **bioRxiv (2026-07-09 → 2026-07-11)**: 150+ items scanned across 5 pages; ~20 pathogen/AI keyword hits after filtering; substantive shortlist:
+  - Comparison of Three Herd-Level Surveillance Methods for PRRSV — porcine, out of scope
+  - Antimicrobial-resistance plasmids encode Evangelion anti-phage defence family — off-focus (evolutionary microbiology)
+  - AlphaFold 3 ability to predict TCR-antigen specificity — off-focus (immunology methods)
+- **medRxiv (2026-07-09 → 2026-07-11)**: 89 items across 3 pages; substantive shortlist:
+  - **Paediatric COVID-19 severity across SARS-CoV-2 variants in South Africa** (10.64898/2026.07.06.26357377) — CHOSEN, pathogen watch (abstract-only; body not yet rendered)
+  - **DMT-PHE AI Agent for public-health emergency escalation in Kenya** (10.64898/2026.07.07.26357475) — CHOSEN, AI in biomedicine (abstract-only)
+  - Multimodal foundation model for emergency head CT — solid but AI/health-informatics, less fresh angle
+  - A Korean pangenome reference — genomics but not pathogen surveillance
+- **Biotech/pharma news**: Rhythm Pharmaceuticals TRANSCEND (setmelanotide/NEJM, July 8) — CHOSEN; Vertex/Crinetics $10B (July 6) — used in ep. 18; Novartis/Myricx (used in earlier eps.); AstraZeneca/Sino Biopharm (used in ep. 16)
+- **AI tools/platforms**: **OpenAI GPT-5.6 (Sol/Terra/Luna) GA July 9** — CHOSEN; Anthropic Sonnet 5 (June 30, stale); Gemini 3.5 Pro delayed to July 17
+- **Animal news**: **Goblin shark first live footage** (Journal of Fish Biology, July 8) — CHOSEN; happy-face spider Himalayan cousin (July 9); rattlesnake venom-control paper (July 9)
+
+**No source failed.** bioRxiv/medRxiv APIs and web searches all returned. Two picks are abstract-only (SA pediatric COVID and Kenya AI) — noted in-script per PIPELINE.md.
+=== 2026-07-11T05:15:27-07:00 done  genome-brief (exit 0) (retry 1) ===
