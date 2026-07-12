@@ -971,3 +971,33 @@ Request ID: req_011Ccx92r68XCuZYTARCqH7j
 === 2026-07-12T05:10:05-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
 === 2026-07-12T05:10:05-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-12T05:13:05-07:00 start genome-brief (retry 3, --model claude-sonnet-4-6) ===
+Episode 20 is committed. Here's the candidate funnel for today's run:
+
+---
+
+**Candidate funnel — 2026-07-12**
+
+**Sources scanned:**
+- bioRxiv (microbiology): 30 items, 2026-07-09 to 2026-07-10 — 1 filtered (CMX521 coronavirus antiviral; already featured in Episode 18)
+- bioRxiv (genomics): 28 items — 0 pathogen-relevant items surviving filter
+- medRxiv: 30 items — 1 pathogen-relevant (South Africa pediatric COVID; already featured in Episode 19)
+- PubMed: 389 results (PMIDs only, not individually examined given strong candidates elsewhere)
+- Public-health surveillance: WHO DON page returned no accessible results; CDC H5N1 surveillance pages consulted via web search
+- Biotech/pharma press: web search covering FDA.gov, BioPharma Dive, STAT, CURE Today
+- AI in biomedicine: bioRxiv/arXiv — all recent preprints (July 9–12) returned abstract-only or off-topic; OpenDDE already covered Episode 17
+- Animal news: ScienceDaily animals/odd-creatures pages, Science News July 2026
+
+**Shortlist (after discarding already-covered items and spurious matches):**
+
+- ✅ **H5N1 clade 2.3.4.4b confirmed in Australia** — 13 detections across 3 states as of July 11, first non-migratory seabird July 10 (Avian Flu Diary / Doherty Institute) — **CHOSEN (Pathogen Watch)**
+- ✅ **FDA expands Padcev+Keytruda to all MIBC** — July 10 approval, KEYNOTE-B15 55.8% pCR, EFS HR 0.53 (CURE Today / FDA) — **CHOSEN (Biotech & Pharma)**
+- ✅ **Theridion himalayana — Himalayan happy-face spider** — July 9 ScienceDaily, convergent evolution (ScienceDaily) — **CHOSEN (Animal)**
+- ❌ Atacicept TRUTAKNA for IgAN — covered Episode 15 (PDUFA day July 7)
+- ❌ OpenDDE Aureka — covered Episode 17
+- ❌ Goblin shark footage — covered Episodes 17 and 19
+- ❌ GPT-5.6 — covered Episode 19
+- ❌ Biogen/RayThera acquisition — announced June 17, outside recency window
+- ❌ Ipsen/Kartos acquisition — announced late June, outside recency window
+- AI in biomedicine segment — dropped; no fresh (last 2 days) full-text-available preprint found
+- AI tools segment — dropped; GPT-5.6 already covered, no other significant lab release this weekend
+=== 2026-07-12T05:30:57-07:00 done  genome-brief (exit 0) (retry 3, --model claude-sonnet-4-6) ===
