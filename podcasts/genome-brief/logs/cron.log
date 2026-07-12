@@ -952,3 +952,22 @@ Episode 19 shipped. Here's the run summary for the log.
 
 **No source failed.** bioRxiv/medRxiv APIs and web searches all returned. Two picks are abstract-only (SA pediatric COVID and Kenya AI) — noted in-script per PIPELINE.md.
 === 2026-07-11T05:15:27-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-12T05:00:08-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011Ccx8RUNvz95qfZZ75CeDN
+=== 2026-07-12T05:02:08-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-12T05:02:08-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-12T05:05:08-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011Ccx8kDt5o4XrxhVAgHx3F
+=== 2026-07-12T05:06:19-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-12T05:06:19-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-12T05:09:19-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011Ccx92r68XCuZYTARCqH7j
+=== 2026-07-12T05:10:05-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-07-12T05:10:05-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-12T05:13:05-07:00 start genome-brief (retry 3, --model claude-sonnet-4-6) ===
