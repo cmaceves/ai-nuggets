@@ -1002,3 +1002,42 @@ Episode 20 is committed. Here's the candidate funnel for today's run:
 - AI tools segment — dropped; GPT-5.6 already covered, no other significant lab release this weekend
 === 2026-07-12T05:30:57-07:00 done  genome-brief (exit 0) (retry 3, --model claude-sonnet-4-6) ===
 === 2026-07-13T05:00:03-07:00 start genome-brief ===
+Episode 21 shipped. Committed as `37baa32` (the orchestrator handles push).
+
+## Candidate funnel
+
+**bioRxiv/medRxiv (2026-07-11 to 2026-07-13):** ~209 preprints scanned, ~16 pathogen/genomics hits after keyword filter, ~43 AI/biomed hits.
+
+**Pathogen watch shortlist:**
+- **Intrinsic T-cell programming + immune spatial organization govern sex-biased TB immunity** (Bishai/Klein, bioRxiv, 10.64898/2026.07.07.737119) — **chosen** (full text read)
+- Strep pyogenes cgMLST/LIN outbreak scheme (bioRxiv, abstract only — falls off)
+- Dengue CMIP6 thermal-suitability projections (medRxiv, 10.64898/2026.07.02.26357126, full text)
+- Borrelia afzelii OspE / CFH coevolution (bioRxiv, 10.64898/2026.07.10.737716, full text)
+- Fusarium keratitis genome assembly (bioRxiv, 10.64898/2026.07.06.736765, full text)
+
+Source failures: WHO Disease Outbreak News, CDC respiratory-viruses/NWSS pages, and Endpoints/Fierce Biotech all 403/404'd to WebFetch. ECDC had no items in-window.
+
+**Biotech shortlist:**
+- **Eplontersen CARDIO-TTRansform Phase 3 failure** (BioPharma Dive, Jul 11) — **chosen**
+- GSK/Hansoh B7-H3 ADC Phase 3 SCLC win (Jul 12)
+- Daraxonrasib pan-RAS(ON) pancreatic feature (STAT, Jul 13)
+- H1 2026 biotech VC/IPO/M&A snapshot (BioPharma Dive, Jul 11)
+- ARPA-H THRIVE $160M bespoke gene-editing program (Jul 11)
+
+**AI in biomedicine shortlist:**
+- **Evo Variant Effect Explorer (Goodfire/Mayo)** — bioRxiv v4, updated Jul 11 — **chosen** (full text read)
+- Multi-state protein-structure predictor benchmark (Georgia Tech, bioRxiv Jul 11)
+- CellTok single-cell tokenization for LLMs (Tsinghua, bioRxiv Jul 11)
+- OCellus 9B unified single-cell/spatial/perturbation model (Salus, bioRxiv Jul 12)
+- Deceptive Grounding clinical RAG attribution failure (arXiv Jul 10)
+
+**AI tools:** Nothing genuinely significant in window (biggest lab launches were Jul 6-9). Segment dropped.
+
+**Animals shortlist:**
+- **Neil the Seal returns to Tasmania** (phys.org, Jul 12) — **chosen**
+- Fossil goose rewrites NZ flightless-bird evolution (ScienceDaily, Jul 10)
+- Baby rattlesnake venom-control myth debunked (Jul 9)
+- Bumblebees accumulate 7x more heavy metals than honeybees (Jul 7)
+
+Episode duration: 20:35. Ran 20 minutes on TTS with two Mistral 429s (auto-recovered on retry).
+=== 2026-07-13T05:16:00-07:00 done  genome-brief (exit 0) ===
