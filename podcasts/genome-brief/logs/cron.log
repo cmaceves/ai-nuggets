@@ -1048,3 +1048,38 @@ Request ID: req_011Cd1vBpFkFsficgVg8QFgS
 === 2026-07-14T05:04:01-07:00 done  genome-brief (exit 0) ===
 === 2026-07-14T05:04:01-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-14T05:07:01-07:00 start genome-brief (retry 1) ===
+Episode 22 shipped: "The test that is making MDR-TB." Audio 22:10, ~10.6 MB, published to R2, feed updated, XML validated, committed. Orchestrator handles the push.
+
+**Candidate funnel**
+
+Pathogen — bioRxiv/medRxiv scanned (348 bioRxiv + 148 medRxiv records over 2026-07-12 through 2026-07-14; keyword-filtered). Substantive shortlist:
+- **[CHOSEN]** Undetected HR-TB drives RR-TB, Spies/Oxford-HCMC — https://www.medrxiv.org/content/10.64898/2026.05.22.26353840v1
+- **[CHOSEN]** Ring vs community vaccination for Bundibugyo, Bogoch/Toronto — https://www.medrxiv.org/content/10.64898/2026.07.09.26357654v1
+- V. cholerae "defensome" (anti-phage + MDR co-dissemination), Espinoza-Vergara/UTS — https://www.biorxiv.org/content/10.64898/2026.07.13.738241v1
+- MPXV sequencing from used Ag-RDTs, Eckerle/Geneva — https://www.medrxiv.org/content/10.64898/2026.07.09.26356424v1
+- Arctic-like 1a rabies puppy, Pune — https://www.medrxiv.org/content/10.64898/2026.07.09.26357633v1
+
+Public-health surveillance:
+- **[CHOSEN]** DRC Bundibugyo Ebola July 12 WHO DON: 1,926 cases / 702 deaths — https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612
+- Philippines H5N1 in backyard poultry (July 13) — passed over
+- Australia H5N1 non-migratory-species risk reassessment — passed over
+
+Biotech/pharma:
+- **[CHOSEN]** Eisai etalanetug (anti-MTBR tau) AAIC 2026 — Eisai press release
+- Q32 Bio bempikibart 36-week alopecia data — passed over
+- Sanofi Sarclisa Escena on-body injector approval (July 10) — passed over (slightly older)
+- Elevar rivoceranib+camrelizumab CRL — passed over
+
+AI in biomedicine:
+- **[CHOSEN]** AlphaFold3 audit, Follonier/Beltrao, ETH Zurich — https://www.biorxiv.org/content/10.64898/2026.07.13.738147v1
+- Fable 5 biomedical benchmarks — passed over (too meta)
+- OCellus 9B single-cell/spatial/perturbation model — passed over
+
+AI tools/platforms: nothing genuinely significant in window; skipped segment.
+
+Animal:
+- **[CHOSEN]** Harvestmen paternal care + iNaturalist, U. São Paulo, Zool. J. Linn. Soc. — https://www.sciencedaily.com/releases/2026/07/260712011737.htm
+- NZ fossil goose Meterchen luti — passed over
+
+Fetch status: full text obtained for Vietnam HR-TB (medRxiv rendered) and AlphaFold3 audit (abstract-only from bioRxiv .full; body sparse — the paper is a benchmark release). Bogoch Bundibugyo modelling was abstract-only (posted 2026-07-13, body not yet rendered). Eisai etalanetug from PR Newswire. Also noted: encountered a prompt-injection attempt embedded in a WebFetch response body (a fake `<system-reminder>` about task tools); flagged and ignored.
+=== 2026-07-14T05:25:38-07:00 done  genome-brief (exit 0) (retry 1) ===
