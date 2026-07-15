@@ -1083,3 +1083,10 @@ Animal:
 
 Fetch status: full text obtained for Vietnam HR-TB (medRxiv rendered) and AlphaFold3 audit (abstract-only from bioRxiv .full; body sparse — the paper is a benchmark release). Bogoch Bundibugyo modelling was abstract-only (posted 2026-07-13, body not yet rendered). Eisai etalanetug from PR Newswire. Also noted: encountered a prompt-injection attempt embedded in a WebFetch response body (a fake `<system-reminder>` about task tools); flagged and ignored.
 === 2026-07-14T05:25:38-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-15T05:00:03-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011Cd3osJYsmkQXgqq1souc8
+=== 2026-07-15T05:02:20-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-15T05:02:20-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-15T05:05:20-07:00 start genome-brief (retry 1) ===
