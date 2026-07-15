@@ -1090,3 +1090,34 @@ Request ID: req_011Cd3osJYsmkQXgqq1souc8
 === 2026-07-15T05:02:20-07:00 done  genome-brief (exit 0) ===
 === 2026-07-15T05:02:20-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-15T05:05:20-07:00 start genome-brief (retry 1) ===
+Episode 23 published. Commit `5f490ba`.
+
+## Candidate funnel (2026-07-15)
+
+**Sources scanned:**
+- bioRxiv 2026-07-13→15: 497 papers scanned via details API paginated (17 cursor pages), 142 matched keyword filter
+- medRxiv 2026-07-13→15: 198 papers scanned via details API paginated (7 cursor pages), 69 matched keyword filter
+- WHO Disease Outbreak News: DON612 (Bundibugyo Ebola, DRC/Uganda) — reviewed
+- Biotech/pharma news: Endpoints, STAT, BioPharma Dive, Fierce Biotech via web search
+- AI tool announcements: ThursdAI, llm-stats via web search — nothing genuinely fresh (Muse Spark 1.1 was July 9, GPT-5.6 opened July 9, both covered previously)
+- Animal news: ScienceDaily animals + zoology feeds, phys.org
+
+**Shortlist after discarding spurious hits:**
+- Pathogen watch:
+  - Kelch13 stochastics determine drug survival in artemisinin-resistant P. falciparum (Spielmann, Bernhard Nocht, bioRxiv 2026-07-13) — **CHOSEN**
+  - Feasibility of Monkeypox virus sequencing from antigen rapid diagnostic tests (Eckerle, medRxiv)
+  - Toxigenic Vibrio cholerae serogroups in drinking water sources, Zamfara State (medRxiv)
+  - Rifamycin B activity vs rifampicin-resistant RNA polymerase (bioRxiv structural)
+  - Kelch13-related: WHO Bundibugyo Ebola DON update — 1,963 cases / 719 deaths + US citizen medevac (skipped: yesterday's Ep 22 already covered the outbreak in depth)
+- Biotech/pharma:
+  - Biogen/Ionis diranersen Phase 2 CELIA at AAIC 2026 (July 14) — **CHOSEN** (natural continuation of Ep 22's Eisai etalanetug)
+  - AstraZeneca–Dizal Zegfrovy (sunvozertinib) global ex-China license, up to $1.5B (July 14) — **CHOSEN**
+  - Sarclisa Escena FDA approval July 10 (older, not fresh enough)
+- AI in biomedicine: no clearly compelling item within recency window — segment dropped per PROMPT.md guidance rather than padded
+- AI tools/platform: no fresh releases in last 1–2 days — segment dropped
+- Animals:
+  - Midwife toad chytrid survival via early-development antimicrobial peptides (UCL/ZSL/Imperial, Nature Chemical Biology, July 14) — **CHOSEN**
+  - Frog fungus / rattlesnake venom myth / octopus mirror use (older or duplicative)
+
+**Source-level notes:** all sources returned cleanly. Both biorxiv.org and astrazeneca.com press page 403 from this IP as expected — fetch_preprint.py's jina channel worked for the Kelch13 preprint; used PRNewswire mirror for the Dizal press release and investingnews mirror for the Biogen readout (both HTTP 200-verified).
+=== 2026-07-15T05:26:50-07:00 done  genome-brief (exit 0) (retry 1) ===
