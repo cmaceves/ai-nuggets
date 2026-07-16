@@ -1121,3 +1121,4 @@ Episode 23 published. Commit `5f490ba`.
 
 **Source-level notes:** all sources returned cleanly. Both biorxiv.org and astrazeneca.com press page 403 from this IP as expected — fetch_preprint.py's jina channel worked for the Kelch13 preprint; used PRNewswire mirror for the Dizal press release and investingnews mirror for the Biogen readout (both HTTP 200-verified).
 === 2026-07-15T05:26:50-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-16T05:00:03-07:00 start genome-brief ===
