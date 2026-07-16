@@ -1122,3 +1122,38 @@ Episode 23 published. Commit `5f490ba`.
 **Source-level notes:** all sources returned cleanly. Both biorxiv.org and astrazeneca.com press page 403 from this IP as expected — fetch_preprint.py's jina channel worked for the Kelch13 preprint; used PRNewswire mirror for the Dizal press release and investingnews mirror for the Biogen readout (both HTTP 200-verified).
 === 2026-07-15T05:26:50-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-07-16T05:00:03-07:00 start genome-brief ===
+Episode 24 shipped. Committed as `d8a5d09`; orchestrator will push.
+
+**Candidate funnel (2026-07-16):**
+
+Sources scanned:
+- **bioRxiv** (2026-07-14 to 2026-07-16): 419 items scanned across 14 pages; pathogen-keyword filter surfaced ~15 substantive hits after discarding false matches (e.g., "lineage" in developmental-biology contexts).
+- **medRxiv** (2026-07-14 to 2026-07-16): 166 items across 6 pages; ~12 substantive pathogen-relevant hits.
+- **Biotech/pharma business feeds** (Endpoints, STAT, Fierce, BioPharma Dive, FDA): via subagent.
+- **AI in biomedicine & AI-lab news**: via subagent.
+- **WHO DON / CDC / ECDC**: via subagent — no new DON for 14-16 July verified; DRC Ebola numbers stagnant since Ep 22/23; Australia H5N1 tick-up from 13→14 detections incremental only.
+- **Animal news**: via subagent.
+
+Substantive shortlist (title / URL):
+- **[CHOSEN]** Wastewater metagenomics quantitative normalization (Sabeti lab, Justen et al.) — https://www.medrxiv.org/content/10.64898/2026.07.14.26356442
+- **[CHOSEN]** Rifamycin B structural basis vs rifampicin-resistant RNAP — https://www.biorxiv.org/content/10.64898/2026.07.13.738162
+- **[CHOSEN]** Celcuity Revtorpyk (gedatolisib) FDA approval, HR+/HER2- breast cancer, 14 July 2026 — https://www.celcuity.com/celcuity-announces-fda-approval-of-revtorpyk-gedatolisib/
+- **[CHOSEN]** Chai Discovery $400M Series C at $3.8B valuation — https://siliconangle.com/2026/07/14/chai-discovery-nabs-400m-series-c-ai-designed-antibodies-reach-big-pharma/
+- **[CHOSEN — animal closer]** Chimpanzees prefer crystals (García-Ruiz, Frontiers in Psychology, DOI 10.3389/fpsyg.2026.1633599) — https://www.sciencedaily.com/releases/2026/07/260713000813.htm
+- Passed: SARS-CoV-2 ORF9b/TOMM70 mitochondrial exploitation (bioRxiv) — mechanistic but narrow, deferred.
+- Passed: Malaria parasite motility protein Alp1 (bioRxiv 2026-07-14) — malaria covered heavily in Ep 23.
+- Passed: Measles Utah-Arizona outbreak hidden burden phylodynamics (medRxiv) — strong item, held for a slower day.
+- Passed: Group A strep genomic epi Scotland 2014-2024 (medRxiv) — background trend, not fresh news.
+- Passed: Cameroon MDR-TB prevalence systematic review (medRxiv) — meta-analysis, less fresh.
+- Passed: West Nile virus in Italy transmission history (medRxiv) — historical, not urgent.
+- Passed: Biocontainment attenuation of mobile DNA in wastewater microbiome (bioRxiv) — technical but no clinical hook today.
+- Passed: FDA Leqembi Iqlik SC autoinjector approval — July 13, outside strict window for lead but was moved by subagent; deferred.
+- Passed: MHRA Akeega mHSPC BRCA expansion — regional regulatory, lower news value.
+- Passed: Samsung 2nm Anthropic chip — supply-chain rumor, no primary confirmation; deferred.
+- Passed: Gemini 3.5 Pro pre-launch reporting — will cover post-launch (July 17).
+- Passed: FLI 2026 AI Safety Index — evaluative not news.
+- Passed: DRC Ebola July 14 status — numbers essentially unchanged since Ep 23's Jul 12 update; covered incrementally.
+- Passed: Australia H5N1 14 seabird detections — one-detection tick-up from Ep 20 coverage, not fresh.
+
+Episode: 11:40, 5.6 MB, mp3 published to R2 and referenced in feed.xml. Commit `d8a5d09`.
+=== 2026-07-16T05:15:35-07:00 done  genome-brief (exit 0) ===
