@@ -1157,3 +1157,10 @@ Substantive shortlist (title / URL):
 
 Episode: 11:40, 5.6 MB, mp3 published to R2 and referenced in feed.xml. Commit `d8a5d09`.
 === 2026-07-16T05:15:35-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-17T05:00:05-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011Cd7buq2N8oym6pBnds6Ry
+=== 2026-07-17T05:08:01-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-17T05:08:01-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-17T05:11:01-07:00 start genome-brief (retry 1) ===
