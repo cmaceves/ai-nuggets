@@ -1208,3 +1208,4 @@ Committed as `6738615`. All pipeline steps complete. Now the required final cand
 
 - **Source failures**: none this run. All sources returned data on first request.
 === 2026-07-17T05:27:32-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-18T05:00:02-07:00 start genome-brief ===
