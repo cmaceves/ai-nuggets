@@ -1209,3 +1209,33 @@ Committed as `6738615`. All pipeline steps complete. Now the required final cand
 - **Source failures**: none this run. All sources returned data on first request.
 === 2026-07-17T05:27:32-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-07-18T05:00:02-07:00 start genome-brief ===
+Episode 26 committed. Not pushing — the orchestrator handles that.
+
+## Candidate funnel — Genome Brief, 2026-07-18
+
+**Sources scanned:**
+- bioRxiv details API (2026-07-16 to 2026-07-18): 542 items paginated, ~30 pathogen-relevant after keyword filter
+- medRxiv details API (2026-07-16 to 2026-07-18): 188 items paginated, ~20 pathogen-relevant
+- Biotech/pharma trade press (Endpoints/STAT/Fierce/BioPharma Dive/GlobeNewswire): 6 candidates surfaced for 17–18 Jul
+- AI-in-biomed sources: 5 candidates surfaced (DeepMind blog + arXiv/bioRxiv scan)
+- AI tools sources: 5 candidates (Google, xAI, Meta/Anthropic, OpenAI, MCP)
+- Animal news: 3 candidates in the 15–18 Jul window (older items rejected on recency)
+
+**Shortlist:**
+- Bouhentala & Kadir, medRxiv 2026-07-17 — Bundibugyo detection ceiling in DRC surveillance data ✓ *chosen*
+- Brochu et al. (Labcorp), medRxiv 2026-07-17 — nationwide mpox genomic surveillance, 2 Clade Ib introductions ✓ *chosen*
+- Michie/Rayner, bioRxiv 2026-07-16 — South American PfAAT1 chloroquine (already covered Ep 25)
+- Nima et al. (Notre Dame/Bangladesh), bioRxiv 2026-07-17 — KIC1 artemisinin resistance in CHT parasites (held; would have doubled up on malaria after Ep 25)
+- Kamelian/Gupta, medRxiv 2026-07-17 — intra-host SARS-CoV-2 evolution under sotrovimab PrEP (strong runner-up)
+- Novartis Fabhalta / iptacopan FDA traditional approval for primary IgAN, 16 Jul 2026 ✓ *chosen*
+- Jasper–Kira merger (July 17) — held, small-cap and less mechanistically interesting than Fabhalta
+- Mission Therapeutics / Dimerix MTX652 AKI deal (July 17) — held
+- DeepMind + Isomorphic Labs bioresilience program launch, 16 Jul 2026 ✓ *chosen*
+- Google Gemini 3.5 Pro third deadline slip + Meta–Anthropic $10B compute lease (NYT 17 Jul) ✓ *chosen (combined AI-tools mention)*
+- Hellmich et al., Biophysics Reviews 2026-07-14 — Perinereis cultrifera "bio-metal" jaws ✓ *chosen for closer*
+- Chiari et al., BMC Biology 2026-07-15 — lemon-frost leopard gecko as natural cancer model (held; solid runner-up)
+
+**Source failures:** none — all API/details endpoints returned cleanly. Preprint full-text fetches for the two ~24h-old chosen medRxiv items fell through jina/EPMC/API and were treated as abstract-only per PIPELINE.md; both were dominant picks with no close alternatives, so retained with explicit abstract-grounded summaries.
+
+**Files:** `podcasts/genome-brief/scripts/2026-07-18-genome-brief.md`, `episodes/2026-07-18-genome-brief.mp3` (7,761,754 B, 16:10), R2 uploaded, `feed.xml` updated (Ep 26 first), commit `429f9b5` on `main`.
+=== 2026-07-18T05:14:31-07:00 done  genome-brief (exit 0) ===
