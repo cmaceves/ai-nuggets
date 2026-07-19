@@ -1239,3 +1239,16 @@ Episode 26 committed. Not pushing — the orchestrator handles that.
 
 **Files:** `podcasts/genome-brief/scripts/2026-07-18-genome-brief.md`, `episodes/2026-07-18-genome-brief.mp3` (7,761,754 B, 16:10), R2 uploaded, `feed.xml` updated (Ep 26 first), commit `429f9b5` on `main`.
 === 2026-07-18T05:14:31-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-19T05:00:02-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CdBP75CTiMzhc7Sbk3t6h
+=== 2026-07-19T05:02:21-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-19T05:02:21-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-19T05:05:21-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CdBPYZgQvkxY1VsLtQdpD
+=== 2026-07-19T05:08:10-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-19T05:08:10-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-19T05:11:10-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
