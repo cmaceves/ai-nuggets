@@ -1252,3 +1252,62 @@ Request ID: req_011CdBPYZgQvkxY1VsLtQdpD
 === 2026-07-19T05:08:10-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-07-19T05:08:10-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-19T05:11:10-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Episode committed. Candidate funnel for this run:
+
+---
+
+**Genome Brief — 2026-07-19 candidate funnel**
+
+**Sources scanned:**
+
+- **bioRxiv details API** (2026-07-17 to 2026-07-19) — scanned via MCP; ~25 bioRxiv entries returned. Hits on pathogen/AI keywords below.
+- **medRxiv details API** (2026-07-17 to 2026-07-19) — scanned; no new items within recency window beyond what was chosen.
+- **PubMed** (last 5 days) — searched for pathogen surveillance, hantavirus, Andes virus, gonorrhea, meningococcal.
+- **General web / press** — WebSearch for biotech news, AI biomedicine, AI tools, animal news.
+
+**Shortlist after filtering:**
+
+Pathogen watch candidates:
+- ✅ **McGuinness et al. (UK multicenter), bioRxiv 2026-07-16** — meningococcal histone-like proteins (HLPs) drive endothelial barrier failure; non-anticoagulant heparins block damage. Full text read via fetch_preprint.py. **CHOSEN (lead).**
+- ✅ **Sikora et al. (OHSU/Portland/Galveston), bioRxiv 2026-07-16** — first mRNA-LNP vaccine against N. gonorrhoeae (BamA antigen); immunogenic but not protective; no serum bactericidal activity. Full text read via fetch_preprint.py. **CHOSEN.**
+- ✅ **PUC Chile team, Lancet Microbe 2026-07-15** — nationwide full-genome characterization of Andes virus from 58 Chilean human cases 2011–2024; two lineages (Chi-North/ANDV-South); no genetic signatures for P2P transmission. Abstract only (403 on full text). **CHOSEN.**
+- ❌ Bundibugyo detection ceiling preprint (10.64898/2026.07.16.26358218) — already covered Episode 26; excluded.
+- ❌ WHO DON updates — no new DON outside recency window for novel pathogens.
+
+Biotech/pharma candidates:
+- ❌ Tebipenem (GSK oral carbapenem) FDA approval — confirmed June 17, 2026 via GSK press release; 32 days old, outside 1–2 day recency window. Dropped.
+- ❌ No other biotech/pharma items found within 1–2 day window. Segment dropped.
+
+AI in biomedicine / AI tools:
+- ❌ No preprints or platform news within recency window met the bar. Both segments dropped.
+
+Animal candidates:
+- ✅ **U. Sydney/Texas A&M, Mol Biol Evol, 2026-07-15** — first de novo koala mutation rate; near-extinction bottleneck ~60,000 ya (glacial, pre-human); all modern koalas from one founding group. ScienceDaily July 15. **CHOSEN for closer.**
+- ❌ Other animal items outside recency window or insufficiently novel.
+
+**Source failures:** bioRxiv full-text for Bundibugyo preprint (10.64898/2026.07.16.26358218) failed via all three channels (jina 253 chars, EPMC metadata-only, biorxiv API no record) — too new; moot as already covered Ep 26. Lancet Microbe (Andes virus) 403'd on full text; abstract sufficient for summary. Tebipenem FDA/AJMC pages 403/404; confirmed via GSK press release. WHO DON page returned "no results matching criteria"; fetched DON602 and DON603 directly.
+
+**Episode 27 final items (4 items; biotech/pharma, AI biomedicine, AI tools segments all dropped — nothing fresh):**
+1. Meningococcal HLPs mechanism + non-anticoagulant heparin therapy (lead; full text read)
+2. Gonorrhea mRNA-LNP vaccine BamA — immunogenic but not protective (full text read)
+3. Andes virus nationwide Chile genomics — no P2P genetic signature (abstract-only)
+4. Koala glacial bottleneck — first mutation rate, 60 kya near-extinction (ScienceDaily)
+
+**Files:** `podcasts/genome-brief/scripts/2026-07-19-genome-brief.md`, `episodes/2026-07-19-genome-brief.mp3` (7,659,145 B, 15:57), R2 uploaded, `feed.xml` updated (Ep 27 first), commit `6fb257b` on `main`.
+=== 2026-07-19T05:11:10-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+Episode 27 is fully published. Here's a summary of what was produced:
+
+**Episode 27: The toxin dying bacteria leave behind** (Sun, July 19, 2026)
+
+Four segments:
+1. **Lead — Meningococcal HLPs** (bioRxiv 2026-07-16, UK multicenter): When antibiotics kill N. meningitidis, the dying bacteria release histone-like proteins that strip VE-cadherin and EPCR from endothelial cell junctions — not LPS — causing the vascular barrier failure behind purpura fulminans. Non-anticoagulant heparins and anti-HLP antibody cocktails block the damage, pointing to co-administration at the first antibiotic dose as a therapeutic strategy.
+
+2. **Pathogen — Gonorrhea mRNA vaccine** (bioRxiv 2026-07-16, OHSU/Portland/Galveston): First-ever mRNA-LNP vaccine against a gram-negative bacterium. BamA antigen generates strong systemic and mucosal antibodies but no bactericidal activity and no clearance in the mouse vaginal model — gonorrhea's immune evasion neutralizes complement even when antibodies are present. Platform established; gap clearly defined.
+
+3. **Pathogen — Andes virus genomics Chile** (Lancet Microbe 2026-07-15): 58 Chilean patients 2011–2024; two lineages (Chi-North / ANDV-South); no consistent genetic signatures distinguish person-to-person transmission cases from sporadic cases — you cannot read the genome to predict onward spread.
+
+4. **Animal — Koala glacial bottleneck** (Mol Biol Evol, U. Sydney/Texas A&M): First de novo koala mutation rate. Population bottomed ~60,000 ya from climate-driven eucalyptus loss — 45,000 years before the first humans. Every living koala descends from that single founding group.
+
+- Audio: 7,659,145 bytes, 15:57
+- Commit: `6fb257b`
+=== 2026-07-19T05:38:37-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
