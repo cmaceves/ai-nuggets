@@ -1311,3 +1311,16 @@ Four segments:
 - Audio: 7,659,145 bytes, 15:57
 - Commit: `6fb257b`
 === 2026-07-19T05:38:37-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-07-20T05:00:02-07:00 start genome-brief ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CdDHBntdekRNbDQggDmrV
+=== 2026-07-20T05:05:57-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-20T05:05:57-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-20T05:08:57-07:00 start genome-brief (retry 1) ===
+API Error: Claude Code is unable to respond to this request, which appears to violate our Usage Policy (https://www.anthropic.com/legal/aup). Try rephrasing the request in a new session or change your model.
+
+Request ID: req_011CdDHb6vUujeMGjoPm39G5
+=== 2026-07-20T05:11:13-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-20T05:11:13-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-20T05:14:13-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
