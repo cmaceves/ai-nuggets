@@ -1324,3 +1324,35 @@ Request ID: req_011CdDHb6vUujeMGjoPm39G5
 === 2026-07-20T05:11:13-07:00 done  genome-brief (exit 0) (retry 1) ===
 === 2026-07-20T05:11:13-07:00 no episode produced for genome-brief; retrying in 180s ===
 === 2026-07-20T05:14:13-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Episode 28 is published. Here's the candidate funnel for today's run:
+
+---
+
+**Candidate funnel — 2026-07-20**
+
+**bioRxiv (microbiology, 2026-07-17/18/19):** 30 items scanned, 3 matched pathogen keywords after review.
+- ✓ **Liu et al. — Bovine H5N1 infects lactating swine via mammary gland** (bioRxiv 2026-07-18) — *SELECTED (lead story)*
+- ✓ **Nima et al. — KIC1 loss-of-function drives artemisinin resistance in Bangladeshi P. falciparum** (bioRxiv 2026-07-17) — *SELECTED*
+- Upadhye et al. — Nipah virus cryo-ET structural proteins — dropped (structural biology, lower broadcast significance)
+
+**medRxiv (epidemiology, 2026-07-17/18/19):** 21 items scanned, 1 strong pathogen match.
+- Bouhentala & Kadir — Bundibugyo detection ceiling in DRC — abstract-only fetch (jina 253 chars, EPMC no full text, too new); confirmed via WHO DON and NICD web sources, but already covered in Episodes 26 and 22 — skipped.
+
+**PubMed (last 5 days):** 112 hits, scanned top 20 — no items not already covered or not already in bioRxiv above.
+
+**Biotech & pharma (web):**
+- GSK camlipixant CALM-1/CALM-2 Phase 3 discontinuation (July 19, 2026) — *SELECTED*
+- Eli Lilly/AtaiBeckley psychedelics acquisition (July 16) — already covered Episode 25, skipped
+- Novartis Fabhalta IgAN FDA approval (July 16) — already covered Episode 26, skipped
+
+**AI in biomedicine (arXiv/bioRxiv bioinformatics):** No dominant story from July 18-20. Nextstrain v2 (July 17) considered but treated as preprint update rather than new news — segment dropped.
+
+**AI tools:** Thinking Machines Inkling (July 15) outside 1-2 day window — segment dropped.
+
+**Animals:**
+- Keeunamorphia marsupial order, Riversleigh Queensland (Journal of Paleontology, July 2026) — *SELECTED* (not previously covered in Episodes 21-27)
+- Koala population collapse (July 15) — covered Episode 27, skipped
+- Colobus congoensis Likweli (July 16) — covered Episode 25, skipped
+
+**Chosen episode: 4 items total.** Script: 11,417 chars. Audio: Mistral voxtral-mini-tts en_paul_neutral, 4,886,821 bytes, 10:11.
+=== 2026-07-20T05:31:55-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
