@@ -1357,3 +1357,32 @@ Episode 28 is published. Here's the candidate funnel for today's run:
 **Chosen episode: 4 items total.** Script: 11,417 chars. Audio: Mistral voxtral-mini-tts en_paul_neutral, 4,886,821 bytes, 10:11.
 === 2026-07-20T05:31:55-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
 === 2026-07-21T05:00:03-07:00 start genome-brief ===
+Episode 29 shipped. Below is today's candidate funnel for the audit log.
+
+**Episode 29: The flu that broke the flu assay** — committed at 23a408b, mp3 810.8s (13:31), 6.49 MB, published to R2.
+
+## Candidate funnel — 2026-07-21
+
+**bioRxiv (2026-07-19 → 2026-07-21):** 918 unique preprints scanned; 25 pathogen-keyword hits after filtering. Shortlist after discarding spurious matches:
+- **Loss of hemagglutination ability by H3N2 influenza A virus, subclade K.** — Liang et al., Utrecht. https://www.biorxiv.org/content/10.64898/2026.07.20.739523v1  **← CHOSEN (pathogen watch #1)**
+- Highly Pathogenic Avian Influenza H5N5 in a Polar Bear and Atlantic Walrus, Svalbard, 2026 — Madslien et al., Norwegian Veterinary Institute. https://www.biorxiv.org/content/10.64898/2026.07.20.739480v1  (passed — didn't want back-to-back H5 with yesterday)
+- Long-term SARS-CoV-2 Persistence in Syrian Hamsters — de Lima et al., Univ. São Paulo. https://www.biorxiv.org/content/10.64898/2026.07.19.739454v1
+- Widespread occurrence of bovine-like and new viruses in wild deer across the US — Hoarau et al., Penn Wildlife Futures. https://www.biorxiv.org/content/10.64898/2026.07.17.739239v1
+- ATHS-C30 broadly neutralizing mAb vs JN.1 lineage — Bhattacharya lab. https://www.biorxiv.org/content/10.64898/2026.07.20.739483v1
+
+**medRxiv (2026-07-19 → 2026-07-21):** 306 preprints scanned; shortlist:
+- **Genomic insights into the population structure and recent expansion of Coccidioides in the United States** — da Fonseca et al., Utah. https://www.medrxiv.org/content/10.64898/2026.07.17.26358348v1  **← CHOSEN (pathogen watch #2)**
+- Nipah virus transmission dynamics 2001–2026 (systematic review) — https://www.medrxiv.org/content/10.64898/2026.07.16.26357631v1
+
+**Biotech / pharma business (July 20):** Vertex-Crinetics ($10B, July 6 — stale); Eli Lilly-AtaiBeckley (already in Ep 25); Shionogi Fetroja sNDA acceptance (small news); Dyne BLA acceptance (small); Anthropic Coefficient Bio retrospective on Endpoints (blocked 403). None cleared the bar for a dedicated segment.
+
+**AI in biomedicine / AI tools (July 20):**
+- **BMS deploys NVIDIA DGX SuperPOD Vera Rubin** — first life-sciences buyer, ~10× compute/watt. https://finance.yahoo.com/technology/ai/articles/bristol-myers-buys-nvidias-latest-110116053.html  **← CHOSEN (AI segment)**
+
+**Animal closer (July 20):**
+- **Silva Júnior et al., Palaeontology (2026) — titanosaur bipedal rearing FEA on Uberabatitan and Neuquensaurus.** https://www.sciencedaily.com/releases/2026/07/260719231758.htm  **← CHOSEN**
+- T. rex tooth in Edmontosaurus (July 14 press cycle, stale)
+- St Bathans goose Meterchen luti (July 9)
+
+**Notes on depth:** Both bioRxiv/medRxiv picks fell through to abstract-only via `fetch_preprint.py` (the H3N2 paper posted July 20, too new for full body render; Coccidioides paper likewise abstract-only). Abstracts for both were detailed enough to ground the summaries. `hpcwire` returned 403; used Yahoo Finance mirror for the BMS-NVIDIA details.
+=== 2026-07-21T05:16:17-07:00 done  genome-brief (exit 0) ===
