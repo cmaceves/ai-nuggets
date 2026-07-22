@@ -1386,3 +1386,27 @@ Episode 29 shipped. Below is today's candidate funnel for the audit log.
 
 **Notes on depth:** Both bioRxiv/medRxiv picks fell through to abstract-only via `fetch_preprint.py` (the H3N2 paper posted July 20, too new for full body render; Coccidioides paper likewise abstract-only). Abstracts for both were detailed enough to ground the summaries. `hpcwire` returned 403; used Yahoo Finance mirror for the BMS-NVIDIA details.
 === 2026-07-21T05:16:17-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-22T05:00:03-07:00 start genome-brief ===
+Failed to authenticate. API Error: 401 Invalid authentication credentials
+=== 2026-07-22T05:00:08-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-22T05:00:08-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-22T05:03:08-07:00 start genome-brief (retry 1) ===
+Failed to authenticate. API Error: 401 Invalid authentication credentials
+=== 2026-07-22T05:03:13-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-22T05:03:13-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-22T05:06:13-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-07-22T05:06:18-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-07-22T05:06:18-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-22T05:09:18-07:00 start genome-brief (retry 3, --model claude-sonnet-4-6) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-07-22T05:09:23-07:00 done  genome-brief (exit 0) (retry 3, --model claude-sonnet-4-6) ===
+=== 2026-07-22T05:09:23-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-22T05:12:23-07:00 start genome-brief (retry 4, --model claude-haiku-4-5-20251001) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-07-22T05:12:27-07:00 done  genome-brief (exit 0) (retry 4, --model claude-haiku-4-5-20251001) ===
+=== 2026-07-22T05:12:27-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-22T05:15:27-07:00 start genome-brief (retry 5, --model claude-haiku-4-5-20251001) ===
+Failed to authenticate. API Error: 401 Invalid authentication credentials
+=== 2026-07-22T05:15:32-07:00 done  genome-brief (exit 0) (retry 5, --model claude-haiku-4-5-20251001) ===
+=== 2026-07-22T05:15:32-07:00 FAILED: no episode produced for genome-brief after all retries ===
