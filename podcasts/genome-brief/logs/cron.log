@@ -1411,3 +1411,44 @@ Failed to authenticate. API Error: 401 Invalid authentication credentials
 === 2026-07-22T05:15:32-07:00 done  genome-brief (exit 0) (retry 5, --model claude-haiku-4-5-20251001) ===
 === 2026-07-22T05:15:32-07:00 FAILED: no episode produced for genome-brief after all retries ===
 === 2026-07-23T05:00:03-07:00 start genome-brief ===
+Episode 30 published. Script written, audio generated (19:13, 9.2 MB), uploaded to R2, feed.xml updated, committed locally. Orchestrator will push.
+
+## Candidate funnel
+
+**bioRxiv** — 615 items scanned across pages 0–210 (last 3 days). Relevance shortlist after removing spurious hits:
+- Genome of avian malaria parasite Haemoproteus majoris (WW2) — https://www.biorxiv.org/content/10.64898/2026.07.13.738139
+- Auditory advantage of Rdl-resistant mosquitoes in urban environments — https://www.biorxiv.org/content/10.64898/2026.05.20.726456
+- Germinal center-independent memory B cells protect from lethal influenza — https://www.biorxiv.org/content/10.64898/2026.07.15.738751
+- Rhesus stem-directed antibodies from conventional HA immunogen — https://www.biorxiv.org/content/10.64898/2026.07.16.738984
+- Variant rRNA as translational repressor in P. falciparum — https://www.biorxiv.org/content/10.64898/2026.06.17.732804
+
+**medRxiv** — 145 items scanned; relevant shortlist:
+- **[CHOSEN — lead]** First artemisinin-resistance marker (pfkelch13 R622I) in Somalia + HRP2/3 deletions — https://www.medrxiv.org/content/10.64898/2026.07.19.26357122v1
+- **[CHOSEN]** Nepal typhoid conjugate vaccine genomic impact (Andrews lab) — https://www.medrxiv.org/content/10.64898/2026.07.21.26358582v1
+- Bundibugyo 2026 outbreak epidemiological reanalysis — https://www.medrxiv.org/content/10.64898/2026.07.19.26358411v1 (redundant with Ep 26 coverage)
+- H5N1 South Asia surveillance geographic concentration — https://www.medrxiv.org/content/10.64898/2026.07.20.26358505v1
+- Alberta municipal wastewater AMR socioeconomic gradients — https://www.medrxiv.org/content/10.64898/2026.07.19.26358431v1
+- Ambient-temperature one-pot CRISPR MTB detection — https://www.medrxiv.org/content/10.64898/2026.07.21.26358604v1
+- AI framework for TB drug resistance profiling — https://www.medrxiv.org/content/10.64898/2026.07.20.26358475v1
+- Fluoroquinolone/MDR trends in NARMS-monitored enteric pathogens — https://www.medrxiv.org/content/10.64898/2026.07.20.26358440v1
+
+**Biotech / pharma** (Endpoints, STAT, Fierce, BioSpace, GlobeNewswire):
+- **[CHOSEN]** Agios discontinues tebapivat in SCD (Phase 2 flat) — https://www.globenewswire.com/news-release/2026/07/21/3330294/31990/en/Agios-Provides-Update-on-Phase-2-Trial-of-Tebapivat-in-Sickle-Cell-Disease.html
+- BridgeBio encaleret NDA accepted for ADH1, PDUFA May 8 2027
+- Samsung Bioepis / IntoCell ADC license
+- BioSimilars Act House Energy & Commerce markup
+- Jupiter Neurosciences / PharmAla MDMA license
+
+**AI in biomedicine / AI tools** (last 1–2 days):
+- **[CHOSEN]** Anthropic Rare Disease Research Claude Grants (21 July) — https://www.clinicalresearchnewsonline.com/news/2026/07/21/anthropic-announces-rare-disease-research-claude-grants
+- OpenAI GPT-5.6 (Sol/Luna/Terra) general availability (July 9 — outside window)
+- Aureka OpenDDE open-source co-folding foundation model
+
+**Fun animals** (last few days):
+- **[CHOSEN]** Honeybee doublesex neural circuit controls polyethism (PNAS 20 July) — https://phys.org/news/2026-07-bee-brains-reveal-colonies-central.html
+- Kogia Helicobacter novel bacteria in pygmy sperm whales (ScienceDaily 21 July) — dropped as too grim for closer
+- Happy-Face spider Himalayas — 9 July, outside recency window
+- Ancient fern savannahs / end-Triassic wildfires — not really an animal story
+
+No source-level failures; all fetches succeeded (medRxiv items came back abstract-only via bioRxiv API channel 3 — noted in-line; the AI/biotech/animal picks were WebFetch-verified).
+=== 2026-07-23T05:16:52-07:00 done  genome-brief (exit 0) ===
