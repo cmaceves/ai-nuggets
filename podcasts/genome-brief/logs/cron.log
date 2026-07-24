@@ -1453,3 +1453,43 @@ Episode 30 published. Script written, audio generated (19:13, 9.2 MB), uploaded 
 No source-level failures; all fetches succeeded (medRxiv items came back abstract-only via bioRxiv API channel 3 — noted in-line; the AI/biotech/animal picks were WebFetch-verified).
 === 2026-07-23T05:16:52-07:00 done  genome-brief (exit 0) ===
 === 2026-07-24T05:00:02-07:00 start genome-brief ===
+Episode 31 published. Script written, audio generated (16:17, 7.8 MB), uploaded to R2, feed.xml updated, committed locally. Orchestrator will push.
+
+## Candidate funnel
+
+**bioRxiv** — 579 items scanned across pages 0–559 (last 3 days); 87 items passed pathogen/AI keyword filter. Substantive shortlist:
+- **[CHOSEN — lead]** Evolutionary constraints on bovine-derived H5N1 in ferrets (Machkovech, Friedrich, Kawaoka; Wisconsin) — https://www.biorxiv.org/content/10.64898/2026.07.20.739655v1
+- **[CHOSEN]** Antibody evasion and receptor binding of SARS-CoV-2 PQ.16.1.1 and RK.1 (He, Cao; Peking) — https://www.biorxiv.org/content/10.64898/2026.07.21.739818v1
+- **[CHOSEN]** MGM2 microbiome foundation model (Zhang, Ning; Huazhong) — https://www.biorxiv.org/content/10.64898/2026.07.20.739063v1
+- A lethal human H5N5 isolate exhibits low pandemic risk traits (Lakdawala; bioRxiv 2026-07-22) — strong alternate but redundant with the Kawaoka H5N1 pick
+- Within/between-host dynamics of HPAI in Pennsylvania farms (bioRxiv 2026-07-22) — good surveillance work, subsumed by lead pick
+- Flu Mutation Explorer platform (bioRxiv 2026-07-22) — tool paper, below bar
+- HPRC2 human pangenome reference (bioRxiv 2026-07-22) — significant but not fresh news enough to spotlight
+- Persistent multi-species outbreaks of a measles-like virus / canine distemper (bioRxiv 2026-07-22) — considered as animal-adjacent pathogen story
+
+**medRxiv** — 141 items scanned; substantive shortlist:
+- RSV concentration in NY wastewater vs hospitalizations (Hill et al.) — https://www.medrxiv.org/content/10.64898/2026.07.21.26358587v1 (strong runner-up)
+- Geographic concentration of H5 genomic surveillance, South Asia — https://www.medrxiv.org/content/10.64898/2026.07.20.26358505v1
+- Pandemic influenza protection before day one: broadly cross-reactive seasonal vaccine modeling — https://www.medrxiv.org/content/10.64898/2026.07.22.26358670v1
+- Landscape of non-SARS-CoV-2 respiratory virus sequence data in Africa — https://www.medrxiv.org/content/10.64898/2026.06.27.26356737v2
+
+**Biotech / pharma:**
+- **[CHOSEN]** GSK Jideytro (zidesamtinib) FDA approval, 22 July 2026 — https://www.gsk.com/en-gb/media/press-releases/jideytro-zidesamtinib-approved-in-the-us-for-previously-treated-ros1-positive-non-small-cell-lung-cancer/
+- Summit HARMONi ivonescimab OS update (22 July) — positive trend but not statistically significant; below bar for a full segment
+- Roche H1 2026 earnings (July 22) — routine
+- Synaptiq Therapeutics launch — below bar
+
+**AI in biomedicine / AI tools:**
+- **[CHOSEN via MGM2 preprint above]** — the strongest in-window AI-in-biomedicine item was a bioRxiv preprint, not a lab announcement
+- Google DeepMind Gemini 3.6 Flash / 3.5 Flash Cyber (July 22) — capability update, not a jump; below bar
+- Anthropic Claude Science / Sonnet 5 (late June / July 1) — outside 1–2 day window
+- Aureka OpenDDE (July 6) — outside window
+- Meta Muse Spark 1.1 (mid-July) — outside 2-day window
+
+**Fun animals** (last few days):
+- **[CHOSEN]** Orca "ram-to-fragment" sunfish predation, Gulf of California — https://www.frontiersin.org/journals/ethology/articles/10.3389/fetho.2026.1835536/full (Frontiers in Ethology, 23 July 2026)
+- Pygmy sperm whale Helicobacter (July 21) — noted in Ep 30 funnel; grimmer, weaker fit
+- Ancient fern savannahs / end-Triassic wildfires — not really an animal story
+
+**Notes on depth:** All three bioRxiv preprints (H5N1, PQ.16/RK.1, MGM2) fell through to abstract-only via `fetch_preprint.py` — all three posted 22–23 July, too new for full body render. Abstracts were substantive (1300–1850 chars) and grounded the summaries; the strongest speculative claims in the H5N1 explainer (e.g., the framing of the finding as an evolutionary ceiling) come directly from the paper's stated conclusions. GSK press release, ScienceDaily orca coverage, and Frontiers paper metadata were WebFetch-verified. No source-level failures.
+=== 2026-07-24T05:16:40-07:00 done  genome-brief (exit 0) ===
