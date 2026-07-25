@@ -1494,3 +1494,44 @@ Episode 31 published. Script written, audio generated (16:17, 7.8 MB), uploaded 
 **Notes on depth:** All three bioRxiv preprints (H5N1, PQ.16/RK.1, MGM2) fell through to abstract-only via `fetch_preprint.py` — all three posted 22–23 July, too new for full body render. Abstracts were substantive (1300–1850 chars) and grounded the summaries; the strongest speculative claims in the H5N1 explainer (e.g., the framing of the finding as an evolutionary ceiling) come directly from the paper's stated conclusions. GSK press release, ScienceDaily orca coverage, and Frontiers paper metadata were WebFetch-verified. No source-level failures.
 === 2026-07-24T05:16:40-07:00 done  genome-brief (exit 0) ===
 === 2026-07-25T05:00:02-07:00 start genome-brief ===
+Episode 32 shipped. Summary follows.
+
+---
+
+**Episode 32: The math on Ebola travel screening** — 12:09, 5,834,962 bytes.
+
+Committed to `main` as `81d821e`. Orchestrator will push.
+
+**Candidate funnel:**
+
+*Pathogen genomics — 640 preprints scanned (526 bioRxiv + 114 medRxiv), 59 survived keyword filter; WHO DON empty for the window*
+- Airport syndromic screening for Bundibugyo ebolavirus — Quilty et al., Charité / CMMID (medRxiv 2026-07-23) — **CHOSEN**
+- RSV wastewater vs. age-stratified hospitalisations, NY — Hill / Larsen, Syracuse (medRxiv 2026-07-23)
+- Non-SARS-CoV-2 respiratory virus sequence data landscape in Africa — Kwok / Ho, MRC-Glasgow (medRxiv 2026-07-23)
+- Modeling the extinction of influenza B/Yamagata — Gutierrez / Rohani, Georgia (medRxiv 2026-07-23)
+- Norway 2025 Dermatophilus congolensis contact-sport outbreak, WGS-resolved — Pape / Jore (bioRxiv 2026-07-25)
+
+*Biotech / pharma — ~40 items scanned across Endpoints, STAT, Fierce Biotech, BioPharma Dive; 5 substantive*
+- Otsuka centanafadine / Simtriyo FDA approval, first-in-class NDSRI for ADHD (2026-07-24) — **CHOSEN**
+- Ipsen Bylvay Phase 3 BOLD fails in biliary atresia (2026-07-24)
+- Biogen/Ionis diranersen Phase 2 CELIA at AAIC — inverse dose-response tau signal in AD
+- Amgen Tavneos formal-hearing filing on FDA withdrawal proposal (2026-07-23)
+- Travere sparsentan PDUFA in FSGS (2026-07-24)
+
+*AI in biomedicine — 542 bioRxiv + ~500 arXiv scanned, 62 survived*
+- ALDE — ML-assisted evolution of broadly functional enzyme libraries — Lal, Yang, Zhang, Arnold, Caltech (bioRxiv 2026-07-24) — **CHOSEN**
+- CAD blueprint-guided diffusion for protein shape programming — Kortemme, UCSF (bioRxiv 2026-07-23)
+- Champollion self-supervised cortical-folding representations for GWAS — Mangin, CEA/Neurospin (bioRxiv 2026-07-24)
+- AINN-Express VHH antibody expression FM with leakage-safe eval — Pan, Ainnocence (bioRxiv 2026-07-24)
+- NetworkVI biologically-informed VAE — Eils, Charité (bioRxiv 2026-07-24)
+
+*AI tools / platforms — 1 significant release in window*
+- Claude Opus 5 launch, Anthropic (2026-07-24) — **CHOSEN** — nothing else fresh + significant from OpenAI, DeepMind, Meta, xAI in window
+
+*Animals — last few days*
+- Limnospondylus ajimuensis, new fossil giant salamander from Kyushu — Noda et al., Kyoto (PeerJ 2026-07-22/23) — **CHOSEN**
+- Colobus congoensis / Likweli, new colobine monkey from DRC — Hart et al., PLOS ONE (older, 2026-07-15)
+- Schmidt Ocean Institute — 31 new deep-sea species off Brazil (older, 2026-07-14)
+
+*Fetch notes:* Arnold bioRxiv preprint (`10.64898/2026.07.23.740427`) — full text unavailable via jina/EPMC/API (body not yet rendered); item retained as abstract-only per PIPELINE.md rules because it's a clearly dominant AI-in-biomedicine pick from a Nobel laureate's lab. All other picks read from full text or primary press release. WHO Disease Outbreak News returned no items for the window. CDC surveillance pages not directly queried — noted as a small gap.
+=== 2026-07-25T05:17:18-07:00 done  genome-brief (exit 0) ===
