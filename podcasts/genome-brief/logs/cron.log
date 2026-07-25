@@ -1493,3 +1493,4 @@ Episode 31 published. Script written, audio generated (16:17, 7.8 MB), uploaded 
 
 **Notes on depth:** All three bioRxiv preprints (H5N1, PQ.16/RK.1, MGM2) fell through to abstract-only via `fetch_preprint.py` — all three posted 22–23 July, too new for full body render. Abstracts were substantive (1300–1850 chars) and grounded the summaries; the strongest speculative claims in the H5N1 explainer (e.g., the framing of the finding as an evolutionary ceiling) come directly from the paper's stated conclusions. GSK press release, ScienceDaily orca coverage, and Frontiers paper metadata were WebFetch-verified. No source-level failures.
 === 2026-07-24T05:16:40-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-25T05:00:02-07:00 start genome-brief ===
