@@ -1536,3 +1536,38 @@ Committed to `main` as `81d821e`. Orchestrator will push.
 *Fetch notes:* Arnold bioRxiv preprint (`10.64898/2026.07.23.740427`) — full text unavailable via jina/EPMC/API (body not yet rendered); item retained as abstract-only per PIPELINE.md rules because it's a clearly dominant AI-in-biomedicine pick from a Nobel laureate's lab. All other picks read from full text or primary press release. WHO Disease Outbreak News returned no items for the window. CDC surveillance pages not directly queried — noted as a small gap.
 === 2026-07-25T05:17:18-07:00 done  genome-brief (exit 0) ===
 === 2026-07-26T05:00:03-07:00 start genome-brief ===
+Episode 33 committed. The orchestrator will handle the push.
+
+**Candidate funnel:**
+
+Pathogen watch (bioRxiv+medRxiv 2026-07-24 to 07-26, 55 keyword hits after dedup):
+- SARS cov two PQ.16.1.1 / RK.1 D four twenty N — already covered in Episode 31, dropped
+- Beyond the blood: tissue-resident SARS cov two vaccine antibody responses (bioRxiv, He/Yates) — abstract only, less novel
+- **Prevalent phenotypic mutation impairs binding of bnAbs to influenza HA (bioRxiv, Sanchez-Ruiz, Granada) — CHOSEN**
+- mRNA prime-and-pull BCG vaccination (bioRxiv, Kupz group) — abstract only, mouse-model
+- Chicken interferon-stimulated gene screen vs influenza — narrower audience
+- Bundibugyo ring/community vaccination modelling (medRxiv) — bioRxiv API had no record; would duplicate yesterday's Ebola theme
+- Norway Dermatophilus contact-sport outbreak — narrow interest
+
+Biotech (BioPharma Dive, Endpoints attempted but 403, Fierce Biotech 403):
+- **FDA Pharmacy Compounding Advisory Committee narrowly endorses BPC-157, KPV, TB-500, MOTS-c (23 Jul, biopharmadive) — CHOSEN**
+- **Sanofi discontinues amlitelimab in atopic dermatitis (24 Jul, biopharmadive) — CHOSEN (secondary)**
+- Merck Lipfendra approval (16 Jul) — out of window
+- Vertex $10B bid for Crinetics — out of window
+
+AI in biomedicine (arXiv cache + bioRxiv 07-24..07-26):
+- **Chemical Chain-of-Thought as hallucination-prone molecular scratchpad (arXiv 2607.20935, Jiatong Li) — CHOSEN**
+- MetaClaw agentic metagenomics framework (bioRxiv) — abstract only
+- Single-cell perturbation DE benchmarking (bioRxiv) — abstract only
+- SynthSeg brain-size-aware segmentation (bioRxiv) — abstract only
+- Arnold ALDE enzyme library (bioRxiv) — covered in Episode 32
+
+AI tools/platforms: dropped — Claude Opus 5 (24 Jul) covered in Episode 32, nothing else on 25-26 hit the significance bar.
+
+Animals (ScienceDaily 07-24..07-26):
+- Orca ram-to-fragment sunfish predation — already covered in Episode 31, dropped
+- New giant salamander Limnospondylus ajimuensis — already covered in Episode 32, dropped
+- Cyclops-eye vertebrate ancestor — underlying paper Feb 2026, stale
+- Egyptian ape fossil — potential candidate
+- **Guam brown tree snake structural-variant genome (Science Advances, Krabbenhoft UB/USGS, 24 Jul) — CHOSEN**
+=== 2026-07-26T05:20:44-07:00 done  genome-brief (exit 0) ===
