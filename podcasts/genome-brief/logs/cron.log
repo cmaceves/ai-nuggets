@@ -1535,3 +1535,4 @@ Committed to `main` as `81d821e`. Orchestrator will push.
 
 *Fetch notes:* Arnold bioRxiv preprint (`10.64898/2026.07.23.740427`) — full text unavailable via jina/EPMC/API (body not yet rendered); item retained as abstract-only per PIPELINE.md rules because it's a clearly dominant AI-in-biomedicine pick from a Nobel laureate's lab. All other picks read from full text or primary press release. WHO Disease Outbreak News returned no items for the window. CDC surveillance pages not directly queried — noted as a small gap.
 === 2026-07-25T05:17:18-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-26T05:00:03-07:00 start genome-brief ===
