@@ -1572,3 +1572,46 @@ Animals (ScienceDaily 07-24..07-26):
 - **Guam brown tree snake structural-variant genome (Science Advances, Krabbenhoft UB/USGS, 24 Jul) — CHOSEN**
 === 2026-07-26T05:20:44-07:00 done  genome-brief (exit 0) ===
 === 2026-07-27T05:00:03-07:00 start genome-brief ===
+Same pattern — mp3 not tracked, R2/Worker serves. Commit is complete. Now the required cron.log summary.
+
+## Run summary
+
+**Episode 34 — "How today's H5N1 got a second front door"** shipped for 2026-07-27.
+
+- Script: `podcasts/genome-brief/scripts/2026-07-27-genome-brief.md`
+- MP3: 8,542,501 bytes, 17:48 duration
+- R2 upload: OK; feed.xml updated; committed (locally, orchestrator will push)
+
+### Candidate funnel
+
+**Pathogen genomics (bioRxiv 2026-07-26/27 window, 115 items scanned; medRxiv 15 items scanned)**
+- bioRxiv details API initial call returned HTTP 500 on the 25–27 window; a shorter 26–27 window succeeded; page-30 pagination briefly 500'd, one retry succeeded — all four pages recovered.
+- Substantive shortlist (post-keyword de-dup):
+  - **CHOSEN** — Pursell et al., Boyd lab (Stanford) + Hensley (Penn): H5N1 HA binding & sialic-acid-independent entry via human MHC-II HLA-DR, blocked by cross-reactive antibodies — 10.64898/2026.07.22.739677
+  - Novel monoclonal antibody 7-4G against HBsAg in chronic HBV mouse model — 10.64898/2026.07.24.740663 (dropped: too preclinical, no unique surveillance/clinical angle)
+  - Mayaro virus requires host fatty acid synthase for nsP1 palmitoylation — 10.64898/2026.07.24.740668 (dropped: mechanism nice but Mayaro low audience salience)
+  - medRxiv window had no substantive pathogen candidates (mostly ML/health-services/psych)
+- Source failures: bioRxiv details API HTTP 500 on 25–27 window and page-30; both recovered on retry with shorter window / one repeat.
+
+**Biotech & pharma (web search + BioPharma Dive, 26–27 July)**
+- **CHOSEN** — argenx to acquire Forte Biosciences, $2.2B, FB102 anti-CD122 (27 July 2026 press release)
+- Tempus/Personalis $1.7B (dropped: 20 July, outside 1–2 day recency)
+- Endpoints/Fierce direct fetches: HTTP 403 (WebFetch blocked); relied on web search + BioPharma Dive successfully.
+
+**AI in biomedicine (arXiv cache /tmp/ai-nuggets-arxiv-cache.xml, 500 entries; 87 with biomed keyword hits)**
+- **CHOSEN** — TriGlue: SE(3)-equivariant + flow-matching ternary complex generation for molecular-glue degraders (Li et al., arXiv 2607.22143, 2026-07-24)
+- DAGForge: LLM-authored causal DAGs (2607.21859) — dropped: interesting but a workflow tool, not a mechanism story
+- M³-Gen: multimodal gene-expression GAN (2607.21343) — dropped: nice but conditional-generation-of-omics is a saturated niche
+- CT-TEL clinical protocol formal representation (2607.21307) — dropped: preliminary study
+
+**AI tools/platforms**
+- **CHOSEN** — Moonshot AI Kimi K3 open weights on Hugging Face, 26 July 2026 (2.8T MoE, 16/896 experts, 1M ctx, modified MIT license) — largest open-weight release ever
+- Nvidia $250B OpenAI Ohio backstop — dropped: infrastructure/finance, not a capability jump
+- HuggingFace autonomous-breach incident — dropped: safety governance angle, not a tool release
+
+**Animals (ScienceDaily + web search, past few days)**
+- **CHOSEN** — Masripithecus moghraensis, new ~17–18 Ma Early Miocene ape from Wadi Moghra, northern Egypt (Al-Ashqar & Sallam, Mansoura Univ + Seiffert, USC; Science 2026-07-24)
+- Guam brown tree snake SVs — already covered Episode 33
+- Orca ram-to-fragment sunfish — already covered Episode 31
+- Screech-owl blind-snake pet mutualism / alligators climbing trees — dropped as older / not primary literature
+=== 2026-07-27T05:20:20-07:00 done  genome-brief (exit 0) ===
