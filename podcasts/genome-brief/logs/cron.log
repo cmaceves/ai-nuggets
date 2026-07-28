@@ -1616,3 +1616,47 @@ Same pattern — mp3 not tracked, R2/Worker serves. Commit is complete. Now the 
 - Screech-owl blind-snake pet mutualism / alligators climbing trees — dropped as older / not primary literature
 === 2026-07-27T05:20:20-07:00 done  genome-brief (exit 0) ===
 === 2026-07-28T05:00:07-07:00 start genome-brief ===
+Episode 35 committed. Orchestrator will push.
+
+## Candidate funnel — 2026-07-28
+
+**Pathogen watch (bioRxiv/medRxiv 2026-07-25 → 2026-07-28; PubMed 5-day window; WHO/CDC/ECDC)**
+Scanned: ~40 in-window bioRxiv/medRxiv items matching pathogen keywords; PubMed returned 209 hits (mostly reviews/VE cohorts, no new leads); WHO Disease Outbreak News window empty; CDC 403; ECDC only 2 Hepatitis Day items.
+Shortlist:
+- **[CHOSEN]** Gracey, Kandel, Lampe — *Pseudomonas aeruginosa co-opts host antibiotic metabolism by pyocyanin induction of cytochrome P450 enzymes* — bioRxiv 2026-07-27 — https://www.biorxiv.org/content/10.64898/2026.07.25.740721v1
+- Boyd/Hensley H5N1-MHC-II paper — DROP (already covered in Ep 34)
+- Nishi et al. AP2-Sp3 malaria sporozoite infectivity switch — bioRxiv 2026-07-27
+- Carmona et al. atypical myxomatosis / recombinant MYXV-Tol — bioRxiv 2026-07-27
+- Larsen et al. wastewater/hospitalization variance surge prediction — medRxiv 2026-07-27
+- Sanchez-Ruiz HA phenotypic mutation — DROP (already covered in Ep 33)
+- Agent-hallucinated: "FARM" Green TB paper and mupirocin/ileS1 plasmid MRSA — DROP, DOIs did not resolve in the bioRxiv/medRxiv API.
+
+**Biotech & pharma (Endpoints/STAT/Fierce/BioPharma Dive/Globe Newswire, 2026-07-27 → 2026-07-28)**
+Shortlist:
+- **[CHOSEN]** ProMIS Neurosciences PMN310 PRECISE-AD Phase 1b 6-mo interim — 0 ARIA-E across 136 pts — 2026-07-28
+- Capricor deramiocel FDA briefing docs / adcom prep, DMD — 2026-07-27
+- Sarepta names Michael Severino CEO — 2026-07-27/28
+- Oak Hill Bio / RA Capital SPAC rugonersen ASO for Angelman — 2026-07-27
+- "Gold rush to cure AATD" trend piece — 2026-07-28
+
+**AI in biomedicine (arXiv/bioRxiv/news, 2026-07-26 → 2026-07-28)**
+Shortlist:
+- **[CHOSEN]** McDonald/Hie/Shoulders — ML-assisted directed evolution of plant Rubisco (ESM-IF1 + E. coli selection; T391I +29%/+43%) — bioRxiv 2026-07-27
+- scGENet single-cell foundation-model interpretability → PD midbrain organoids (BrainStorm/Luxembourg) — bioRxiv 2026-07-27
+- Fogg/Card/Stavisky generalizable speech BCI transformer, WER<7% with <200 sentences — bioRxiv 2026-07-27
+- Spaceland histology-guided 3D molecular atlas reconstruction — bioRxiv 2026-07-27
+- Pansoma pangenome-graph somatic variant caller — bioRxiv 2026-07-26
+
+**AI tools/platform (2026-07-27 → 2026-07-28)**
+Shortlist:
+- **[CHOSEN]** MCP 2026-07-28 specification finalized (stateless protocol, Apps, Tasks) — Linux Foundation, 2026-07-28
+- Kimi K3 weights on HuggingFace — DROP (already covered in Ep 34)
+- Claude Opus 5 (07-24), Gemini 3.5/3.6 (07-22), AgentCore GA (June) — all out of window.
+
+**Fun animal news (2026-07-24 → 2026-07-28)**
+Shortlist:
+- **[CHOSEN]** Chaoborus edulis Lake Malawi deep-diving larvae — resilin pH-controlled ballast sacs — Science / UBC — 2026-07-26
+- Chimps and bonobos "reassurance train" pre-feeding touch behavior — Science 2026-07-27
+- Guam brown tree snake structural-variant genome — DROP (already covered in Ep 33)
+- Megalodon intrauterine cannibalism — Smithsonian synthesis piece 2026-07-27
+=== 2026-07-28T05:18:36-07:00 done  genome-brief (exit 0) ===
