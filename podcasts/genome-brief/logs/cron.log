@@ -1661,3 +1661,50 @@ Shortlist:
 - Megalodon intrauterine cannibalism — Smithsonian synthesis piece 2026-07-27
 === 2026-07-28T05:18:36-07:00 done  genome-brief (exit 0) ===
 === 2026-07-29T05:00:06-07:00 start genome-brief ===
+Episode published. Summary follows.
+
+---
+
+**Episode 36 shipped: "The H5N1 mutation that isn't what it looked like"**
+
+- Script: `podcasts/genome-brief/scripts/2026-07-29-genome-brief.md`
+- Audio: `podcasts/genome-brief/episodes/2026-07-29-genome-brief.mp3` (7,597,914 bytes, 15:50)
+- R2: uploaded to `ai-nuggets-episodes` bucket
+- Feed: item added to `podcasts/genome-brief/feed.xml` (now 36 items)
+- Commit: `d26dacb` (orchestrator will push)
+
+**Segments:**
+1. Pathogen watch — H5N1 HA-190/226 mutations don't switch to α2,6 but weaken α2,3, enabling mucus evasion + antiviral tolerance (Sukhova/Barclay, Imperial, bioRxiv 2026-07-28)
+2. Pathogen watch — Bundibugyo Ebola continental importation-risk map (Colizza/INSERM, medRxiv 2026-07-27); DRC at 3,262 cases/1,437 deaths by 27 Jul
+3. Biotech & pharma — Apnimed IPO for AD109 (Oxnimbi), first-in-class oral OSA drug, pricing Thu 30 Jul
+4. Animals — three novel Kogia Helicobacter genotypes from FAU/Harbor Branch pygmy sperm whale stranding archive (J Wildlife Diseases 2026)
+
+**Candidate funnel:**
+
+*bioRxiv* — 589 items scanned across 2026-07-27→29, ~30 matched pathogen keyword set. Substantive shortlist:
+- H5N1 mucus/antiviral evasion, Sukhova et al., Imperial — https://www.biorxiv.org/content/10.64898/2026.07.28.740943v1 ← **CHOSEN**
+- HPAI H5N1 Australia risk model, Zhang et al. — https://www.biorxiv.org/content/10.64898/2026.07.27.740638v1
+- Wobble vaccines (SARS-CoV-2 RBD antigen pools), McIlroy et al. — https://www.biorxiv.org/content/10.64898/2026.07.01.735277v2
+- African Campylobacter jejuni genomic surveillance — https://www.biorxiv.org/content/10.64898/2026.07.27.741116v1
+- RSV mucosal vaccine antigen engineering — https://www.biorxiv.org/content/10.64898/2026.07.28.739720v1
+- Mtb sulfur antibiotic synthetic lethality — https://www.biorxiv.org/content/10.64898/2026.07.28.741166v1
+- Malaria AP2-Sp3 mosquito-mammal switch — https://www.biorxiv.org/content/10.64898/2026.07.27.740904v1
+- MnII inhibits IAV PA endonuclease — https://www.biorxiv.org/content/10.64898/2026.07.27.740892v1
+
+*medRxiv* — 164 items scanned across the same window, ~15 matched. Shortlist:
+- Bundibugyo Ebola continental importation risk, Fanelli/Colizza — https://www.medrxiv.org/content/10.64898/2026.07.21.26358330v1 ← **CHOSEN**
+- Noise-is-the-signal surveillance-variability epidemic-phase detector — https://www.medrxiv.org/content/10.64898/2026.07.24.26358802v1
+- Delta CHIM breakthrough biomarkers — https://www.medrxiv.org/content/10.64898/2026.07.24.26358855v1
+- HCMC 2018-20 vs 2024-25 measles transmission-dynamics comparison — https://www.medrxiv.org/content/10.64898/2026.07.27.26358995v1
+- Extraction-free lysis molecular TB detection benchmarking — https://www.medrxiv.org/content/10.64898/2026.07.24.26358841v1
+- Dengue serotype-specific serosurvey cross-reactivity — https://www.medrxiv.org/content/10.64898/2026.07.23.26358771v1
+- Mupirocin-R S. aureus hospital plasmid transmission — https://www.medrxiv.org/content/10.64898/2026.07.24.26358837v1
+
+*Biotech news* — Sarepta CEO change (Severino, 28 Jul), Capricor deramiocel BLA queried (28 Jul), zidesamtinib FDA approval (22 Jul — **skipped: covered in Ep 31**), Apnimed IPO launch (27 Jul, prices 30 Jul) ← **CHOSEN**, FDA Oncology eligibility-broadening guidance (28 Jul).
+
+*AI in biomedicine / AI tools* — no dominant fresh item today; segments dropped per PIPELINE.md guidance ("Drop any segment with nothing genuinely fresh rather than padding it"). arXiv q-bio 2026-07-27→28 surveyed via cached feed — mostly incremental clinical-LLM benchmarks (MyoCardBench, Cardiologent, OPERA, etc.).
+
+*Animals* — orca-sunfish ram-fragmentation (Ayres/Beneath the Waves, Frontiers in Ethology) — **skipped: covered in Ep 31**; lemon-frost gecko cancer model (BMC Biology, 15 Jul) — 2 wk old; Andean leaf-eared mouse high-altitude metabolism (Science, 9 Jul) — 3 wk old; baby-rattlesnake myth debunk (Toxins, 7 Jul); pygmy sperm whale Kogia Helicobacter (J Wildlife Diseases, ScienceDaily 21 Jul) ← **CHOSEN**.
+
+*Source failures* — none this run. arXiv day-cache was already populated at `/tmp/ai-nuggets-arxiv-cache.xml`; bioRxiv/medRxiv details API responded cleanly. bioRxiv full-text helper fell through to abstract-only for the H5N1 lead (channel 3: `api.biorxiv.org` metadata) — 12-hour-old preprint, HTML body not yet rendered; noted in the script that we're going off the abstract per PIPELINE.md guidance for a clearly dominant pick.
+=== 2026-07-29T05:18:01-07:00 done  genome-brief (exit 0) ===
