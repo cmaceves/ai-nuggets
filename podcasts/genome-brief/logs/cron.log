@@ -1708,3 +1708,160 @@ Episode published. Summary follows.
 
 *Source failures* — none this run. arXiv day-cache was already populated at `/tmp/ai-nuggets-arxiv-cache.xml`; bioRxiv/medRxiv details API responded cleanly. bioRxiv full-text helper fell through to abstract-only for the H5N1 lead (channel 3: `api.biorxiv.org` metadata) — 12-hour-old preprint, HTML body not yet rendered; noted in the script that we're going off the abstract per PIPELINE.md guidance for a clearly dominant pick.
 === 2026-07-29T05:18:01-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-30T05:00:05-07:00 start genome-brief ===
+**Episode 37 blocked at TTS step — awaiting credential fix.**
+
+Script drafted at `podcasts/genome-brief/scripts/2026-07-30-genome-brief.md` (Episode 37: *When gonorrhea prevention picks its own poison*). Audio generation, R2 upload, feed update, and commit are **not** done because both TTS paths failed:
+
+- **Primary (Mistral / `voxtral-mini-tts-2603`):** returns `401 Unauthorized` from `api.mistral.ai/v1/audio/speech`. I confirmed with a direct `curl` — the `MISTRAL_API_KEY` in `.env` is revoked/expired.
+- **Fallback (ElevenLabs / `Bella`):** `ELEVENLABS_API_KEY` is not present in `.env`. `.env` currently only carries `CLOUDFLARE_API_TOKEN`, `MISTRAL_API_KEY`, `CLOUDFLARE_ACCOUNT_ID`.
+
+Yesterday's cron completed cleanly, so the key rotated/revoked within the last 24 hours. Fix by refreshing `MISTRAL_API_KEY` at `console.mistral.ai` or adding a working `ELEVENLABS_API_KEY` to `.env`, then re-run:
+
+```
+python3 gen_tts.py --show genome-brief \
+  podcasts/genome-brief/scripts/2026-07-30-genome-brief.md \
+  podcasts/genome-brief/episodes/2026-07-30-genome-brief.mp3
+```
+
+I did not commit or push anything.
+
+**Candidate funnel for the day:**
+
+*bioRxiv* — 539 items scanned across 2026-07-28→30; 115 matched pathogen keywords. Substantive shortlist after discarding lineage/variant/spike false positives:
+- Mtb sulfur-uptake antibiotic synthetic lethality — `10.64898/2026.07.28.741166`
+- H5N1 mucus/antiviral evasion via HA mutations — `10.64898/2026.07.28.740943` (*skipped: same lineage of story as Ep 36*)
+- HPAI H5N1 Australia poultry-outbreak risk model — `10.64898/2026.07.27.740638`
+- RSV mucosal preF vaccine (R296) — `10.64898/2026.07.28.739720`
+- RSV F antibody-repertoire threshold — `10.64898/2026.07.28.735825`
+- African *Campylobacter jejuni* population genomics + AMR — `10.64898/2026.07.27.741116`
+- Ciprofloxacin-R *Pseudomonas aeruginosa* collateral sensitivity — `10.64898/2026.07.29.741402`
+- mRNA-LNP–delivered PA-PB1 peptide antivirals for influenza A — `10.64898/2026.07.29.740963`
+- Cholera Bayesian source-inference (HiBASIL) — `10.64898/2026.07.28.741334`
+
+*medRxiv* — 124 items scanned; 21 matched. Shortlist:
+- Doxy-PEP + gonorrhea vaccination 15-yr modeling — `10.64898/2026.07.28.26359123` ← **CHOSEN (pathogen)**
+- Delphi-2M embedding-GWAS interpretability — `10.64898/2026.07.28.26359117` ← **CHOSEN (AI in biomedicine)**
+- HCMC 2018-20 vs 2024-25 measles epidemiology — `10.64898/2026.07.27.26358995`
+- Multi-country measles seroprevalence → outbreak-risk — `10.64898/2026.07.28.26359095`
+- Ebola spillover ecology/anthropogenic hotspots — `10.64898/2026.07.25.26358924` (*skipped: Ebola covered Ep 36*)
+- Zoonotic AI-virus IFR evolutionary framework — `10.64898/2026.01.21.26344526`
+- Attractive targeted sugar baits vs malaria — `10.64898/2026.07.28.26359124`
+- Wearable dual-foundation-model future-health prediction — `10.64898/2026.07.24.26358894`
+
+*Biotech news* — Replimune RP1 AdComm today (July 30, PDUFA Aug 2), FDA "not interpretable" briefing document ← **CHOSEN (biotech)**; EC approval of Opzelura atopic-dermatitis cream (Incyte); Biogen Q2 earnings; Gwyn Lo (Viatris contraceptive patch) FDA approval; Novartis–Myricx Bio $1.1B ADC deal *(July 6, outside recency window)*; Vertex–Crinetics $10B *(July 6, outside window)*.
+
+*AI in biomedicine / AI tools* — Aureka OpenDDE open-source all-atom biomolecular co-folding model (655M params, Apache-2.0) *(July 9, outside 1–2-day window)*; Claude Opus 5 *(July 24, outside window)*; no significant AI-tool release inside recency window today — segment dropped per PIPELINE.md.
+
+*Animals* — Rewilded elephants five-year PLOS ONE study, Roos & Eggeling, Elephant Reintegration Trust of South Africa ← **CHOSEN (animals)**; songbird punctuated-equilibrium climate-shift study; ex-captive vs. wild bumblebee resilience; *Musango matusadonaensis* new Zimbabwean sauropodomorph (paleo, too niche today).
+
+*Source failures* — none. All four pathogen picks were **abstract-only** (bioRxiv/medRxiv full-text helper fell through to channel 3, `api.biorxiv.org`, because all four preprints are <36h old and their HTML bodies had not rendered). Noted "going off the abstract" in the script for the doxy-PEP item per PIPELINE.md.
+
+Sources:
+- [FDA says Replimune's melanoma data package is 'not interpretable'](https://www.biospace.com/fda/fda-says-replimunes-melanoma-data-package-is-not-interpretable-setting-up-tough-adcomm)
+- [Five-year study finds rewilded elephants develop successful coping mechanisms](https://phys.org/news/2026-07-year-rewilded-elephants-successful-coping.html)
+=== 2026-07-30T05:13:44-07:00 done  genome-brief (exit 0) ===
+=== 2026-07-30T05:13:44-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-30T05:16:44-07:00 start genome-brief (retry 1) ===
+I've confirmed both TTS credentials are broken:
+
+- **Primary (Mistral):** direct `curl` returns `HTTP 401`. The `MISTRAL_API_KEY` in `/home/caceves/ai-nuggets/.env` is revoked/expired.
+- **Fallback (ElevenLabs):** `ELEVENLABS_API_KEY` is not present in `.env` at all.
+
+This is the same block that stopped the 05:00 run today (see `podcasts/genome-brief/logs/cron.log`). Nothing has changed between the runs — the credentials are still bad.
+
+**Episode 37 cannot ship until credentials are fixed.** The script is fully drafted at `podcasts/genome-brief/scripts/2026-07-30-genome-brief.md` (Episode 37: *When gonorrhea prevention picks its own poison*) and the candidate funnel was already logged in `cron.log` by the earlier run. I will not commit partial output per `PIPELINE.md` ("If the script exits non-zero, investigate and fix the root cause — do NOT commit partial output").
+
+**Fix required** — either:
+1. Refresh `MISTRAL_API_KEY` at `console.mistral.ai` and update `/home/caceves/ai-nuggets/.env`, or
+2. Add a working `ELEVENLABS_API_KEY` to `.env`.
+
+Then re-run:
+```
+python3 gen_tts.py --show genome-brief \
+  podcasts/genome-brief/scripts/2026-07-30-genome-brief.md \
+  podcasts/genome-brief/episodes/2026-07-30-genome-brief.mp3
+```
+
+No files were modified and no commit was made this retry.
+
+**Segments (drafted, awaiting audio):**
+1. Pathogen watch — Doxy-PEP + gonorrhea vaccine 15-yr modeling (Singapore / Imperial / Toronto / Berkeley, medRxiv 2026-07-28)
+2. Biotech — Replimune RP1 melanoma AdComm today; FDA calls data package "not interpretable"
+3. AI in biomedicine — Delphi-2M embedding-GWAS interpretability (Berlin Institute of Health at Charité, medRxiv 2026-07-28)
+4. Animals — Five-year rewilded-elephant coping study (Roos & Eggeling, Elephant Reintegration Trust, PLOS ONE)
+
+Full candidate funnel is already in the prior `cron.log` block from the 05:13 run.
+=== 2026-07-30T05:18:26-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-07-30T05:18:26-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-30T05:21:26-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+This is retry 2. The credentials are still broken — same failure confirmed above. Here is the run summary for the cron log:
+
+---
+
+**Episode 37 blocked on TTS credentials (retry 2 of 2)**
+
+- **Script**: fully drafted at `podcasts/genome-brief/scripts/2026-07-30-genome-brief.md` (Episode 37: *When gonorrhea prevention picks its own poison*)
+- **Audio**: not generated — both providers returned auth failures
+  - Mistral (`XhdozkxwTntiGFtpzQszYE4eZwNzy3WV`): HTTP 401 on direct curl to `api.mistral.ai/v1/audio/speech` — key revoked or expired
+  - ElevenLabs: `ELEVENLABS_API_KEY` absent from `.env`
+- **R2 upload**: not attempted
+- **feed.xml**: not updated
+- **Commit**: not made — no partial output per PIPELINE.md
+
+**Action required**: update `.env` with a valid `MISTRAL_API_KEY` (or add a working `ELEVENLABS_API_KEY`), then re-run:
+```
+python3 gen_tts.py --show genome-brief \
+  podcasts/genome-brief/scripts/2026-07-30-genome-brief.md \
+  podcasts/genome-brief/episodes/2026-07-30-genome-brief.mp3
+scripts/publish_episode.sh genome-brief 2026-07-30-genome-brief
+```
+Then update `feed.xml` and commit.
+
+**Candidate funnel** (already logged in 05:13 cron.log block — not repeating here):
+- Chosen for pathogen watch: Doxy-PEP gonorrhea modeling (medRxiv 2026-07-28)
+- Chosen for biotech: Replimune RP1 AdComm (BioSpace 2026-07-30)
+- Chosen for AI in biomedicine: Delphi-2M embedding-GWAS (medRxiv 2026-07-28)
+- Chosen for animals: Rewilded elephant 5-year study (Phys.org / PLOS ONE)
+=== 2026-07-30T05:23:22-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-07-30T05:23:22-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-30T05:26:22-07:00 start genome-brief (retry 3, --model claude-sonnet-4-6) ===
+The Mistral API key in `.env` is returning 401 (invalid or expired), and there's no `ELEVENLABS_API_KEY` set. The script for Episode 37 is already written at `podcasts/genome-brief/scripts/2026-07-30-genome-brief.md` — I cannot generate the audio without working TTS credentials.
+
+To unblock the run, you'll need to either:
+1. **Update `MISTRAL_API_KEY`** in `.env` with a valid Mistral key, or  
+2. **Add `ELEVENLABS_API_KEY`** to `.env` with a valid ElevenLabs key
+
+Once you update the key, re-run this task and I'll pick up from the audio generation step.
+=== 2026-07-30T05:27:47-07:00 done  genome-brief (exit 0) (retry 3, --model claude-sonnet-4-6) ===
+=== 2026-07-30T05:27:47-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-30T05:30:47-07:00 start genome-brief (retry 4, --model claude-haiku-4-5-20251001) ===
+I can see there's an issue with the TTS generation. The script exists and is complete, but the Mistral API is returning a 401 Unauthorized error. The .env file has a Mistral API key, but it appears to be invalid or expired. The fallback ElevenLabs API key is not configured.
+
+To proceed with generating today's episode, I need you to either:
+
+1. **Provide a valid Mistral API key** and I'll update the `.env` file, or
+2. **Provide an ElevenLabs API key** so the fallback provider can be used, or  
+3. **Verify/update the Mistral key** in the system
+
+The script itself is complete and ready for audio generation. Once the API key issue is resolved, I can:
+1. Generate the MP3 audio
+2. Publish it to R2
+3. Update the feed.xml
+4. Commit all changes
+
+Looking at the previous episodes, they were all successfully generated with Mistral (as recent as July 29), so this may be a recent credential issue. What would you like me to do?
+=== 2026-07-30T05:33:11-07:00 done  genome-brief (exit 0) (retry 4, --model claude-haiku-4-5-20251001) ===
+=== 2026-07-30T05:33:11-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-07-30T05:36:11-07:00 start genome-brief (retry 5, --model claude-haiku-4-5-20251001) ===
+I've hit a blocker: the TTS audio generation is failing because:
+1. **MISTRAL_API_KEY** is returning a 401 Unauthorized error (invalid or expired)
+2. **ELEVENLABS_API_KEY** is not set in the .env file
+
+According to the pipeline instructions, I cannot proceed without fixing the root cause. Could you please:
+1. Verify the Mistral API key is valid
+2. Provide the ElevenLabs API key so the fallback system can work
+
+Once you've updated the `.env` file with valid keys, I'll regenerate the audio and complete the publication.
+=== 2026-07-30T05:36:48-07:00 done  genome-brief (exit 0) (retry 5, --model claude-haiku-4-5-20251001) ===
+=== 2026-07-30T05:36:48-07:00 FAILED: no episode produced for genome-brief after all retries ===
