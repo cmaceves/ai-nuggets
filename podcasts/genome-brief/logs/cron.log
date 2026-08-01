@@ -2026,3 +2026,36 @@ The script for today's episode (Episode 37: "When RNA glitches help viruses esca
 - Commit the changes
 === 2026-07-31T05:43:49-07:00 done  genome-brief (exit 0) (retry 5, --model claude-haiku-4-5-20251001) ===
 === 2026-07-31T05:43:49-07:00 FAILED: no episode produced for genome-brief after all retries ===
+=== 2026-08-01T05:00:03-07:00 start genome-brief ===
+Episode 37 shipped: script + feed committed at d1529e6, audio (8.6 MB, 17:59) published to R2. Orchestrator handles the push.
+
+## Candidate funnel — 2026-08-01
+
+**Pathogen genomics** — bioRxiv (893 preprints, 107 kw hits) / medRxiv (275, 37 hits) / PubMed (last 5d, top 40 by pub_date) / WHO DON, ECDC News, CIDRAP, virological.org. CDC respiratory-virus and CDC bird-flu pages 403/404, not retried.
+- Bovine udder organoids — H1N1 matches H5N1 in cow mammary tissue (Emerg Microbes Infect, Fritsch/Becher, Hannover) — **CHOSEN**
+- Mtb sulfur / synthetic lethality with INH (bioRxiv, Pandey/THSTI) — dropped: preprint body not rendered, abstract-only
+- Chlamydia pneumoniae ST16 clonal expansion in France 2024–25 (Emerg Microbes Infect)
+- Bundibugyo Ebola importation modeling / epi threads — already featured Ep. 36
+- SARS-CoV-2 H655Y protease preference (bioRxiv)
+- Piperaquine bimodal response in P. falciparum (bioRxiv)
+
+**Biotech & pharma** — STAT, BioPharma Dive, general search. Endpoints (403), Fierce Biotech (404), FDA/EMA news pages (404) unreachable but coverage recovered from STAT and search.
+- Replimune RP1 AdCom 10-3, PDUFA Aug 2 — **CHOSEN**
+- Capricor deramiocel AdCom rejection (Duchenne cardiomyopathy)
+- J&J options Sail Biosciences ($2.6B, in vivo CAR-T for autoimmunity)
+- Argenx acquires Forte Biosciences ($2.2B, CD122)
+- Novo Nordisk ziltivekimab ZEUS Phase 3 miss
+
+**AI / AI-tools** — arXiv cache (14,916 lines), bioRxiv bioinformatics, Anthropic newsroom, DeepMind blog index, general search. OpenAI news direct fetch 403 (recovered via search); Nature ML subject page auth-walled.
+- AlphaFold team disbandment at DeepMind; Jumper + Adler + Pritzel to Anthropic — **CHOSEN**
+- AlphaFold3 antibody-epitope hallucination benchmark (Solanki et al., bioRxiv) — folded in as a paragraph within the AlphaFold item
+- pLM annotation of metagenomic dark matter (Le Breton, Chandar/Fournier)
+- Riboseek fast MSA for RNA structure (Steinegger group)
+- OpenAI academic-tier ChatGPT rollout + Sol Pro
+
+**Animals** — ScienceDaily, Live Science, CNN, Science/AAAS, Phys.org, UBC News, Schmidt Ocean, Smithsonian, Popular Science, university press.
+- Demon cavefish (Demogorgonichthys arcanus), Bobcat Cave / Redstone Arsenal — **CHOSEN**
+- Whale-shark GoPro footage from Ningaloo Reef
+- Lake Malawi phantom-midge diel-migration ballast tanks — already featured Ep. 35
+- Songbird burst-evolution study — weaker
+=== 2026-08-01T05:18:28-07:00 done  genome-brief (exit 0) ===
