@@ -2060,3 +2060,42 @@ Episode 37 shipped: script + feed committed at d1529e6, audio (8.6 MB, 17:59) pu
 - Songbird burst-evolution study — weaker
 === 2026-08-01T05:18:28-07:00 done  genome-brief (exit 0) ===
 === 2026-08-02T05:00:02-07:00 start genome-brief ===
+Episode 38 shipped. Script written, TTS'd via Mistral primary voice (807s / 6.4 MB), mp3 uploaded to R2 via `publish_episode.sh`, feed.xml updated with a valid `<item>`, committed via `flock` (orchestrator will push).
+
+## Candidate funnel
+
+**bioRxiv** (240 items scanned across 2026-07-30 to 2026-08-02, three-day window with cursor pagination):
+- Global untreated wastewater microbial dark matter (Ruth et al., LANL, 2026-07-30, 10.64898/2026.07.28.741345) — abstract-only, conceptually thin, dropped
+- OXA-48→NDM within-host carbapenemase succession, ST361 E. coli (Kassabian, Tokajian, LAU Byblos, 2026-07-30, 10.64898/2026.07.27.741121) — **PICKED** (pathogen watch)
+- Sulfur-limitation antibiotic synthetic lethality in M. tuberculosis (Nain, Pandey et al., 2026-07-31, 10.64898/2026.07.28.741166) — abstract-only, decent but not dominant, dropped
+- Klebsiella phages from Benin (2026-07-30) — narrower interest, dropped
+- Global wastewater Trichodesmium multi-omics — not pathogen-relevant, dropped
+- AlphaFold3 antibody hallucinated-epitopes benchmark (Solanki et al., 2026-07-31, 10.64898/2026.07.30.741792) — already referenced in Ep 37, dropped
+
+**medRxiv** (120 items scanned):
+- 2026 Bundibugyo outbreak forecasting (rolling-origin ensemble) — full text unavailable through jina + EPMC + biorxiv-API channels, dropped
+- 2026 Bundibugyo health-zone CFR interpretation — Bundibugyo covered heavily in Eps 32/36, deprioritized
+- VRE ICU genomic surveillance (2026-07-30) — solid but scope-limited, deprioritized
+- Long COVID biomarker null (2026-07-30) — dropped
+- EHR + wastewater respiratory-virus prediction (2026-07-31) — dropped
+
+**Biotech / pharma business**:
+- **Novo Nordisk ZEUS Phase 3 ziltivekimab MACE failure, 31 July 2026** — **PICKED** (business)
+- Karyopharm Phase 3 miss, -68% (31 July) — dropped, sector-narrow
+- Regeneron Q2 beat — routine earnings, dropped
+- Chugai Enspryng sNDA MOG-AD (1 Aug) — narrower interest, dropped
+- Replimune RP1 PDUFA due today 2 Aug — no decision yet at run time; RP1 was covered as lead in Ep 37, deprioritized
+
+**AI in biomedicine / AI tools**:
+- Aureka OpenDDE open-source co-folding model — released 6-7 July 2026, outside 2-day window, dropped
+- No fresh frontier-lab model release in the 30 Jul – 2 Aug window; **segment dropped** per PROMPT.md "drop segments with nothing genuinely fresh"
+
+**Fun animal news**:
+- **Musango matusadonaensis, new Zimbabwean Late Triassic sauropodomorph, Barrett et al., J. Syst. Palaeontol., 28-29 July 2026** — **PICKED** (closer)
+- Praearcturus gigas giant scorpion — June coverage, outside window, dropped
+- Colobus congoensis new Congolese monkey — 15 July, outside window, dropped
+- Modern-humans-carry-DNA-from-two-extinct-lineages (31 July) — not animal-flavored per segment, dropped
+- Galápagos giant daisy convergent leaf evolution (30 July) — plant, wrong segment, dropped
+
+Source-side failures: none — bioRxiv, medRxiv, and web sources all reachable; the bioRxiv full-text channel fell through to abstract-only on the pathogen picks (Cloudflare 403 on `.full`), consistent with normal recent-preprint rendering lag.
+=== 2026-08-02T05:15:42-07:00 done  genome-brief (exit 0) ===
