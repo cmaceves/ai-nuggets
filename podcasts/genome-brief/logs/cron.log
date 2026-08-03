@@ -2100,3 +2100,40 @@ Episode 38 shipped. Script written, TTS'd via Mistral primary voice (807s / 6.4 
 Source-side failures: none — bioRxiv, medRxiv, and web sources all reachable; the bioRxiv full-text channel fell through to abstract-only on the pathogen picks (Cloudflare 403 on `.full`), consistent with normal recent-preprint rendering lag.
 === 2026-08-02T05:15:42-07:00 done  genome-brief (exit 0) ===
 === 2026-08-03T05:00:08-07:00 start genome-brief ===
+Episode 39 published. Committed at 0bfcd60; the orchestrator will handle the push.
+
+## Candidate funnel
+
+**bioRxiv** (`api.biorxiv.org/details/biorxiv/2026-08-01/2026-08-03`, 130 items scanned):
+- 10.64898/2026.07.31.742040 — Chloroquine/antifolate resistance markers in *P. falciparum*, Rwanda 2018 (older dataset — dropped)
+- 10.64898/2026.07.31.739979 — Zebrafish leprosy model, interferon/plasminogen (dropped: preclinical model, not surveillance)
+- 10.64898/2026.07.27.741045 v2 — **PG-LLM benchmark for LLMs on protein variant ranking** (Arora, Marks, Church, Harvard) ✅ **CHOSEN — AI in biomedicine**
+- 10.64898/2026.07.30.741672 — Enzyme-substrate specificity co-folding foundation model (dropped: less immediate significance signal)
+
+**medRxiv** (57 items scanned):
+- 10.64898/2026.07.30.26359194 — TB tongue-swab screening cross-sectional study (dropped: incremental)
+- 10.64898/2026.07.30.26359326 — SARS-CoV-2 wastewater direct-capture column method (dropped: methodological only)
+- 10.64898/2026.07.29.26359272 — WNV/EEEV Georgia 2-decade surveillance (dropped: not on the day's news)
+
+**Public-health surveillance / news:**
+- **PIRSA/CSIRO H5N1 clade 2.3.4.4b B3.2 mass-mortality event on Baudin Rocks (SA, greater crested terns)** ✅ **CHOSEN — Pathogen watch**
+
+**Biotech/pharma business** (BioSpace, CNBC, Bloomberg, KFGO):
+- **AstraZeneca-Bristol Myers Squibb $400B merger talks (FT report, weekend 2-3 Aug)** ✅ **CHOSEN — Biotech/pharma**
+- Amgen data-security breach (dropped: not clinically consequential)
+- Lilly-Resilience $750M KwikPen manufacturing (dropped: routine capex)
+- Capricor CEO threatening FDA legal action (dropped: not resolved news)
+- garetosmab/Regeneron FOP PDUFA 2 Aug — no confirmed outcome located (dropped: unverifiable decision)
+- RP1/Replimune 2 Aug PDUFA — already covered in Episode 37 (excluded per re-invocation rule)
+
+**AI in biomedicine (arXiv cache + bioRxiv AI-tagged):**
+- PG-LLM (chosen above)
+- 10.64898/2026.07.30.741874 — LLM agents for genomics sample curation (dropped: less broadly interesting)
+
+**Major AI tool/platform updates:** No significant releases 2-3 Aug (segment dropped per prompt).
+
+**Animal closer:**
+- **Skelevision + Bifrost bird evolutionary bursts (Nature Ecol Evol, Berv/U-Michigan/NYU, 29 Jul)** ✅ **CHOSEN**
+- Rockefeller ant NPF/AstA parenting-hunger circuits (dropped: 8 Jul, outside window)
+- Eosphorosuchus lacrimosa Triassic crocodile relative (dropped: yesterday featured Triassic Musango dinosaur)
+=== 2026-08-03T05:17:06-07:00 done  genome-brief (exit 0) ===
