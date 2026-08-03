@@ -2099,3 +2099,4 @@ Episode 38 shipped. Script written, TTS'd via Mistral primary voice (807s / 6.4 
 
 Source-side failures: none — bioRxiv, medRxiv, and web sources all reachable; the bioRxiv full-text channel fell through to abstract-only on the pathogen picks (Cloudflare 403 on `.full`), consistent with normal recent-preprint rendering lag.
 === 2026-08-02T05:15:42-07:00 done  genome-brief (exit 0) ===
+=== 2026-08-03T05:00:08-07:00 start genome-brief ===
