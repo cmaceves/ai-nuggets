@@ -2138,3 +2138,39 @@ Episode 39 published. Committed at 0bfcd60; the orchestrator will handle the pus
 - Eosphorosuchus lacrimosa Triassic crocodile relative (dropped: yesterday featured Triassic Musango dinosaur)
 === 2026-08-03T05:17:06-07:00 done  genome-brief (exit 0) ===
 === 2026-08-04T05:00:10-07:00 start genome-brief ===
+Episode 40 shipped: script written, mp3 generated and uploaded to R2, feed updated with real byte size and duration, committed locally (no push — orchestrator handles that).
+
+## Candidate funnel
+
+**bioRxiv** (287 scanned, 2026-08-02 → 2026-08-04, filtered by pathogen keyword set):
+- 10.64898/2026.08.02.742385 — One-shot multivalent LAIV against divergent H5N1 clades (García-Sastre/Martínez-Sobrido/Webby) — **CHOSEN**
+- 10.64898/2026.07.13.738231v2 — SARS-CoV-2 ORF9b/TOMM70 mitochondrial recruitment (basic mech, not news-shaped)
+- 10.64898/2026.07.31.742040 — Plasmodium falciparum drug-resistance markers, Rwanda 2018 (samples too old)
+- 10.64898/2026.05.06.723370 — vartracker pathogen variant tool (tooling, not results)
+
+**medRxiv** (134 scanned):
+- 10.64898/2026.08.02.26359503 — Bundibugyo virus outbreak origin reconstruction, Mongbwalu (strong candidate; complex Bayesian ABC-SMC with substantial identifiability uncertainty; deferred)
+- 10.64898/2026.07.30.26359194 — TB tongue-swab qPCR screening (interesting, deferred)
+- 10.64898/2026.07.30.26359326 — Wastewater direct-capture column (methods-only)
+- 10.64898/2026.07.31.26359434 — VPM1002 TB prevention model (India-specific modeling)
+
+**Business/regulatory** (STAT/BioPharma Dive/FDA):
+- FDA Pluvicto expansion to PSMA+ mHSPC (31 Jul 2026, PSMAddition Phase 3) — **CHOSEN**
+- argenx acquires Forte Biosciences $2.2B (27 Jul, too old for the 1–2-day window)
+- Replimune RP1 melanoma FDA action target 2 Aug — no final decision found in press yet; deferred
+- Krystal Biotech Q2 earnings 3 Aug — routine, not news-shaped
+
+**AI in biomedicine** (arXiv day-cache 500 entries, 2026-08-01 → 2026-08-03):
+- arXiv:2608.00817 — Chanda/Brinker et al., CORA retrieval-augmented LLM + 46 physicians, citation-asymmetry finding — **CHOSEN**
+- arXiv:2608.02520 — MedPRESS medical-sycophancy benchmark (interesting, redundant lane)
+- arXiv:2608.01690 — ProtoAct wet-lab-protocol → robot action (embodied AI, cool but niche)
+
+**AI tools/platform**: no significant major-lab release on 3–4 Aug (Alibaba Qwen 3.8 Max on 2 Aug is off-scope for this show). Segment dropped.
+
+**Animals**:
+- ZooKeys 1281:247-264 — Luffy gen. nov. rove beetles, sister to Eucibdelus lineage — **CHOSEN**
+- Whale-shark fin-mounted cameras (Marine Biology, 25 Jul — a bit stale)
+- Ant-parenting neurochemistry (Nature, Jul 2026 — stale)
+
+Source failures: none this run. bioRxiv full-text HTML for the H5N1 LAIV preprint had not rendered yet (posted <24h ago) so we ran on the unusually complete abstract; noted in the segment rather than dropped, since H5N1-vaccine work is the through-line from yesterday's episode.
+=== 2026-08-04T05:17:57-07:00 done  genome-brief (exit 0) ===
