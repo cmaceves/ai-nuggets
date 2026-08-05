@@ -2175,3 +2175,36 @@ Episode 40 shipped: script written, mp3 generated and uploaded to R2, feed updat
 Source failures: none this run. bioRxiv full-text HTML for the H5N1 LAIV preprint had not rendered yet (posted <24h ago) so we ran on the unusually complete abstract; noted in the segment rather than dropped, since H5N1-vaccine work is the through-line from yesterday's episode.
 === 2026-08-04T05:17:57-07:00 done  genome-brief (exit 0) ===
 === 2026-08-05T05:00:17-07:00 start genome-brief ===
+Episode 41 shipped locally. Commit `f732731` on `main`; orchestrator will push.
+
+**Candidate funnel**
+
+Sources scanned:
+- **bioRxiv/medRxiv** (Aug 3–5): 550 bioRxiv + 134 medRxiv items paginated via details API; 117 pathogen-keyword matches, ~80 AI-keyword matches. Full-body fetch fell through to abstract-only for every recent-day preprint (bioRxiv Cloudflare/renderer lag).
+- **PubMed MCP**: not queried (bioRxiv was rich enough; noted for tomorrow).
+- **Public-health surveillance**: CDC Cyclosporiasis outbreak page, CIDRAP, STAT, WHO/CDC bird-flu situation pages.
+- **Biotech business**: Endpoints (403 on WebFetch), Fierce Biotech (403), STAT (partial), BioPharma Dive, Otsuka press release (accessible), Pathos AI press release (accessible), MedCity News, BiopharmaWatch FDA calendar.
+- **AI labs**: Anthropic, OpenAI release notes (nothing genuinely fresh — Claude Code UI patch and GPT-5.6 pricing tweaks are incremental).
+- **Animals**: ScienceDaily, Phys.org.
+
+Shortlist after keyword-junk filtering:
+- Cyclospora Taco Bell / Taylor Farms outbreak, CDC 4 Aug update — CHOSEN (pathogen watch)
+- Parallel Emergence and Adaptive Evolution of Multicountry Circulating Mycobacterium abscessus Clones (bioRxiv 2026.08.02.742357) — genuinely strong but abstract-only, dropped per PIPELINE.md
+- A single Omicron mutation reshapes ORF3a-driven host-cell remodelling (bioRxiv 2026.08.02.742305) — abstract-only, dropped
+- Adjuvanted mucosal influenza vaccine, guinea pig transmission (bioRxiv 2026.08.03.742639) — abstract-only, and H5N1/flu covered two days running
+- Australian seagull E. coli AMR (bioRxiv 2026.08.03.742510) — abstract-only + AU covered yesterday, dropped
+- Bacteriophages vs VRE, Klebsiella potentiator — abstract-only, less dominant
+- Otsuka VOYXACT sibeprenlimab VISIONARY 24-mo eGFR (Otsuka press release 4 Aug 2026) — CHOSEN (biotech)
+- Pathos AI $2B Alphamab + AstraZeneca + $300M Series E (3–4 Aug 2026) — CHOSEN (AI in biomedicine)
+- Moderna mRNA-1010 mFLUSIVA PDUFA today (Aug 5) — decision not yet reported at time of writing; dropped
+- Replimune RP1 melanoma (Aug 2 PDUFA) — outcome uncertain in coverage
+- Retatrutide TRIUMPH-1 — May 2026 readout, stale
+- Urokodia aequalis chelicerate/book-gill origins (Liu et al., Nature, doi:10.1038/s41586-026-10713-2, media re-surge 3 Aug) — CHOSEN (animals)
+- Flatworm ruptoblasts — June, stale
+- South Australia underwater cave taphonomy (4 Aug) — thin
+- New species / Luffy beetles — already featured yesterday
+
+Source failures: none material; bioRxiv full-text `r.jina.ai` proxy fell through to abstract-only on every 2026-08-02+ preprint checked (rendering lag), which is why no bioRxiv preprint made the final cut.
+
+Episode duration 17:20 (8.32 MB); audio published to R2; feed.xml validates.
+=== 2026-08-05T05:21:58-07:00 done  genome-brief (exit 0) ===
