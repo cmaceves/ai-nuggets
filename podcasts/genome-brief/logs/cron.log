@@ -2209,3 +2209,40 @@ Source failures: none material; bioRxiv full-text `r.jina.ai` proxy fell through
 Episode duration 17:20 (8.32 MB); audio published to R2; feed.xml validates.
 === 2026-08-05T05:21:58-07:00 done  genome-brief (exit 0) ===
 === 2026-08-06T05:00:04-07:00 start genome-brief ===
+Episode 42 shipped. Summary:
+
+**Episode 42: Why influenza B Yamagata seems to have gone extinct** — 13:15, 6.36 MB, committed at d8afe42.
+
+Three items:
+- **Pathogen watch**: Gutierrez et al. (Rohani lab, UGA), medRxiv 2026-08-05 — two-strain SIRS model with asymmetric cross-immunity + waning immunity shows a transient transmission crash can push coexisting strains across an invasion boundary, driving the weaker one extinct. Parsimonious explanation for Yamagata's disappearance during COVID. Abstract-only per PIPELINE (body not yet rendered) — flagged in script.
+- **Biotech & pharma**: Moderna mRNA-1469 Bundibugyo ebolavirus Phase 1 — first participants dosed Aug 4 following Health Canada authorization; ~80 participants, 3 Canadian sites, CEPI up to $50M; delivered against the ongoing DRC PHEIC (3,748 confirmed cases / 1,657 deaths as of Aug 1); first mRNA filovirus vaccine to enter clinic.
+- **Animals**: "Bag of Bones" — Gondwana Research (White, Lomax et al.) — synchrotron CT of a Queensland ichthyosaur's stomach nodules revealed pterosaur jaw fragments; the ichthyosaur itself was killed by a Kronosaurus pliosaur. First single-fossil three-tier food chain on record.
+
+## Candidate funnel
+
+**bioRxiv/medRxiv (2026-08-04 to 2026-08-06, ~700 items scanned, 96 pathogen-keyword hits after page-through):**
+- Strain coexistence / Yamagata extinction — Gutierrez et al., medRxiv 2026-08-05 — **CHOSEN**
+- R-pyocin reverses pan-drug resistance in P. aeruginosa — Estrada et al., bioRxiv 2026-08-05 — strong alt but body-unrendered
+- HKU1 airway tropism (glycan determinants) — Creutznacher et al., bioRxiv 2026-08-05 — mechanistic but abstract-only
+- Bovine coronavirus / OC43 spike evolution — Tzarum et al., bioRxiv 2026-08-05
+- Epitope-focused universal coronavirus immunogens — Li et al., bioRxiv 2026-08-04
+- Omicron ORF3a T223I remodels host cell — De Lucas et al., bioRxiv 2026-08-04
+- PIMMS43 Plasmodium ookinete deletion variants — Palmer et al., bioRxiv 2026-08-05
+- PHORAGER ESKAPE prophage repertoire — Dyball et al., bioRxiv 2026-08-05
+- Adjuvanted mucosal influenza vaccine (guinea pig) — Yan et al., bioRxiv 2026-08-04
+
+**Biotech/pharma business (Aug 3–5):**
+- Moderna mRNA-1469 Bundibugyo Phase 1 launch — Aug 4 — **CHOSEN**
+- AstraZeneca–Bristol Myers $400B merger talks — Aug 2–3 — already covered in Episode 39
+- Biogen diranersen AAIC full data — mid-July, stale
+- Centanafadine (Simtriyo) FDA approval — July 24, stale
+
+**AI in biomedicine / AI tools (arxiv cache 2026-08-04..06):** ~125 recent bio-adjacent papers scanned. No standout dominant biomed AI story. Model releases in window: Qwen 3.8-Max (Aug 2–3), no major-lab release Aug 4–6. Segment dropped.
+
+**Animals:**
+- "Bag of Bones" ichthyosaur three-tier food chain, Gondwana Research summer 2026 — **CHOSEN**
+- Austronaga minuta oldest reptile digestive tract — Science Advances Aug 4 — good alt
+- Luffy beetle genus — already covered Episode 40 on Aug 4
+
+No source-level failures during search.
+=== 2026-08-06T05:19:42-07:00 done  genome-brief (exit 0) ===
