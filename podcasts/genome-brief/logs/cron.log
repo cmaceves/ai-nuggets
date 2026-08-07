@@ -2247,3 +2247,40 @@ Three items:
 No source-level failures during search.
 === 2026-08-06T05:19:42-07:00 done  genome-brief (exit 0) ===
 === 2026-08-07T05:00:05-07:00 start genome-brief ===
+Episode 43 shipped. Committed as `d0a29b9`; orchestrator will push.
+
+## Candidate funnel
+
+**bioRxiv** (2026-08-06/07, ~296 items scanned, ~2 pathogen-relevant after discarding spurious "variant"/"lineage" hits):
+- R-pyocin-mediated selection reverses pan-drug resistance in Pseudomonas aeruginosa — Estrada/Diggle/Rumbaugh, doi:10.64898/2026.08.04.742823 ✅ **chosen (pathogen watch)**
+- TDKC ultrafast k-mer pathogen classifier — doi:10.64898/2026.06.05.730319 (not sufficiently fresh)
+
+**medRxiv** (2026-08-06/07, ~69 items, ~4 pathogen-relevant):
+- Facility-Level Wastewater Surveillance in NYC hospitals — doi:10.64898/2026.08.04.26358888 (abstract-only, considered but not dominant enough)
+- S. pneumoniae 19F lineages in South Africa — doi:10.1101/2025.11.03.25339423
+- Multimodal AI + pathogen genome for infection outcomes (SuperbugAI) — doi:10.64898/2026.08.04.26359536
+- Drug-resistant TB in Cameroon meta-analysis — doi:10.64898/2026.08.04.26359729
+
+**Biotech / pharma** (2026-08-04/07, FDA + press releases):
+- Moderna mFlusiva (mRNA-1010) FDA approval — first mRNA flu vaccine, 5 Aug 2026 ✅ **chosen**
+- Takeda ORZEYFUL (oveporexton) FDA approval — first orexin agonist, 5 Aug 2026 ✅ **chosen**
+- Replimune Tudriqev accelerated approval melanoma (6 Aug 2026) — not featured
+- Mironid $46M Series B (ADPKD) — not sufficiently significant
+
+**AI in biomedicine / AI tools** (2026-08-05/07): Nothing above the noise in the last 48h — Meta Muse Spark 1.2 (5 Aug), no major frontier releases from Anthropic/OpenAI/Google. Skipped.
+
+**Animals**:
+- Sperm cooperation across arthropods — Gomez/Pitnick, Nature Communications 2 Aug 2026 ✅ **chosen**
+- Austronaga minuta 245-Myr digestive-system fossil — coverage borderline (Jul 2026 primary, Aug secondary pickup)
+- Stanford "ruptoblast" flatworm exploding immune cells — original Cell paper June, fresh press wave Aug 3-6
+- Orca ram-fragment sunfish behavior — May 2026, outside recency window
+- Yukon ground squirrel scat DNA — June 2026, outside window
+
+Source-side notes: bioRxiv R-pyocin preprint and medRxiv NYC wastewater preprint both returned abstract-only via `fetch_preprint.py` (body not yet rendered / API-only fallback). R-pyocin abstract carried the full mechanism so I kept it as lead; NYC wastewater was dropped since it lacked full-text depth and wasn't a dominant pick. NEJM/Nature primary URLs redirected to auth walls; used trade-press secondary sources for the biotech items.
+
+Sources:
+- [bioRxiv preprint (R-pyocin)](https://www.biorxiv.org/content/10.64898/2026.08.04.742823v2)
+- [Takeda Orzeyful FDA approval](https://www.takeda.com/newsroom/newsreleases/2026/orzeyful-approved-narcolepsy/)
+- [Healthcare Dive on mFlusiva](https://www.healthcaredive.com/news/moderna-fda-approve-mflusiva-seasonal-influenza/827180/)
+- [Nature Communications (sperm cooperation)](https://www.nature.com/articles/s41467-026-72977-6)
+=== 2026-08-07T05:14:50-07:00 done  genome-brief (exit 0) ===
