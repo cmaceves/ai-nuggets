@@ -2285,3 +2285,36 @@ Sources:
 - [Nature Communications (sperm cooperation)](https://www.nature.com/articles/s41467-026-72977-6)
 === 2026-08-07T05:14:50-07:00 done  genome-brief (exit 0) ===
 === 2026-08-08T05:00:03-07:00 start genome-brief ===
+Episode 44 shipped: "A pan-coronavirus vaccine hits its first big proof-of-concept" (19:11, 9.2 MB).
+
+## Candidate funnel
+
+**bioRxiv** — 266 items scanned across 2026-08-07/08 (pages 0-240 via cursor). Substantive pathogen/AI shortlist after discarding "flu" false-positives (fluorescent, fluid, etc.) and off-topic "sequenc"/"variant" hits:
+- **Protective pan-betacoronavirus neutralizing antibodies by vaccination** — Zhou et al., Scripps/UNC/Penn/MIT, 10.64898/2026.08.06.743418 ✅ CHOSEN (Pathogen watch)
+- **Structure-aware deep learning predicts influenza antigenicity and guides vaccine strain recommendation (Vir3D)** — Li et al., NPU, 10.64898/2026.08.02.742372 ✅ CHOSEN (AI in biomedicine)
+- Phylogeny-aided contamination detection in ~5M SARS-CoV-2 genomes — Anoufa et al., 10.64898/2026.08.07.743473
+- HPAI H5N1 wild-bird genotype/ecology in France 2021-23 — Couty et al., 10.64898/2026.08.03.742420
+- Plasmodium vivax microneme vaccine candidates — 10.64898/2026.08.07.743484
+- InterAb bnAb optimization (v2 revision) — 10.64898/2026.01.20.700456
+
+**medRxiv** — 48 items across same window:
+- Sulfadoxine-Pyrimethamine+Chloroquine vs DHA-Piperaquine malaria prevention RCT — Malawi — 10.64898/2026.08.04.26359752
+- Hospital MRSA transmission driven by mupA plasmids — 10.64898/2026.07.24.26358837
+- Minidock MTB TB diagnostic assessment — 10.64898/2026.04.22.26351245
+
+**Business** — 6 items on 2026-08-06/07 primary sources:
+- **FDA accelerated approval Replimune Tudriqev (RP1) + nivolumab, melanoma** ✅ CHOSEN (Business)
+- Tarsus/Alkeus $450M acquisition (Stargardt)
+- LifeMine $263M raise (transplant rejection, calcineurin activation)
+- Latigo Biotherapeutics $345.6M IPO (Nav1.8, non-opioid pain)
+- Merck Enflonsia (clesrovimab) sBLA accepted (second-season RSV)
+- Vedanta $60M pre-Phase-3 (VE303, C. diff)
+
+**AI tools/platforms** — window unusually thin; only Google DeepMind leadership shakeup (Jeff Dean → Discovery Loop) and OpenAI GPT-5.6 Sol thinking-slider — neither above significance bar. Skipped segment.
+
+**Animal news** — Rediscovered Megalodon vertebrae, Denmark's Natural History Museum, Palaeontologia Electronica 2026 (Shimada et al.) ✅ CHOSEN.
+
+**Excluded (covered yesterday):** Moderna mFlusiva, Takeda Orzeyful, arthropod sperm cooperation, R-pyocin/Pseudomonas.
+
+**Source failures:** Endpoints/Fierce Biotech WebFetch 403 (blocked from this IP); Replimune IR page and FDA press-announcement page returned 404, worked around via OncoDaily + FDA drug-info page. arXiv listings for cs.LG/q-bio 2026-08 returned malformed IDs — arXiv coverage this window is incomplete.
+=== 2026-08-08T05:17:32-07:00 done  genome-brief (exit 0) ===
