@@ -2318,3 +2318,4 @@ Episode 44 shipped: "A pan-coronavirus vaccine hits its first big proof-of-conce
 
 **Source failures:** Endpoints/Fierce Biotech WebFetch 403 (blocked from this IP); Replimune IR page and FDA press-announcement page returned 404, worked around via OncoDaily + FDA drug-info page. arXiv listings for cs.LG/q-bio 2026-08 returned malformed IDs — arXiv coverage this window is incomplete.
 === 2026-08-08T05:17:32-07:00 done  genome-brief (exit 0) ===
+=== 2026-08-09T05:00:03-07:00 start genome-brief ===
