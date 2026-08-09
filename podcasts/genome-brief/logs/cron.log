@@ -2319,3 +2319,34 @@ Episode 44 shipped: "A pan-coronavirus vaccine hits its first big proof-of-conce
 **Source failures:** Endpoints/Fierce Biotech WebFetch 403 (blocked from this IP); Replimune IR page and FDA press-announcement page returned 404, worked around via OncoDaily + FDA drug-info page. arXiv listings for cs.LG/q-bio 2026-08 returned malformed IDs — arXiv coverage this window is incomplete.
 === 2026-08-08T05:17:32-07:00 done  genome-brief (exit 0) ===
 === 2026-08-09T05:00:03-07:00 start genome-brief ===
+Episode 45 shipped: script drafted, 19:22 mp3 generated (9.3 MB), published to R2, feed.xml updated (validated), committed. Push is left to the orchestrator.
+
+**Candidate funnel for 2026-08-09:**
+
+- **Pathogen watch** — bioRxiv: 279 scanned, 9 keyword matches, 2 shortlisted. medRxiv: 50 scanned, 0 shortlisted. PubMed: 40 in window, 4 shortlisted. WHO DON / ECDC: nothing posted in window. CDC pages: HTTP 403 to WebFetch (source failure, noted).
+  - Phylogeny-aided contamination detection in ~5M SARS-CoV-2 genomes (Anoufa/De Maio, EBI; bioRxiv 08-07, 10.64898/2026.08.07.743473) — **chosen**
+  - HPAI H5N1 genotype-specific spread in French wild birds (bioRxiv 08-07)
+  - Wastewater methodological variabilities for SARS-CoV-2 (PubMed 08-08)
+  - NTD antibody atlas & KP.3.1.1 escape (PNAS 08-05, borderline recency)
+
+- **Biotech/pharma**:
+  - Latigo Biotherapeutics IPO (BioPharma Dive 08-07, LTGO/Nav1.8) — **chosen**
+  - Mediar/Ono fibrosis pact (08-07)
+  - Vedanta $60M pre-Phase-3 (08-07)
+  - Yochanra/tinengotinib NMPA approval (08-06)
+
+- **AI in biomedicine**:
+  - Safety First: input screening for AI protein design (NTI-affiliated; bioRxiv 08-07, 10.64898/2026.08.04.740855) — **chosen**
+  - QuantEM EM foundation model (08-07)
+  - Single-cell foundation model zero-shot benchmarking (08-07)
+  - ClinOracle target-binding + patient-cell activity GNN (08-07)
+  - Vir3D (already covered in Ep 44, skipped)
+
+- **AI tools**: Nothing above-threshold on 08-08–08-09. Segment dropped rather than padded.
+
+- **Animals**:
+  - Newly described "coffee frog" from Costa Rica (AFP via phys.org, 08-08) — **chosen**
+  - 1-million-years-of-parthenogenesis stick insects (08-07)
+  - Turtle sex determination via primary cilia (08-07)
+  - Zipf's-law birdsong & whale song (08-07)
+=== 2026-08-09T05:16:10-07:00 done  genome-brief (exit 0) ===
