@@ -2351,3 +2351,29 @@ Episode 45 shipped: script drafted, 19:22 mp3 generated (9.3 MB), published to R
   - Zipf's-law birdsong & whale song (08-07)
 === 2026-08-09T05:16:10-07:00 done  genome-brief (exit 0) ===
 === 2026-08-10T05:00:04-07:00 start genome-brief ===
+Episode 46 is committed. Runner will push.
+
+**Candidate funnel:**
+
+- **bioRxiv 2026-08-08 to 2026-08-10** — ~183 total items scanned across 6 pages of the details API; ~30 hit pathogen/AI keyword filters; substantive shortlist after removing spurious matches:
+  - `Detection of diverse coronaviruses, paramyxoviruses, and rhabdoviruses from cave-dwelling bats in Eastern Uganda` — https://www.biorxiv.org/content/10.64898/2026.08.06.743307v1 (interesting spillover-risk survey, but descriptive PCR positivity without sequence-level or spillover-signal depth)
+  - `Mycobacteriophage D29-mediated lysis improves recovery of mycobacterial genomic DNA from low-biomass samples` — https://www.biorxiv.org/content/10.64898/2026.08.08.743631v1 (useful surveillance-methods paper, narrower audience)
+  - `Pooled amplicon sequencing for characterizing mutations in the praziquantel molecular target TRPMPZQ in schistosome populations from Western Kenya` — https://www.biorxiv.org/content/10.64898/2026.08.04.742657v1 (drug-resistance surveillance in schistosomes; strong but neglected-audience)
+  - `Biasing Conformational Sampling in AlphaFold 3 and Boltz-2 via Pair Representation Scaling` — https://www.biorxiv.org/content/10.64898/2026.01.23.701250v3 **← picked (AI in biomedicine)**
+  - `Move BeTween modAlities (MBTA) employs flow matching to predict single cell data modalities` — https://www.biorxiv.org/content/10.64898/2026.08.05.743110v1
+  - `A distribution-aware and functionally relevant novel framework for generation and discovery of bioactive peptides` — https://www.biorxiv.org/content/10.64898/2026.08.04.742799v1
+- **medRxiv 2026-08-08 to 2026-08-10** — 21 total, 1 substantive on-topic:
+  - `Livestock production intensity and mucosal IgA and IgG responses to H5N1 highly pathogenic avian influenza A virus, North Carolina, 2021-2022` — https://www.medrxiv.org/content/10.64898/2026.08.06.26359901v1 **← picked (pathogen watch)**
+- **Biotech/pharma news 2026-08-08 to 2026-08-10** — Endpoints homepage 403 for WebFetch; BioPharma Dive reviewed. Aug 8-10 hard-window is thin (Latigo already shipped Aug 9; Replimune Tudriqev already shipped Aug 8). Substantive shortlist from the past few days:
+  - `Braveheart Bio $382.5M IPO for BHB-1893 cardiac myosin inhibitor` (BRVE, Aug 6-7) — https://www.biopharmadive.com/news/braveheart-cardiac-drugs-ipo-pricing/826973/ **← picked (biotech & pharma)**
+  - `Moderna mFlusiva mRNA flu vaccine FDA approval` (Aug 5) — https://www.statnews.com/2026/08/05/fda-approves-moderna-mflusiva-first-mrna-flu-vaccine/ (dropped: outside the strict 1-2 day window)
+  - `Vedanta Biosciences $60M for VE303 C. diff Phase 3` (Aug 6) — https://endpoints.news/vedanta-gets-60m-to-finish-phase-3-for-c-diff-microbiome-therapy/
+- **AI tool / platform updates 2026-08-08 to 2026-08-10** — no significant new-model releases in the strict 1-2 day window; segment dropped per prompt.
+- **Animal news 2026-08-08 to 2026-08-10** — 2 candidates:
+  - `Dodo skull CT scan reveals enhanced olfaction, tactile beak, and crepuscular activity` (Zoological Journal of the Linnean Society, Aug 2026) — https://phys.org/news/2026-08-world-dodo-skulls-reveals-clues.html **← picked (animal closer)**
+  - `Tiny dinosaurs remained conspicuously rare across the Mesozoic` — dropped (dinosaur-size-mystery article insufficient specific-paper anchor found)
+
+**Fetch depth notes:** three of the picks were bioRxiv/medRxiv abstract-only (H5N1 medRxiv v1 posted this morning, AlphaFold3 v3 posted yesterday, Uganda bat viruses v1 posted yesterday) — bodies not yet rendered so the `fetch_preprint.py` helper fell back to the abstract-only channel. Kept per PIPELINE.md's "clearly dominant pick" carve-out and flagged in-script that the H5N1 item is being read off the abstract. Full text for the biotech and animal items came from BioPharma Dive and phys.org via WebFetch. Endpoints News homepage returned 403 to WebFetch (no auth path); BioPharma Dive was reachable.
+
+Committed as `9c6d198` — 12:09 mp3 (5,834,544 bytes), Mistral primary voice, uploaded to R2. No push (runner handles it).
+=== 2026-08-10T05:14:32-07:00 done  genome-brief (exit 0) ===
