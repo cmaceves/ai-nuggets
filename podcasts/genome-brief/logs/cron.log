@@ -2378,3 +2378,33 @@ Episode 46 is committed. Runner will push.
 Committed as `9c6d198` — 12:09 mp3 (5,834,544 bytes), Mistral primary voice, uploaded to R2. No push (runner handles it).
 === 2026-08-10T05:14:32-07:00 done  genome-brief (exit 0) ===
 === 2026-08-11T05:00:04-07:00 start genome-brief ===
+Episode 47 shipped. Committed as `a786285` — the orchestrator will push.
+
+**Candidate funnel:**
+
+- **bioRxiv / medRxiv (last 3d)** — 299 items scanned across biorxiv (149) + medrxiv (150); ~15 pathogen/surveillance hits after removing spurious keyword matches (e.g., "lineage" → cell lineages, "variant" → variant callers). Substantive shortlist:
+  - Livestock intensity + mucosal H5 IgA in NC (Pisanic et al, medRxiv 2026-08-10) — DROPPED, shipped in Ep 46
+  - **Heartland/Bourbon virus complete genomes from Nebraska ticks (Pella et al, medRxiv 2026-08-10, doi:10.64898/2026.08.06.26359924) — CHOSEN**
+  - Autoantibodies neutralizing type I IFNs in life-threatening COVID (Casanova group, medRxiv 2026-08-10)
+  - Measles outbreak drivers Uganda (medRxiv 2026-08-10)
+  - Pooled sputum-swab TB testing (medRxiv 2026-08-10)
+  - Praziquantel-resistance TRPMPZQ amplicon-seq in Kenyan schistosomes (bioRxiv 2026-08-09)
+  - Nanopore CRE surveillance (bioRxiv 2026-08-09)
+  - Full items opened: Heartland/Bourbon (abstract-only, body not rendered; noted in script)
+- **arXiv (cs.AI/cs.LG/q-bio, last 2d)** — full cache scanned (~500 entries in window); most cs.AI hits are generic LLM/agent work. Substantive shortlist:
+  - **AMIE (Video) OSCE benchmark, Google Research + DeepMind (arxiv:2608.09861, 2026-08-10) — CHOSEN** (PDF full text pulled)
+  - MedPixel unified pixel-language model for medical segmentation
+  - Agentic LLM for colorectal cancer treatment planning
+- **Biotech/pharma press (last 1–2d)** — 4 substantive fresh items:
+  - Replimune Tudriqev FDA approval — DROPPED, shipped in Ep 44
+  - Latigo Nav1.8 IPO — DROPPED, shipped in Ep 45
+  - Vedanta Biosciences $60M for VE303 C. diff Phase 3 (Aug 6)
+  - **Jazz Pharmaceuticals acquires Actio Biosciences for up to $1.32B for KCNT1 inhibitor ABS-1230 (Aug 10) — CHOSEN**
+- **AI tools/platforms** — no significant fresh release; segment folded into the AI-in-biomedicine slot (AMIE covers both).
+- **Animal news (last few days)** — substantive shortlist:
+  - **Why no tiny dinosaurs (Lechki & Benson, Evolution 2026, phys.org 2026-08-08) — CHOSEN**
+  - Dodo endocasts — DROPPED, shipped in Ep 46
+  - Corvid Cleaning crow-butt exchanger — older story, not fresh enough
+
+Sources — no failures this run (biorxiv/medrxiv API, arXiv day cache, WebSearch, WebFetch all responsive; one AJMC/OncLive URL 403'd but the Replimune story was replaced by the fresh Jazz/Actio deal anyway).
+=== 2026-08-11T05:18:10-07:00 done  genome-brief (exit 0) ===
