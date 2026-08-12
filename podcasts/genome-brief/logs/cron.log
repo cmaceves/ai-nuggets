@@ -2409,3 +2409,44 @@ Episode 47 shipped. Committed as `a786285` — the orchestrator will push.
 Sources — no failures this run (biorxiv/medrxiv API, arXiv day cache, WebSearch, WebFetch all responsive; one AJMC/OncLive URL 403'd but the Replimune story was replaced by the fresh Jazz/Actio deal anyway).
 === 2026-08-11T05:18:10-07:00 done  genome-brief (exit 0) ===
 === 2026-08-12T05:00:12-07:00 start genome-brief ===
+Episode 48 shipped. Final summary follows.
+
+## Run summary
+
+Commit: `2fa8766` — `Episode: Episode 48: H5 lands in Australia`
+Audio: 15:39, 7,510,560 bytes, primary TTS (Mistral Paul Neutral) — one HTTP 429 on chunk 7 auto-recovered after 60 s.
+Feed items now 48. Do not push (orchestrator handles).
+
+### Candidate funnel
+
+**Pathogen watch — bioRxiv/medRxiv 2026-08-10 → 2026-08-12**, ~430 preprints scanned, ~35 keyword-relevant after filtering, substantive shortlist:
+- **[CHOSEN]** Neave et al., CSIRO — First mainland Australia H5N1 clade 2.3.4.4b detections, Southern Ocean pathway via Heard Island (bioRxiv, abstract-only). https://www.biorxiv.org/content/10.64898/2026.08.08.743700v1
+- Kelch13 stochastics determine artemisinin drug survival in resistant *P. falciparum* — https://www.biorxiv.org/content/10.64898/2026.07.13.738300
+- Nationwide spread of fluconazole-resistant *Candida parapsilosis* clones (Spain) — https://www.biorxiv.org/content/10.64898/2026.08.10.740302
+- PBP2 energetics + ceftriaxone-resistance conformational switch in *N. gonorrhoeae* — https://www.biorxiv.org/content/10.64898/2026.08.07.743578
+- MALDI-ST deep-learning bacterial strain typing — https://www.medrxiv.org/content/10.64898/2026.08.08.26359928
+- Optimised serological ML for P. vivax test-and-treat (PvSeroTAT) — https://www.medrxiv.org/content/10.64898/2026.08.09.26355326
+- Collateral-sensitivity strongly connected components in WHO priority pathogens — https://www.biorxiv.org/content/10.64898/2026.08.07.743632
+- Nanopore verification for clinical CRE surveillance — https://www.biorxiv.org/content/10.64898/2026.08.04.742736
+- Metatranscriptomics of febrile individuals in Senegal — https://www.medrxiv.org/content/10.64898/2026.04.16.26351042
+- Pisanic et al. H5N1 mucosal IgA in NC livestock — **excluded** (covered Episode 46)
+
+**Biotech & pharma — biopharma-news scan for 2026-08-10 → 2026-08-11:**
+- **[CHOSEN]** Silence Therapeutics divesiran Phase 2 SANRECO positive in PV — first-in-class TMPRSS6 siRNA (BioSpace, 10 Aug 2026). https://www.biospace.com/press-releases/silence-therapeutics-announces-positive-topline-results-from-phase-2-sanreco-trial-of-divesiran-in-polycythemia-vera-supporting-its-potential-best-in-class-profile
+- ITM 177Lu-edotreotide CRL for GEP-NETs — regulatory setback, thinner story
+- Ongoing biotech M&A tracker — no other single dominant deal today
+
+**AI in biomedicine — bioRxiv + arXiv q-bio/cs.LG 2026-08-10 → 2026-08-11:**
+- **[CHOSEN]** You et al. — Virtual-cell verification / self-auditing agentic AI for immune-rejuvenation drug discovery (bioRxiv, abstract-only). https://www.biorxiv.org/content/10.64898/2026.08.04.742916v1
+- Deep learning + multiscale spatial context for global dengue suitability (medRxiv)
+- DoGMA central-dogma-guided foundation model for multi-omics oncology (arXiv 2608.08148)
+- DegradeQuery counterfactual PROTAC degradation prediction (arXiv 2608.10595)
+
+**AI tools/platforms — dropped:** GPT-5.6-Cyber (OpenAI, 10 Aug 2026) is a real capability jump but a cybersecurity offense model, off-audience for a biomedical-scientist show. Per PROMPT.md, dropping a segment with nothing genuinely fresh-and-relevant beats padding.
+
+**Animals closer:**
+- **[CHOSEN]** Levengood et al. — First evidence of maternal social transmission of "shelling" tool use in Queensland Indo-Pacific bottlenose dolphins, Marine Mammal Science 2026 (phys.org 11 Aug 2026). https://phys.org/news/2026-08-dolphins-tools-fish-mothers.html
+- Alternates: math model of dawn chorus timing; MRI study — dogs distinguish human fear from sadness
+
+**Source failures:** None substantive. One transient Mistral TTS 429 on final chunk auto-recovered. bioRxiv API + medRxiv API both healthy; jina reader also worked for available bodies. All three chosen preprints were abstract-only (body-not-yet-rendered) — the H5N1 phylogeographic result and the divesiran press release are self-contained; the virtual-cell verification paper's architecture is fully specified in the abstract.
+=== 2026-08-12T05:18:51-07:00 done  genome-brief (exit 0) ===
