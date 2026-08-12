@@ -2408,3 +2408,4 @@ Episode 47 shipped. Committed as `a786285` — the orchestrator will push.
 
 Sources — no failures this run (biorxiv/medrxiv API, arXiv day cache, WebSearch, WebFetch all responsive; one AJMC/OncLive URL 403'd but the Replimune story was replaced by the fresh Jazz/Actio deal anyway).
 === 2026-08-11T05:18:10-07:00 done  genome-brief (exit 0) ===
+=== 2026-08-12T05:00:12-07:00 start genome-brief ===
