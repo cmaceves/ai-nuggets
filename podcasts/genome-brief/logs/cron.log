@@ -2450,3 +2450,4 @@ Feed items now 48. Do not push (orchestrator handles).
 
 **Source failures:** None substantive. One transient Mistral TTS 429 on final chunk auto-recovered. bioRxiv API + medRxiv API both healthy; jina reader also worked for available bodies. All three chosen preprints were abstract-only (body-not-yet-rendered) — the H5N1 phylogeographic result and the divesiran press release are self-contained; the virtual-cell verification paper's architecture is fully specified in the abstract.
 === 2026-08-12T05:18:51-07:00 done  genome-brief (exit 0) ===
+=== 2026-08-13T05:00:04-07:00 start genome-brief ===
