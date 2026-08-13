@@ -2451,3 +2451,40 @@ Feed items now 48. Do not push (orchestrator handles).
 **Source failures:** None substantive. One transient Mistral TTS 429 on final chunk auto-recovered. bioRxiv API + medRxiv API both healthy; jina reader also worked for available bodies. All three chosen preprints were abstract-only (body-not-yet-rendered) — the H5N1 phylogeographic result and the divesiran press release are self-contained; the virtual-cell verification paper's architecture is fully specified in the abstract.
 === 2026-08-12T05:18:51-07:00 done  genome-brief (exit 0) ===
 === 2026-08-13T05:00:04-07:00 start genome-brief ===
+Committed as `97640ac`. Not pushing — orchestrator handles the push.
+
+## Final summary
+
+**Episode 49: How COVID hijacks inflammation to spread** — 14:20, 6,878,188 bytes, Mistral TTS, published to R2.
+
+Items chosen (all four segments):
+- **Pathogen watch** — Ciabattoni et al., NYU + UMaryland, bioRxiv 2026-08-11: SARS-CoV-2 ORF8 boosts transmission by inducing IFN-I inflammation in the URT (flips the usual "inflammation = defense" frame; rescue and IFNAR-blockade both point the same direction).
+- **Biotech & pharma** — Jazz Pharmaceuticals to acquire Actio Biosciences for up to $1.32B ($820M up front + $500M milestones) for ABS-1230, a first-in-class oral KCNT1 inhibitor for KCNT1+ epilepsy (announced 2026-08-11).
+- **AI in biomedicine** — siDiff (Yue et al., Peking U, bioRxiv 2026-08-11): de novo target-conditioned siRNA design via efficacy-guided discrete masked diffusion, +30% relative hit-rate over prior baselines. Thematic bridge to yesterday's Silence Therapeutics divesiran story.
+- **Animals** — Hernández-Pérez et al., Vienna, *iScience* 2026-08-07: awake-dog fMRI showing dogs distinguish anger, fear, and sadness as separate whole-brain patterns, plus happy faces engaging caudate reward circuitry.
+- AI tools segment dropped (no genuinely fresh major-lab launch in the last 48 h).
+
+Candidate funnel (title | url | outcome):
+- **bioRxiv (12 pages × 30 items scanned, 2026-08-11 to 2026-08-13):**
+  - SARS-CoV-2 ORF8 modulates URT inflammatory response to facilitate transmission | https://www.biorxiv.org/content/10.64898/2026.08.09.743817v1 | **CHOSEN (pathogen watch)**
+  - siDiff: De Novo siRNA Design via Efficacy-Guided Discrete Masked Diffusion | https://www.biorxiv.org/content/10.64898/2026.08.11.744092v1 | **CHOSEN (AI in biomedicine)**
+  - Nationwide Spread of Fluconazole-Resistant Candida parapsilosis Clones | https://www.biorxiv.org/content/10.64898/2026.08.10.740302v1 | shortlisted, not picked
+  - Direct swab testing for Avian Influenza & Newcastle disease (CENOS platform) | https://www.biorxiv.org/content/10.64898/2026.08.11.744268v1 | shortlisted
+  - Time-Resolved Single-Cell Atlas of viral disease severity | https://www.biorxiv.org/content/10.64898/2026.08.10.744019v1 | shortlisted
+- **medRxiv (5 pages × 30 items scanned):**
+  - Establishing wastewater-based SARS-CoV-2 variant surveillance independent of clinical isolates | https://www.medrxiv.org/content/10.64898/2026.08.11.26359873v1 | shortlisted, not picked (ORF8 mechanism paper stronger)
+  - Fit-for-purpose sequencing for West Nile virus genomic surveillance via NAT-reactive blood donations | https://www.medrxiv.org/content/10.64898/2026.08.11.26360209v1 | shortlisted
+  - Optimised serological ML for Plasmodium vivax malaria (PvSeroTAT) | https://www.medrxiv.org/content/10.64898/2026.08.09.26355326v1 | shortlisted
+  - Persistent Neurological Symptoms After COVID-19 lack evidence of adaptive CNS immune activation | https://www.medrxiv.org/content/10.64898/2026.08.10.26359944v1 | noted
+- **Biotech/pharma business:**
+  - Jazz to acquire Actio Biosciences (~$1.3B, KCNT1) | https://www.biopharmadive.com/news/jazz-actio-acquisition-deal-rare-neurological-epilepsy/827409/ | **CHOSEN**
+  - AbCellera ABCL635 Phase 2 topline (NK3R antibody, VMS, 83% reduction) | https://investors.abcellera.com/news/news-releases/2026/... | shortlisted (also strong; deferred to give Jazz the segment)
+  - Belite Bio tinlarebant priority review (Stargardt type 1) | noted
+- **AI tools/platforms:** No fresh major-lab release in last 48h — segment dropped per PROMPT.md ("Drop any segment with nothing genuinely fresh").
+- **Animal news:**
+  - Dogs distinguish fear vs sadness on awake fMRI (iScience 2026-08-07) | https://www.cell.com/iscience/fulltext/S2589-0042(26)02278-9 | **CHOSEN**
+  - Sauropod trackway records circular walk | noted
+  - Dodo endocasts (already covered ep 46) | skipped
+
+Source-level notes: bioRxiv/medRxiv API returned normally; all preprints fell through to "abstract-only" channel (bodies not yet rendered — typical for preprints posted 24–48h ago). ORF8 abstract was sufficiently complete to summarize accurately; siDiff and wastewater abstracts also self-contained. Web sources (BioPharma Dive, ScienceDaily, iScience abstract page) all resolved on first try. No transient source failures this run.
+=== 2026-08-13T05:15:17-07:00 done  genome-brief (exit 0) ===
