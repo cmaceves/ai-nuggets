@@ -2488,3 +2488,4 @@ Candidate funnel (title | url | outcome):
 
 Source-level notes: bioRxiv/medRxiv API returned normally; all preprints fell through to "abstract-only" channel (bodies not yet rendered — typical for preprints posted 24–48h ago). ORF8 abstract was sufficiently complete to summarize accurately; siDiff and wastewater abstracts also self-contained. Web sources (BioPharma Dive, ScienceDaily, iScience abstract page) all resolved on first try. No transient source failures this run.
 === 2026-08-13T05:15:17-07:00 done  genome-brief (exit 0) ===
+=== 2026-08-14T05:00:05-07:00 start genome-brief ===
