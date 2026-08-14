@@ -2489,3 +2489,30 @@ Candidate funnel (title | url | outcome):
 Source-level notes: bioRxiv/medRxiv API returned normally; all preprints fell through to "abstract-only" channel (bodies not yet rendered — typical for preprints posted 24–48h ago). ORF8 abstract was sufficiently complete to summarize accurately; siDiff and wastewater abstracts also self-contained. Web sources (BioPharma Dive, ScienceDaily, iScience abstract page) all resolved on first try. No transient source failures this run.
 === 2026-08-13T05:15:17-07:00 done  genome-brief (exit 0) ===
 === 2026-08-14T05:00:05-07:00 start genome-brief ===
+Episode 50 shipped. Committed as `f365fa1` — the orchestrator will push.
+
+## Candidate funnel
+
+**Sources scanned**
+- bioRxiv details API (`api.biorxiv.org`) — HTTP 500 on every attempt across multiple date windows (2026-08-11 → 2026-08-14, single-day and multi-day). MCP `search_preprints` returned the same upstream 500. Both direct and MCP paths failed for the entire run; noted as source-side outage per PIPELINE.
+- medRxiv details API — same 500 pattern.
+- PubMed (edat 2026-08-09 → 2026-08-14, pathogen keyword set) — 171 hits, top 30 reviewed.
+- Web search — biotech/pharma daily roundups, AI-lab news, animal science headlines.
+
+**Substantive shortlist (after discarding spurious matches)**
+- Pathogen: SARS-CoV-2 PQ.16.1.1 & RK.1 antibody evasion + ACE2 binding (Cao lab, Changping/Peking; Lancet Infect Dis 2026-08-13) — https://doi.org/10.1016/S1473-3099(26)00429-9 **[CHOSEN]**
+- Pathogen: RSV expert consensus in emerging markets (Expert Rev Vaccines 2026-08-14) — consensus paper, not a finding
+- Pathogen: China TB burden 1990–2021 with 2041 projection (IJID 2026-08-13) — descriptive, no new methodology
+- Biotech: Cullinan/Taiho zipalertinib REZILIENT3 phase 3 PFS hit in first-line EGFR ex20ins NSCLC (2026-08-12/13) **[CHOSEN]**
+- Biotech: PTC Therapeutics wins Sangamo ST-920 Fabry AAV in bankruptcy auction
+- Biotech: Gilead exercises MacroGenics preclinical bispecific option ($10M)
+- Biotech: Definium DT120 (lysergide) ODT phase 3 in GAD
+- AI biomedicine: no genuinely fresh 2026-08-12–14 items after keyword search (Aureka OpenDDE was July) — segment dropped
+- AI tools: Anthropic Claude Riemann-zeta lower bound 41.6% → 67.2% w/ Lean 4 proof (announced 2026-08-10, wave of coverage 08-12/13) **[CHOSEN]**
+- AI tools: Anthropic-Decart AI $6B acquisition talks (Bloomberg 2026-08-13) — corporate, less scientifically substantive
+- AI tools: Google Gemini app 1B MAU milestone; Google DeepMind leadership change
+- Animals: Chiniquodon theotonicus 236-Mya viviparity fossil (Gaetano et al., Frontiers in Mammal Sci, 2026-08-13) **[CHOSEN]**
+- Animals: sheep-wool keratin bone regeneration — more medical-industrial than delightful
+
+Note: pathogen pick was abstract-only from bioRxiv API fallback (body-not-yet-rendered), kept per dominance clause — Lancet Infect Dis publication + WHO VUM designation make it the clear pick, and the abstract carries the full quantitative story (KD 16.5 nM vs 8.22 nM; convergent D420N).
+=== 2026-08-14T05:10:56-07:00 done  genome-brief (exit 0) ===
