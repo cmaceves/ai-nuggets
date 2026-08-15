@@ -2517,3 +2517,39 @@ Episode 50 shipped. Committed as `f365fa1` — the orchestrator will push.
 Note: pathogen pick was abstract-only from bioRxiv API fallback (body-not-yet-rendered), kept per dominance clause — Lancet Infect Dis publication + WHO VUM designation make it the clear pick, and the abstract carries the full quantitative story (KD 16.5 nM vs 8.22 nM; convergent D420N).
 === 2026-08-14T05:10:56-07:00 done  genome-brief (exit 0) ===
 === 2026-08-15T05:00:11-07:00 start genome-brief ===
+Episode 51 committed. The orchestrator handles the push.
+
+## Episode 51: Bristol's molecular glue arrives for myeloma
+
+Committed: `16e626a` (feed + script + 5.96 MB mp3, 12:25 runtime). Audio published to R2 via `publish_episode.sh`.
+
+### Candidate funnel
+
+**Pathogen genomics & surveillance** (last 3 days):
+- bioRxiv/medRxiv details API — **HTTP 200 with 0-byte body from all endpoints** for every date range and every retry (confirmed against 2025 and 2026 dates); MCP `search_preprints` failed with matching JSON-parse error. Skipped bioRxiv this run and noted the gap; the `/pubs/` endpoint on the same host worked, so this is a `/details/` outage specifically.
+- PubMed E-utilities via MCP — scanned ~180 items; substantive shortlist:
+  - Uraki, Kiso, Kawaoka et al., eBioMedicine 2026-08-11 — H5N8 stockpile vs bovine H5N1 (10.1016/j.ebiom.2026.106430) — **CHOSEN**
+  - Johnston, Douek, Wherry, Bloom, Hensley et al., Nature Immunology 2026-08-14 — de novo vs imprinted anti-SARS-CoV-2 antibodies (10.1038/s41590-026-02613-4)
+  - Pulit-Penaloza et al., J Virol 2026-08-11 — H5N5 A/Washington/2148/2025 ferret risk assessment (10.1128/jvi.00856-26)
+  - Suzuki et al., Emerg Microbes Infect 2026-08-10 — pertussis wastewater in Osaka
+  - Fattinger, Vance et al., Cell Host & Microbe 2026-08-14 — type-I IFN impairs IFNγ in Mtb granulomas (10.1016/j.chom.2026.07.014)
+
+**Biotech & pharma business news** (last 1–2 days):
+- FDA accelerated approval of Zenbexus (iberdomide) + Dara/dex for multiple myeloma — 2026-08-13/14 — **CHOSEN** (first CELMoD, first MRD-negative CR approval, EXCALIBER-RRMM 41% vs 21%)
+- Upadacitinib phase 3 Viti-Up in non-segmental vitiligo — Lancet, 2026-08-15
+- Moleculin MIRACLE (Annamycin) AML Phase 2/3 update — 2026-08-14
+
+**AI in biomedicine / AI tools** (last 1–2 days):
+- Google Gemini 3.7 Flash release — 2026-08-13 — **CHOSEN** (workhorse capability + price jump)
+- Intern-S2 scientific agentic foundation model — arXiv 2608.13505, 2026-08-13
+- SABLE agentic hit-to-lead framework — arXiv 2608.11483, 2026-08-11
+- IBM–OpenAI enterprise partnership + GPT-5.6-Cyber / Daybreak — 2026-08-14
+
+**Animals** (last few days):
+- Hernández-Pérez et al., iScience 2026-08-07 — dog fMRI resolves distinct human negative emotions — **CHOSEN**
+- Tuinstra et al. (U. Liverpool) — original collagen in 66-Myr-old Edmontosaurus (ScienceDaily push 2026-08-14; underlying paper Anal. Chem. 2025)
+- Romilio et al. — 150-Myr sauropod loop-and-limp trackway, W. Gold Hill Colorado
+- Human-dog coevolution ScienceDaily 2026-08-10
+
+Sources fed the summary: PubMed abstracts (Uraki/Kawaoka; Hernández-Pérez); BMS BusinessWire press release + STAT + OncoDaily + MedCity News for Zenbexus; DeepMind model card + Bloomberg + MarkTechPost for Gemini 3.7 Flash.
+=== 2026-08-15T05:17:17-07:00 done  genome-brief (exit 0) ===
