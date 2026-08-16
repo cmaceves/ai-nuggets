@@ -2554,3 +2554,34 @@ Committed: `16e626a` (feed + script + 5.96 MB mp3, 12:25 runtime). Audio publish
 Sources fed the summary: PubMed abstracts (Uraki/Kawaoka; Hernández-Pérez); BMS BusinessWire press release + STAT + OncoDaily + MedCity News for Zenbexus; DeepMind model card + Bloomberg + MarkTechPost for Gemini 3.7 Flash.
 === 2026-08-15T05:17:17-07:00 done  genome-brief (exit 0) ===
 === 2026-08-16T05:00:08-07:00 start genome-brief ===
+Episode 52 shipped. Script + feed + logs committed on `main` (16500bd); mp3 uploaded to R2; orchestrator will push.
+
+## Candidate funnel
+
+**Pathogen watch** (bioRxiv/medRxiv: 329 scanned, 17 substantive after keyword+relevance filter; PubMed: 202 top-relevance, ~6 substantive; WHO DON: 1 new; CDC: 403'd via WebFetch — noted gap)
+- **[CHOSEN] WHO Bundibugyo Ebola in DRC, DON615, 2026-08-14** — https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615 — PHEIC, 4,686 cases / 2,186 deaths, largest DRC Ebola outbreak ever, distinct virus (BDBV) with unclear Ervebo cross-protection
+- SARS-CoV-2 lineage-benchmark contamination preprint — bioRxiv 10.64898/2026.08.12.744560 — nice methodology story
+- CARD:Epi AMR contextualization tool — bioRxiv 10.64898/2026.08.14.744850
+- Lung Tres cells across TB spectrum — bioRxiv 10.64898/2026.08.10.743910
+
+**Biotech & pharma** (~10 outlets scanned, 6 substantive after filter, excluding items covered in Ep 51)
+- **[CHOSEN] Definium Therapeutics DT120 Voyage Phase 3 in GAD, 2026-08-12** — https://www.biospace.com/press-releases/definium-therapeutics-announces-positive-topline-results-from-phase-3-voyage-study-of-dt120-odt-in-generalized-anxiety-disorder — first plausibly approvable classical-psychedelic medicine, Cohen's d = 0.81
+- Taiho/Cullinan zipalertinib REZILIENT3 PFS win — already covered in Ep 50
+- PTC/Sangamo Fabry gene therapy acquisition — https://www.biopharmadive.com/news/ptc-sangamo-fabry-gene-therapy-bankruptcy-sale-lilly/827785/
+- Cytokinetics vs. BMS aficamten patent suit
+
+**AI in biomedicine** (bioRxiv: 448 records / ~30 with strong AI signal / ~10 substantive; arXiv cache ended 08-13, gap noted; news outlets: no hard news)
+- **[CHOSEN] AI4Loop, bioRxiv 10.64898/2026.08.12.744314** — abstract-only per pipeline caveat, but abstract is unusually complete and the drug-repurposing hit is verified via Hi-C
+- BioKinema (generative MD surrogate) — bioRxiv 10.64898/2026.02.15.705956
+- perturbMatch (LLM-curated GEO atlas) — bioRxiv 10.64898/2026.08.08.743502
+
+**AI tools** (Anthropic/OpenAI/Google/Meta/Mistral/xAI: nothing new that wasn't already covered)
+- **[CHOSEN] Alibaba Qwen3.8-27B open-weight release, 2026-08-14** — https://kingy.ai/blog/qwen3-8-27b-specs-benchmarks-local-hardware/ — frontier-adjacent coding/agentic on a 24GB GPU
+
+**Fun animals**
+- **[CHOSEN] Redback spider somersault genetics** — Biology Letters, doi:10.1098/rsbl.2026.0211, 2026-08-12 — https://www.smithsonianmag.com/smart-news/heres-why-these-male-spiders-sacrifice-themselves-by-somersaulting-into-females-fangs-while-mating-180989337/
+- Pumas reduce Washington deer-vehicle crashes 76% (older)
+- Hawaiian honeycreeper phylogeny resolved (older, extinction-adjacent)
+
+Episode duration 17:09, 8.23 MB.
+=== 2026-08-16T05:18:01-07:00 done  genome-brief (exit 0) ===
