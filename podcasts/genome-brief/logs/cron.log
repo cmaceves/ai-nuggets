@@ -2626,3 +2626,36 @@ Committed Episode 53. The orchestrator will handle the push.
 Episode 53 shipped: 13:15 duration, 6,360,963 bytes, pathogen watch → biotech → AI in biomedicine → animals.
 === 2026-08-17T05:19:33-07:00 done  genome-brief (exit 0) ===
 === 2026-08-18T05:00:10-07:00 start genome-brief ===
+Episode 54 shipped.
+
+**Commit:** `16056eb Episode: Episode 54: The two US H5N1 lineages behave very differently in ferrets` (orchestrator will push)
+
+**Candidate funnel (2026-08-18):**
+
+- **bioRxiv 2026-08-16..18** (400 items across 4 pages, pathogen keyword filter → 5 substantive hits after discarding "variant" as CNV/genetic-variant false positives):
+  - **[chosen — pathogen watch]** Enhanced pathogenicity and contact transmissibility of human-origin avian influenza H5N1 clade 2.3.4.4b B3.13 vs D1.1 in ferrets — 10.64898/2026.08.10.744032 — Texas Biomed/UT Austin/Mount Sinai/FLI (abstract-only; body not yet rendered)
+  - Dissolution-controlled nanocrystalline rifapentine for TB — 10.64898/2026.08.16.745059
+  - Convergent IGHV3-53/3-66 antibodies from Omicron BA.1 neutralize emerging SARS-CoV-2 variants — 10.64898/2026.08.15.745004 (abstract-only; a strong runner-up)
+  - Rickettsiosis leading cause of AUFI in Hoima, Uganda — 10.64898/2026.08.16.26360526
+  - India IDSP weekly-outbreak-report evaluation framework — 10.64898/2026.08.13.26360363
+- **bioRxiv AI-in-biomedicine filter** (18 hits after keyword prune; 4 substantive after discarding "diffusion MRI"/"drift-diffusion"/"liquid condensate" false positives):
+  - **[chosen — AI in biomedicine]** Spatial second-order features + CIFM foundation model predict glioma malignant transformation — 10.64898/2026.08.14.744974 — Thomson/Cai (Caltech + UCLA); abstract-only
+  - Self-supervised training-data generation for nanoscale localization — 10.1101/2025.07.16.665148
+  - AI4Loop-adjacent glioma methods and other candidates ruled out for redundancy with prior episodes
+- **arXiv 2026-08-15..17** (30 recent q-bio + cs.LG scanned): nothing dominated the bioRxiv CIFM pick.
+- **Public health surveillance:** WHO IHR Emergency Committee meeting on the DRC Bundibugyo Ebola outbreak today (2026-08-18) — mentioned briefly in-show. CDC bird-flu situation summary (D1.1 now confirmed in dairy cattle in NV/AZ), Italy WNV (224 cases, 7 deaths), US measles (2,566 cases) noted but not featured — Ep 52 already covered DRC Ebola in depth.
+- **Biotech/pharma 2026-08-17..18** (5 candidates surveyed):
+  - **[chosen — biotech]** argenx efgartigimod (VYVGART Hytrulo) Phase 3 ALKIVIA in myositis — 2026-08-17 (IMNM hit p=0.0048, DM missed p=0.1093, combined 15.4-pt TIS at wk52 p=0.0011)
+  - Amylyx avexitide Phase 3 in post-bariatric hypoglycemia — 2026-08-18 (strong runner-up)
+  - EyePoint Durayvu wet-AMD miss — 2026-08-17
+  - AZ volrustomig NSCLC trial discontinuation — 2026-08-17
+  - Slate/Fulcrum reverse merger — 2026-08-17
+- **AI tool/platform updates 2026-08-17..18:** none genuinely significant — DeepSeek V4-Pro pricing, Anthropic revenue disclosure, Nvidia-OpenAI Ohio financing, Google Imagen 4 deprecation. Segment intentionally skipped.
+- **Animal news 2026-08-14..17** (2 finalists):
+  - **[chosen — closer]** Indo-Pacific bottlenose dolphins "shelling" in Hervey Bay, Queensland, with drone footage of mother Maserati and calf Bentley — Univ. Sunshine Coast (Levengood et al.), ScienceAlert 2026-08-12 / follow-on 13-17.
+  - Runner-up: Max Planck marine-worm/starfish PHA-bioplastic degradation study (Nature Ecology & Evolution, 2026-08-15).
+
+**Source-level failures:** none this run. bioRxiv details API + preprint helper both worked; H5N1 and glioma-CIFM preprints were abstract-only because posted within the last 24-48 h (body not yet rendered) — flagged in the script.
+
+**Audio:** 17:28, 8,386,185 bytes, Mistral primary path.
+=== 2026-08-18T05:15:29-07:00 done  genome-brief (exit 0) ===
