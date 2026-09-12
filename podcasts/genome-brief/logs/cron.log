@@ -3243,3 +3243,27 @@ Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authen
 Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
 === 2026-09-11T05:15:31-07:00 done  genome-brief (exit 0) (retry 5, --model claude-haiku-4-5-20251001) ===
 === 2026-09-11T05:15:31-07:00 FAILED: no episode produced for genome-brief after all retries ===
+=== 2026-09-12T05:00:06-07:00 start genome-brief ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-09-12T05:00:11-07:00 done  genome-brief (exit 0) ===
+=== 2026-09-12T05:00:11-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-09-12T05:03:11-07:00 start genome-brief (retry 1) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-09-12T05:03:15-07:00 done  genome-brief (exit 0) (retry 1) ===
+=== 2026-09-12T05:03:15-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-09-12T05:06:15-07:00 start genome-brief (retry 2, --model claude-sonnet-4-6) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-09-12T05:06:20-07:00 done  genome-brief (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-09-12T05:06:20-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-09-12T05:09:20-07:00 start genome-brief (retry 3, --model claude-sonnet-4-6) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-09-12T05:09:24-07:00 done  genome-brief (exit 0) (retry 3, --model claude-sonnet-4-6) ===
+=== 2026-09-12T05:09:24-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-09-12T05:12:24-07:00 start genome-brief (retry 4, --model claude-haiku-4-5-20251001) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-09-12T05:12:29-07:00 done  genome-brief (exit 0) (retry 4, --model claude-haiku-4-5-20251001) ===
+=== 2026-09-12T05:12:29-07:00 no episode produced for genome-brief; retrying in 180s ===
+=== 2026-09-12T05:15:29-07:00 start genome-brief (retry 5, --model claude-haiku-4-5-20251001) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-09-12T05:15:33-07:00 done  genome-brief (exit 0) (retry 5, --model claude-haiku-4-5-20251001) ===
+=== 2026-09-12T05:15:33-07:00 FAILED: no episode produced for genome-brief after all retries ===
