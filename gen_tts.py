@@ -25,6 +25,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 
 import requests
 
@@ -190,6 +191,9 @@ def synthesize_chunks(chunks, synth_fn, label):
             except Exception as e:
                 last_err = str(e)
                 print(f"  [{label}] chunk {i+1}/{len(chunks)} attempt {attempt} error: {e}")
+                if "429" in str(e) and attempt < MISTRAL_CHUNK_RETRIES + 1:
+                    print(f"  [{label}] rate-limited; sleeping 60s before retry")
+                    time.sleep(60)
         else:
             raise RuntimeError(f"{label} chunk {i+1} failed after retries: {last_err}")
     return parts
