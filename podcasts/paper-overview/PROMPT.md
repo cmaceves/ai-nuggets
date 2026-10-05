@@ -127,13 +127,70 @@ full author list.
 - **Episode basename:** `YYYY-MM-DD-<paper-slug>` — the date is **today's
   production date**, not the paper's publication date.
 - **Commit-message prefix:** `Episode`.
-- **Title format — `Episode N: Brief Title (Journal YYYY)`.** N is the
-  sequential episode number: count existing `<item>` entries in `feed.xml` and
-  add 1 (the feed starts empty, so the first episode is `Episode 1`). The Brief
-  Title is a short human phrase naming the paper's topic — not the full paper
-  title. `Journal YYYY` is the venue and year of *publication*, which is what
-  makes the chronology legible in a podcast client. Put this exact string in
-  the feed `<title>`.
+- **Title format — `Episode N: <Full paper title> — <Journal>, <D Month YYYY>`.**
+
+  Example:
+
+  ```
+  Episode 1: A new coronavirus associated with human respiratory disease in China — Nature, 3 February 2020
+  ```
+
+  - `N` is the sequential episode number: count existing `<item>` entries in
+    `feed.xml` and add 1 (the feed starts empty, so the first episode is
+    `Episode 1`).
+  - **Use the paper's full official title, verbatim**, exactly as
+    `scripts/fetch_paper.py` prints it — not a paraphrase and not a shortened
+    topic phrase. Some of these titles are long; that is fine and expected.
+    The only permitted edits are dropping a trailing period and fixing
+    SHOUTED or all-lowercase journal styling.
+  - The date is the paper's **publication** date, not the production date, and
+    it is what makes the chronology readable in a podcast client. Write it as
+    `3 February 2020` — day, full month name, year.
+  - Use an em dash (`—`) before the journal, so the title splits cleanly at a
+    predictable point when a client truncates it.
+
+  Put this exact string in the feed `<title>`. The pre-commit hook checks that
+  every title in this show's feed carries a four-digit year.
+
+## Show notes — the paper reference is MANDATORY
+
+Every episode must carry a full, resolvable reference to the paper it covers.
+A listener should never have to guess which paper they just heard about. This
+is not optional and there is no episode for which it doesn't apply.
+
+Build the citation once, in this exact form:
+
+```
+<First author surname> et al., "<Full paper title>." <Journal>, <D Month YYYY>. https://doi.org/<doi>
+```
+
+Use the paper's **publication** date, and the full official title — not the
+short Brief Title from the episode title. For a paper with one or two authors,
+name them both instead of `et al.`. Take the authors, title, journal, and date
+from the header `scripts/fetch_paper.py` prints, so they match the record.
+
+That citation then goes in three places:
+
+1. **The script file** — as a `Paper link:` line immediately under the
+   `## Script` heading. `gen_tts.py` strips `Paper link:` lines before TTS
+   (see `podcasts/PIPELINE.md`), so this is recorded without being read aloud.
+2. **The feed `<description>`** — as the *first line*, followed by a blank
+   line, then the prose summary.
+3. **The feed `<itunes:summary>`** — append the same citation as the *last*
+   line. Podcast clients differ in which of the two fields they display, so
+   both must stand alone.
+
+Escape the citation for XML like any other feed text: a literal `&` in a title
+becomes `&amp;`. The `<` and `>` characters do not appear in a DOI, but if a
+title contains them they must be escaped too.
+
+The pre-commit hook (`.githooks/check-feed.py`) enforces this: it fails the
+commit if any `<item>` in this show's `feed.xml` lacks a `doi.org` link in both
+its `<description>` and its `<itunes:summary>`.
+
+Spoken-word counterpart: the script itself should still *say* the journal,
+publication date, and senior author once (§3), since the listener can't see the
+show notes while listening. Never read the DOI aloud.
 
 ## Writing for audio
 
