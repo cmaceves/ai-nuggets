@@ -1,0 +1,18 @@
+# AI Nuggets — "SARS-CoV-2: A History Run-Through" (slug: paper-overview)
+# Install with: crontab /home/caceves/ai-nuggets/scripts/sars-cov-2-history.crontab
+#
+# cron does NOT expand $VARS in these assignment lines, so PATH is absolute.
+# PATH must include the conda env so node/npm/ffmpeg/python/claude resolve.
+PATH=/home/caceves/miniforge3/envs/su-devenv/bin:/usr/bin:/bin
+AI_NUGGETS_REPO=/home/caceves/ai-nuggets
+CLAUDE_BIN=/home/caceves/miniforge3/envs/su-devenv/bin/claude
+SHOWS_GLOB=podcasts/paper-overview/PROMPT.md
+
+# Run at 05:00 local time on Monday, Wednesday, and Friday. Logs to
+# cron_runner.log (outer runner) and the show's own logs/cron.log
+# (per-show transcript).
+#
+# "The Genome Brief" (podcasts/genome-brief) is retired and deliberately
+# NOT in SHOWS_GLOB — its back catalogue and feed stay in the repo, but it
+# no longer produces new episodes.
+0 5 * * 1,3,5 /home/caceves/ai-nuggets/scripts/run_all_shows.sh >> /home/caceves/ai-nuggets/podcasts/paper-overview/logs/cron_runner.log 2>&1

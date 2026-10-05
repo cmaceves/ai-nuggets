@@ -1,6 +1,6 @@
 slug          = "paper-overview"
-title         = "Paper Overview"
-description   = "Deep-dive walkthroughs of individual scientific papers — background, methods, results, and discussion, one paper per episode."
+title         = "SARS-CoV-2: A History Run-Through"
+description   = "A chronological walk through the SARS-CoV-2 literature, 2020 to the present — one landmark paper per episode, in the order it was published, with a focus on genomics."
 host          = "Nigel"
 owner         = "caceves <caceves@scripps.edu>"
 podcast_slug  = "paper-overview"

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paper Overview</title>
-    <description>Deep-dive walkthroughs of individual scientific papers — background, methods, results, and discussion, one paper per episode.</description>
+    <title>SARS-CoV-2: A History Run-Through</title>
+    <description>A chronological walk through the SARS-CoV-2 literature, 2020 to the present — one landmark paper per episode, in the order it was published, with a focus on genomics.</description>
     <link>https://github.com/cmaceves/ai-nuggets</link>
     <language>en-us</language>
     <itunes:author>Nigel</itunes:author>
@@ -10,15 +10,6 @@
       <itunes:name>caceves</itunes:name>
     </itunes:owner>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:category text="Technology"/>
-    <item>
-      <title>Episode 1: Wastewater sequencing catches H5N1 in California</title>
-      <description>A medRxiv preprint from UC Berkeley, the California Department of Public Health, and collaborators sets up genomic wastewater surveillance for influenza A across three California treatment plants during the 2024-2025 flu season. They combine a custom probe-capture enrichment panel covering 11 IAV subtypes with an expectation-maximization algorithm that can deconvolute multiple co-circulating subtypes from one sample — something existing tools, built for SARS-CoV-2, cannot do. Wastewater tracked seasonal H1N1pdm09 and H3N2 in agreement with clinical sequencing, and consistently detected H5N1 clade 2.3.4.4b at all three sites all season — while clinical H5N1 detections in people were sporadic and rare. Wastewater H5N1 sequences clustered mostly with dairy cow strains, with a smaller avian fraction; no PB2 E627K mammalian adaptation mutation was observed.</description>
-      <pubDate>Thu, 25 Jun 2026 10:00:00 +0000</pubDate>
-      <guid isPermaLink="false">2026-06-25-wastewater-flu-h5n1-california</guid>
-      <enclosure url="https://podcast.christineaceves22.workers.dev/p/paper-overview/u/caceves/2026-06-25-wastewater-flu-h5n1-california.mp3" length="6242054" type="audio/mpeg"/>
-      <itunes:duration>13:00</itunes:duration>
-      <itunes:summary>UC Berkeley and CDPH-led medRxiv preprint: probe-capture enrichment + custom EM deconvolution recovers whole-genome influenza A from California wastewater across 11 subtypes simultaneously. Three WWTPs sampled weekly Nov 2024-Feb 2025. Seasonal H1N1pdm09 and H3N2 track clinical data; H5N1 clade 2.3.4.4b consistently detected in wastewater while clinical detections are sporadic. LA County mid-November H5N1 wastewater peak had no corresponding clinical signal. Phylogeny: wastewater H5N1 clusters mostly with dairy cow strains, smaller avian fraction; no PB2 E627K mammalian adaptation mutation.</itunes:summary>
-    </item>
+    <itunes:category text="Science"/>
   </channel>
 </rss>
