@@ -1,9 +1,14 @@
 # SARS-CoV-2: A History Run-Through — episode queue
 
 Papers are listed in **publication order** (earliest first). The pipeline always
-covers the **first `- [ ]` (pending)** line, top to bottom, then marks it `- [x]`
-when that episode is published. This ordering IS the show — do not reorder,
-do not skip ahead, do not pick a later paper because it looks more interesting.
+covers the **first unchecked line** in the queue below, top to bottom, then
+checks it off when that episode is published. This ordering IS the show — do
+not reorder, do not skip ahead, do not pick a later paper because it looks
+more interesting.
+
+Only lines in the queue at the bottom of this file count. A line is a queue
+entry **only if the checkbox is the very first thing on the line**; nothing in
+this header is ever an episode.
 
 Every entry was verified against the Crossref API: the DOI resolves, the journal
 is *Cell*, *Science*, or a Nature-family title, and the date is the earliest
@@ -26,7 +31,9 @@ extend forward from the last entry toward the present):
 4. **Order:** insert by earliest publication date so the queue stays
    chronological.
 
-Format: `- [ ] <doi.org URL>  <!-- YYYY-MM-DD | Journal | Title -->`
+Each queue line is a markdown checkbox, a doi.org URL, and a trailing comment
+holding Crossref's date, journal, and title. Unchecked means pending; an `x` in
+the box means it already has an episode.
 
 - [ ] https://doi.org/10.1038/s41586-020-2008-3  <!-- 2020-02-03 | Nature | A new coronavirus associated with human respiratory disease in China -->
 - [ ] https://doi.org/10.1038/s41586-020-2012-7  <!-- 2020-02-03 | Nature | A pneumonia outbreak associated with a new coronavirus of probable bat origin -->

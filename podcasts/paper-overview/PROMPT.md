@@ -47,10 +47,13 @@ Each paper is a markdown checkbox line:
 
 Steps:
 
-1. Read `papers.md`. Take the **first `- [ ]` (pending) line, top to bottom**.
-   That single paper is this episode's subject. It is the oldest uncovered
-   paper, and that is deliberate — **do not** scan down for a more interesting
-   one.
+1. Read `papers.md`. Take the **first pending line, top to bottom** — the first
+   line whose checkbox is empty. A line only counts as a queue entry if the
+   checkbox is at the very start of the line and it carries a real doi.org URL;
+   the explanatory header at the top of the file is never an episode, even
+   where it shows the line format. That single paper is this episode's subject.
+   It is the oldest uncovered paper, and that is deliberate — **do not** scan
+   down for a more interesting one.
 2. **If there are no pending lines, STOP.** Do not invent a topic, do not reach
    for a paper outside the queue, do not produce an episode. Print
    `no pending papers — queue is empty, top up papers.md` and exit cleanly.
