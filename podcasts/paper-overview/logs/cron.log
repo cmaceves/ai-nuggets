@@ -7,3 +7,20 @@ Candidate funnel:
 - Fetched full text via `scripts/fetch_preprint.py` (jina .full HTML, 61.7KB) — read in full before drafting.
 === 2026-06-25T11:08:53-07:00 done  paper-overview (exit 0) ===
 === 2026-10-07T05:00:05-07:00 start paper-overview ===
+Committed cleanly — pre-commit hook accepted the feed. The orchestrator will push.
+
+---
+
+**Summary**
+
+- **Episode:** 1 — "A new coronavirus associated with human respiratory disease in China" (Wu et al., *Nature*, 3 February 2020)
+- **Paper source:** `scripts/fetch_paper.py` returned exit 0 — full text via PMC7094943 (not abstract-only)
+- **Script:** `podcasts/paper-overview/scripts/2026-10-07-new-coronavirus-china.md`
+- **Audio:** 10:30, 5,039,376 bytes, Mistral `en_paul_neutral`, 5/5 chunks on primary
+- **Published to R2:** `ai-nuggets-episodes/podcasts/paper-overview/episodes/2026-10-07-new-coronavirus-china.mp3`
+- **Feed:** new `<item>` added inside `<channel>` with Worker enclosure URL, citation in both `<description>` (first line) and `<itunes:summary>` (last line)
+- **Queue:** paper line in `papers.md` flipped from `- [ ]` → `- [x]`
+- **Commit:** `2faaff3` on `main`
+
+**Candidate funnel:** This show does not search sources — it draws from a fixed, chronologically-ordered queue (per `PROMPT.md` §0). The first unchecked line in `papers.md` was Wu et al. 2020-02-03, which became today's episode. Next pending: Zhou et al., "A pneumonia outbreak associated with a new coronavirus of probable bat origin" (*Nature*, 2020-02-03).
+=== 2026-10-07T05:04:29-07:00 done  paper-overview (exit 0) ===
