@@ -11,5 +11,18 @@
     </itunes:owner>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Science"/>
+    <item>
+      <title>Episode 1: A new coronavirus associated with human respiratory disease in China — Nature, 3 February 2020</title>
+      <description>Wu et al., "A new coronavirus associated with human respiratory disease in China." Nature, 3 February 2020. https://doi.org/10.1038/s41586-020-2008-3
+
+The first episode of SARS-CoV-2: A History Run-Through. In February 2020, Fan Wu, Yong-Zhen Zhang, Edward Holmes, and colleagues published one of the first two Nature reports characterizing the novel coronavirus behind the Wuhan pneumonia cluster. Using unbiased meta-transcriptomic sequencing on a single bronchoalveolar lavage sample, they recovered the complete 29,903-nucleotide genome of a previously unknown sarbecovirus — most closely related to a bat SARS-like coronavirus at the whole-genome level, and bearing a receptor binding domain that looked built to grip human ACE2. This episode walks through why meta-transcriptomic sequencing was the right methodological choice, how the phylogenetic placement and recombination analysis were done, and what the receptor binding domain comparison allowed the authors to predict about human transmission — all from the standpoint of what was known at the time of publication.</description>
+      <itunes:summary>The first episode of SARS-CoV-2: A History Run-Through. In February 2020, Fan Wu, Yong-Zhen Zhang, Edward Holmes, and colleagues published one of the first two Nature reports characterizing the novel coronavirus behind the Wuhan pneumonia cluster. Using unbiased meta-transcriptomic sequencing on a single bronchoalveolar lavage sample, they recovered the complete 29,903-nucleotide genome of a previously unknown sarbecovirus — most closely related to a bat SARS-like coronavirus at the whole-genome level, and bearing a receptor binding domain that looked built to grip human ACE2. This episode walks through why meta-transcriptomic sequencing was the right methodological choice, how the phylogenetic placement and recombination analysis were done, and what the receptor binding domain comparison allowed the authors to predict about human transmission — all from the standpoint of what was known at the time of publication.
+
+Wu et al., "A new coronavirus associated with human respiratory disease in China." Nature, 3 February 2020. https://doi.org/10.1038/s41586-020-2008-3</itunes:summary>
+      <pubDate>Wed, 07 Oct 2026 12:03:44 +0000</pubDate>
+      <guid isPermaLink="false">2026-10-07-new-coronavirus-china</guid>
+      <enclosure url="https://podcast.christineaceves22.workers.dev/p/paper-overview/u/caceves/2026-10-07-new-coronavirus-china.mp3" length="5039376" type="audio/mpeg"/>
+      <itunes:duration>10:30</itunes:duration>
+    </item>
   </channel>
 </rss>
