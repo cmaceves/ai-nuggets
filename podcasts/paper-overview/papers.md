@@ -36,7 +36,7 @@ holding Crossref's date, journal, and title. Unchecked means pending; an `x` in
 the box means it already has an episode.
 
 - [x] https://doi.org/10.1038/s41586-020-2008-3  <!-- 2020-02-03 | Nature | A new coronavirus associated with human respiratory disease in China -->
-- [ ] https://doi.org/10.1038/s41586-020-2012-7  <!-- 2020-02-03 | Nature | A pneumonia outbreak associated with a new coronavirus of probable bat origin -->
+- [x] https://doi.org/10.1038/s41586-020-2012-7  <!-- 2020-02-03 | Nature | A pneumonia outbreak associated with a new coronavirus of probable bat origin -->
 - [ ] https://doi.org/10.1126/science.abb2507  <!-- 2020-03-13 | Science | Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation -->
 - [ ] https://doi.org/10.1038/s41591-020-0820-9  <!-- 2020-03-17 | Nature Medicine | The proximal origin of SARS-CoV-2 -->
 - [ ] https://doi.org/10.1126/science.abb2762  <!-- 2020-03-27 | Science | Structural basis for the recognition of SARS-CoV-2 by full-length human ACE2 -->

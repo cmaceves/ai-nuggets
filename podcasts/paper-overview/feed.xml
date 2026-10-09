@@ -12,6 +12,19 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Science"/>
     <item>
+      <title>Episode 2: A pneumonia outbreak associated with a new coronavirus of probable bat origin — Nature, 3 February 2020</title>
+      <description>Zhou et al., "A pneumonia outbreak associated with a new coronavirus of probable bat origin." Nature, 3 February 2020. https://doi.org/10.1038/s41586-020-2012-7
+
+The companion report to Episode 1. In February 2020, Peng Zhou, Xing-Lou Yang, Xian-Guang Wang, Zheng-Li Shi and colleagues at the Wuhan Institute of Virology recovered five full-length genomes of the new coronavirus from seven ICU patients in Wuhan, independently confirming the Wu et al. report. They then pulled a previously-sampled bat coronavirus, RaTG13, from a horseshoe bat in Yunnan out of their archive, sequenced it in full, and showed it was 96.2% identical to the new virus across the whole genome — the closest known relative. The paper is best remembered for the receptor-usage experiment that showed the new virus uses human ACE2 to enter cells, which set the target for essentially every COVID vaccine and monoclonal antibody that followed. This episode walks through the pan-coronavirus PCR screen, the metagenomic genome assembly, the RaTG13 phylogenetic placement, the spike receptor-binding motif comparison, and the HeLa-cell ACE2 transfection assay — all from the standpoint of what was known at the time of publication.</description>
+      <itunes:summary>The companion report to Episode 1. In February 2020, Peng Zhou, Xing-Lou Yang, Xian-Guang Wang, Zheng-Li Shi and colleagues at the Wuhan Institute of Virology recovered five full-length genomes of the new coronavirus from seven ICU patients in Wuhan, independently confirming the Wu et al. report. They then pulled a previously-sampled bat coronavirus, RaTG13, from a horseshoe bat in Yunnan out of their archive, sequenced it in full, and showed it was 96.2% identical to the new virus across the whole genome — the closest known relative. The paper is best remembered for the receptor-usage experiment that showed the new virus uses human ACE2 to enter cells, which set the target for essentially every COVID vaccine and monoclonal antibody that followed. This episode walks through the pan-coronavirus PCR screen, the metagenomic genome assembly, the RaTG13 phylogenetic placement, the spike receptor-binding motif comparison, and the HeLa-cell ACE2 transfection assay — all from the standpoint of what was known at the time of publication.
+
+Zhou et al., "A pneumonia outbreak associated with a new coronavirus of probable bat origin." Nature, 3 February 2020. https://doi.org/10.1038/s41586-020-2012-7</itunes:summary>
+      <pubDate>Fri, 09 Oct 2026 12:03:44 +0000</pubDate>
+      <guid isPermaLink="false">2026-10-09-pneumonia-outbreak-bat-origin</guid>
+      <enclosure url="https://podcast.christineaceves22.workers.dev/p/paper-overview/u/caceves/2026-10-09-pneumonia-outbreak-bat-origin.mp3" length="6296389" type="audio/mpeg"/>
+      <itunes:duration>13:07</itunes:duration>
+    </item>
+    <item>
       <title>Episode 1: A new coronavirus associated with human respiratory disease in China — Nature, 3 February 2020</title>
       <description>Wu et al., "A new coronavirus associated with human respiratory disease in China." Nature, 3 February 2020. https://doi.org/10.1038/s41586-020-2008-3
 

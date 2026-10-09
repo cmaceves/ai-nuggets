@@ -24,3 +24,4 @@ Committed cleanly — pre-commit hook accepted the feed. The orchestrator will p
 
 **Candidate funnel:** This show does not search sources — it draws from a fixed, chronologically-ordered queue (per `PROMPT.md` §0). The first unchecked line in `papers.md` was Wu et al. 2020-02-03, which became today's episode. Next pending: Zhou et al., "A pneumonia outbreak associated with a new coronavirus of probable bat origin" (*Nature*, 2020-02-03).
 === 2026-10-07T05:04:29-07:00 done  paper-overview (exit 0) ===
+=== 2026-10-09T05:00:08-07:00 start paper-overview ===
