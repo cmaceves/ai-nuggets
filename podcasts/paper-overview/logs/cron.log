@@ -25,3 +25,20 @@ Committed cleanly — pre-commit hook accepted the feed. The orchestrator will p
 **Candidate funnel:** This show does not search sources — it draws from a fixed, chronologically-ordered queue (per `PROMPT.md` §0). The first unchecked line in `papers.md` was Wu et al. 2020-02-03, which became today's episode. Next pending: Zhou et al., "A pneumonia outbreak associated with a new coronavirus of probable bat origin" (*Nature*, 2020-02-03).
 === 2026-10-07T05:04:29-07:00 done  paper-overview (exit 0) ===
 === 2026-10-09T05:00:08-07:00 start paper-overview ===
+Committed. Episode 2 is published.
+
+**Episode 2 shipped**
+- Paper: Zhou et al., "A pneumonia outbreak associated with a new coronavirus of probable bat origin." *Nature*, 3 February 2020. [doi.org/10.1038/s41586-020-2012-7](https://doi.org/10.1038/s41586-020-2012-7)
+- Script: `podcasts/paper-overview/scripts/2026-10-09-pneumonia-outbreak-bat-origin.md`
+- Audio: 6,296,389 bytes, 13:07 (mistral/en_paul_neutral, 6 chunks)
+- Published to R2 via Worker: `/p/paper-overview/u/caceves/2026-10-09-pneumonia-outbreak-bat-origin.mp3`
+- `feed.xml` updated with new item; `papers.md` line checked off
+- Commit `15bc507` created under flock (orchestrator will push)
+
+**Queue status / candidate funnel**
+This show takes the next pending paper from `papers.md` in publication order (per PROMPT.md §0 — no discovery or candidate funnel).
+- Scanned: `papers.md`
+- First pending line: Zhou et al. 2020 (Nature) — selected
+- Full text obtained via `scripts/fetch_paper.py` (PMCID PMC7095418, exit 0 — full text, not abstract-only)
+- Next paper in queue: Wrapp et al., "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation" — *Science*, 13 March 2020
+=== 2026-10-09T05:04:29-07:00 done  paper-overview (exit 0) ===
