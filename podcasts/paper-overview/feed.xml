@@ -12,6 +12,19 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Science"/>
     <item>
+      <title>Episode 3: Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation — Science, 19 February 2020</title>
+      <description>Wrapp et al., "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation." Science, 19 February 2020. https://doi.org/10.1126/science.abb2507
+
+The show leaves genomics for structural biology. In February 2020, Daniel Wrapp, Jason McLellan and colleagues at the University of Texas at Austin solved the first atomic-resolution cryo-electron microscopy structure of the SARS-CoV-2 spike ectodomain in its prefusion conformation, at 3.5 angstroms. The construct carried the two-proline stabilising mutations McLellan's group had previously worked out for RSV and other coronaviruses — the design that went on to become the antigen in essentially every spike-targeting COVID vaccine. The map showed the trimer predominantly in a one-up-two-down receptor-binding-domain arrangement, surface plasmon resonance put the spike-ACE2 equilibrium dissociation constant at about 15 nanomolar — roughly 10- to 20-fold tighter than SARS-CoV spike binds the same receptor — and three published SARS-CoV antibodies failed to bind the new receptor-binding domain. This episode walks through why the prefusion state is the vaccine target, how the 2P stabilisation works, how cryo-EM at this resolution is done, and what the up-versus-down RBD dynamic means for both receptor engagement and antibody recognition — all from the standpoint of what was known at the time of publication.</description>
+      <itunes:summary>The show leaves genomics for structural biology. In February 2020, Daniel Wrapp, Jason McLellan and colleagues at the University of Texas at Austin solved the first atomic-resolution cryo-electron microscopy structure of the SARS-CoV-2 spike ectodomain in its prefusion conformation, at 3.5 angstroms. The construct carried the two-proline stabilising mutations McLellan's group had previously worked out for RSV and other coronaviruses — the design that went on to become the antigen in essentially every spike-targeting COVID vaccine. The map showed the trimer predominantly in a one-up-two-down receptor-binding-domain arrangement, surface plasmon resonance put the spike-ACE2 equilibrium dissociation constant at about 15 nanomolar — roughly 10- to 20-fold tighter than SARS-CoV spike binds the same receptor — and three published SARS-CoV antibodies failed to bind the new receptor-binding domain. This episode walks through why the prefusion state is the vaccine target, how the 2P stabilisation works, how cryo-EM at this resolution is done, and what the up-versus-down RBD dynamic means for both receptor engagement and antibody recognition — all from the standpoint of what was known at the time of publication.
+
+Wrapp et al., "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation." Science, 19 February 2020. https://doi.org/10.1126/science.abb2507</itunes:summary>
+      <pubDate>Mon, 12 Oct 2026 12:03:44 +0000</pubDate>
+      <guid isPermaLink="false">2026-10-12-cryo-em-spike-prefusion</guid>
+      <enclosure url="https://podcast.christineaceves22.workers.dev/p/paper-overview/u/caceves/2026-10-12-cryo-em-spike-prefusion.mp3" length="7011099" type="audio/mpeg"/>
+      <itunes:duration>14:36</itunes:duration>
+    </item>
+    <item>
       <title>Episode 2: A pneumonia outbreak associated with a new coronavirus of probable bat origin — Nature, 3 February 2020</title>
       <description>Zhou et al., "A pneumonia outbreak associated with a new coronavirus of probable bat origin." Nature, 3 February 2020. https://doi.org/10.1038/s41586-020-2012-7
 

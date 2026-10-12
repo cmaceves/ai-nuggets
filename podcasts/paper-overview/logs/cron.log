@@ -42,3 +42,4 @@ This show takes the next pending paper from `papers.md` in publication order (pe
 - Full text obtained via `scripts/fetch_paper.py` (PMCID PMC7095418, exit 0 — full text, not abstract-only)
 - Next paper in queue: Wrapp et al., "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation" — *Science*, 13 March 2020
 === 2026-10-09T05:04:29-07:00 done  paper-overview (exit 0) ===
+=== 2026-10-12T05:00:08-07:00 start paper-overview ===
