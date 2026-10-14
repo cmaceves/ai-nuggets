@@ -12,6 +12,19 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Science"/>
     <item>
+      <title>Episode 4: The proximal origin of SARS-CoV-2 — Nature Medicine, 17 March 2020</title>
+      <description>Andersen et al., "The proximal origin of SARS-CoV-2." Nature Medicine, 17 March 2020. https://doi.org/10.1038/s41591-020-0820-9
+
+The first origin-of-the-virus paper in a top journal. In mid-March 2020, less than a week after the WHO declared COVID-19 a pandemic, Kristian Andersen, Andrew Rambaut, Ian Lipkin, Eddie Holmes and Robert Garry published a Perspective in Nature Medicine arguing from genomic data that SARS-CoV-2 was neither a purposefully engineered virus nor plausibly the product of cell-culture or animal passage in a lab. Their case rests on two features of the spike: a receptor binding domain whose high-affinity grip on human ACE2 uses a different residue solution than pre-pandemic computational models had predicted an engineered RBD would use, and a brand-new polybasic furin cleavage site at the S1/S2 junction with three predicted O-linked glycans around it, absent from every sampled bat or pangolin sarbecovirus. They lay out two natural scenarios — adaptation in an animal host before zoonotic transfer, or adaptation in humans after an initial cruder jump during a period of undetected transmission — and decline to pick between them given the data available at the time. This episode walks through the genomic comparison, the furin cleavage site and glycan argument, the recombination fingerprint from the pangolin receptor binding domain, and the specific logic the authors use to push the laboratory scenarios off the table — all from the standpoint of what was known in March 2020.</description>
+      <itunes:summary>The first origin-of-the-virus paper in a top journal. In mid-March 2020, less than a week after the WHO declared COVID-19 a pandemic, Kristian Andersen, Andrew Rambaut, Ian Lipkin, Eddie Holmes and Robert Garry published a Perspective in Nature Medicine arguing from genomic data that SARS-CoV-2 was neither a purposefully engineered virus nor plausibly the product of cell-culture or animal passage in a lab. Their case rests on two features of the spike: a receptor binding domain whose high-affinity grip on human ACE2 uses a different residue solution than pre-pandemic computational models had predicted an engineered RBD would use, and a brand-new polybasic furin cleavage site at the S1/S2 junction with three predicted O-linked glycans around it, absent from every sampled bat or pangolin sarbecovirus. They lay out two natural scenarios — adaptation in an animal host before zoonotic transfer, or adaptation in humans after an initial cruder jump during a period of undetected transmission — and decline to pick between them given the data available at the time. This episode walks through the genomic comparison, the furin cleavage site and glycan argument, the recombination fingerprint from the pangolin receptor binding domain, and the specific logic the authors use to push the laboratory scenarios off the table — all from the standpoint of what was known in March 2020.
+
+Andersen et al., "The proximal origin of SARS-CoV-2." Nature Medicine, 17 March 2020. https://doi.org/10.1038/s41591-020-0820-9</itunes:summary>
+      <pubDate>Wed, 14 Oct 2026 12:03:44 +0000</pubDate>
+      <guid isPermaLink="false">2026-10-14-proximal-origin</guid>
+      <enclosure url="https://podcast.christineaceves22.workers.dev/p/paper-overview/u/caceves/2026-10-14-proximal-origin.mp3" length="6377055" type="audio/mpeg"/>
+      <itunes:duration>13:17</itunes:duration>
+    </item>
+    <item>
       <title>Episode 3: Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation — Science, 19 February 2020</title>
       <description>Wrapp et al., "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation." Science, 19 February 2020. https://doi.org/10.1126/science.abb2507
 

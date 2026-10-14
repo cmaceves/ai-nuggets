@@ -54,3 +54,4 @@ Episode 3 shipped.
 - TTS: Mistral voxtral-mini / Paul Neutral, 7 chunks, one 429 handled by the built-in 60 s backoff, 14:36 output.
 - Published mp3 to R2 `ai-nuggets-episodes` bucket, added feed `<item>` with real bytes (7,011,099) and ffprobe duration (14:36), checked off the paper in `papers.md`, committed under `flock` (no push — orchestrator handles that).
 === 2026-10-12T05:06:25-07:00 done  paper-overview (exit 0) ===
+=== 2026-10-14T05:00:04-07:00 start paper-overview ===
