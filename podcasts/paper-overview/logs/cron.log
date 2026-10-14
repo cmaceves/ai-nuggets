@@ -55,3 +55,12 @@ Episode 3 shipped.
 - Published mp3 to R2 `ai-nuggets-episodes` bucket, added feed `<item>` with real bytes (7,011,099) and ffprobe duration (14:36), checked off the paper in `papers.md`, committed under `flock` (no push — orchestrator handles that).
 === 2026-10-12T05:06:25-07:00 done  paper-overview (exit 0) ===
 === 2026-10-14T05:00:04-07:00 start paper-overview ===
+Episode 4 shipped.
+
+**Published:**
+- Paper: Andersen et al., "The proximal origin of SARS-CoV-2," Nature Medicine, 17 March 2020
+- Episode: `2026-10-14-proximal-origin.mp3` — 13:17, 6.4 MB
+- Script, feed item, R2 upload, `papers.md` checked off, commit `b183ff6` (orchestrator will push)
+
+**Queue status:** Next pending paper is Yan et al., "Structural basis for the recognition of SARS-CoV-2 by full-length human ACE2" (Science, 27 March 2020).
+=== 2026-10-14T05:04:37-07:00 done  paper-overview (exit 0) ===
