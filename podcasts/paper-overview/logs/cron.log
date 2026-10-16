@@ -65,3 +65,21 @@ Episode 4 shipped.
 **Queue status:** Next pending paper is Yan et al., "Structural basis for the recognition of SARS-CoV-2 by full-length human ACE2" (Science, 27 March 2020).
 === 2026-10-14T05:04:37-07:00 done  paper-overview (exit 0) ===
 === 2026-10-16T05:00:04-07:00 start paper-overview ===
+Committed. Episode 5 published.
+
+## Summary
+
+- **Episode:** Episode 5 — "Structural basis for the recognition of SARS-CoV-2 by full-length human ACE2" (Yan et al., Science, 4 March 2020)
+- **Script:** `podcasts/paper-overview/scripts/2026-10-16-full-length-ace2-recognition.md`
+- **Audio:** 8,269,156 bytes, 17:14 — generated via Mistral TTS, uploaded to R2
+- **Feed:** item prepended with Worker enclosure URL, DOI citation in both `<description>` and `<itunes:summary>`
+- **Queue:** marked `- [x]` in `papers.md`
+- **Commit:** `54bc38a` (orchestrator will push)
+
+### Candidate funnel
+This show runs from a fixed chronological queue — no discovery.
+- Queue scanned top-to-bottom.
+- First unchecked line: `10.1126/science.abb2762` (Yan et al., full-length ACE2 structure).
+- Full text fetched via `scripts/fetch_paper.py` (PMC7164635), read in full — abstract, intro, methods, results, figure captions, discussion.
+- No candidate selection step applies; the chronology is the pick. **Chosen for Episode 5.**
+=== 2026-10-16T05:05:48-07:00 done  paper-overview (exit 0) ===
