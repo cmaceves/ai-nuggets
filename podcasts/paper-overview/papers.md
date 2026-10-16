@@ -39,7 +39,7 @@ the box means it already has an episode.
 - [x] https://doi.org/10.1038/s41586-020-2012-7  <!-- 2020-02-03 | Nature | A pneumonia outbreak associated with a new coronavirus of probable bat origin -->
 - [x] https://doi.org/10.1126/science.abb2507  <!-- 2020-03-13 | Science | Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation -->
 - [x] https://doi.org/10.1038/s41591-020-0820-9  <!-- 2020-03-17 | Nature Medicine | The proximal origin of SARS-CoV-2 -->
-- [ ] https://doi.org/10.1126/science.abb2762  <!-- 2020-03-27 | Science | Structural basis for the recognition of SARS-CoV-2 by full-length human ACE2 -->
+- [x] https://doi.org/10.1126/science.abb2762  <!-- 2020-03-27 | Science | Structural basis for the recognition of SARS-CoV-2 by full-length human ACE2 -->
 - [ ] https://doi.org/10.1038/s41586-020-2179-y  <!-- 2020-03-30 | Nature | Structural basis of receptor recognition by SARS-CoV-2 -->
 - [ ] https://doi.org/10.1016/j.cell.2020.02.052  <!-- 2020-04-01 | Cell | SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor -->
 - [ ] https://doi.org/10.1038/s41586-020-2286-9  <!-- 2020-04-30 | Nature | A SARS-CoV-2 protein interaction map reveals targets for drug repurposing -->
