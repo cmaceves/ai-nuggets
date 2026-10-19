@@ -84,3 +84,14 @@ This show runs from a fixed chronological queue — no discovery.
 - No candidate selection step applies; the chronology is the pick. **Chosen for Episode 5.**
 === 2026-10-16T05:05:48-07:00 done  paper-overview (exit 0) ===
 === 2026-10-19T05:00:05-07:00 start paper-overview ===
+Episode 6 shipped.
+
+- **Paper:** Shang et al., "Structural basis of receptor recognition by SARS-CoV-2." *Nature*, 30 March 2020 — the first pending line in `papers.md`, taken in queue order per the show's chronological rule (no discovery/funnel).
+- **Full text:** `scripts/fetch_paper.py` returned exit 3 (PMC XML 500'd). Fell back to the PMC article page via WebFetch, which returned the full-text content.
+- **Script:** `podcasts/paper-overview/scripts/2026-10-19-rbd-ace2-hotspots.md` — walks through the hotspot framework (built by the Li group from their 2005 SARS-CoV work), the scaffold-grafting crystallography trick, the ridge reconfiguration (Gly-Val-Glu-Gly for Pro-Pro-Ala) plus the Leu486Phe hydrophobic-pocket swap, the Gln493 / Asn501 hotspot engagement, and the RaTG13 reverse experiment. Contemporaneous-view framing honoured; one §3.7 note calls out N501Y and Q493R as later variant positions, clearly flagged as stepping outside the paper.
+- **Audio:** `episodes/2026-10-19-rbd-ace2-hotspots.mp3` — 8,080,656 bytes, 16:50, generated via `gen_tts.py` (Mistral; one 429 retry on chunk 5, succeeded).
+- **Published:** uploaded to R2 via `scripts/publish_episode.sh`.
+- **Feed:** new `<item>` prepended; description and `<itunes:summary>` both carry the full citation + DOI; feed validates.
+- **Queue:** paper checked off in `papers.md`.
+- **Commit:** `aece584` on `main` (orchestrator pushes).
+=== 2026-10-19T05:07:51-07:00 done  paper-overview (exit 0) ===
