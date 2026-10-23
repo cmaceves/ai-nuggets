@@ -109,3 +109,25 @@ Episode 7 shipped. The orchestrator will push.
 - Next pending in queue: `10.1038/s41586-020-2286-9` (Krogan et al., *Nature*, 2020-04-30, SARS-CoV-2 interactome)
 === 2026-10-21T05:06:24-07:00 done  paper-overview (exit 0) ===
 === 2026-10-23T05:00:05-07:00 start paper-overview ===
+Committed. The orchestrator will push.
+
+## Run summary
+
+Published Episode 8 of SARS-CoV-2: A History Run-Through.
+
+- **Paper:** Gordon et al., "A SARS-CoV-2 protein interaction map reveals targets for drug repurposing." Nature, 30 April 2020.
+- **Script:** `podcasts/paper-overview/scripts/2026-10-23-protein-interaction-map-drug-repurposing.md`
+- **Audio:** `2026-10-23-protein-interaction-map-drug-repurposing.mp3` (8,371,974 bytes, 17:26)
+- **Published to R2:** ✓
+- **Feed updated:** new `<item>` added, XML validates
+- **papers.md:** paper marked `[x]`
+- **Committed:** `f5f1e52` (orchestrator will push)
+
+### Candidate funnel
+
+This show does not search sources — it pulls the first unchecked line from `papers.md` in publication order.
+
+- Queue entry taken: `10.1038/s41586-020-2286-9` (Nature, 2020-04-30) ✓ chosen
+- Full text fetch: `scripts/fetch_paper.py` returned exit 3 (PMC XML endpoint 500'd); fallback `WebFetch` on `pmc.ncbi.nlm.nih.gov/articles/PMC7431030/` succeeded and returned methods/results/discussion in full, so the episode is not abstract-only.
+- TTS: one Mistral chunk hit a 429 and succeeded on retry after the built-in 60s backoff; no fallback to ElevenLabs needed.
+=== 2026-10-23T05:08:30-07:00 done  paper-overview (exit 0) ===
