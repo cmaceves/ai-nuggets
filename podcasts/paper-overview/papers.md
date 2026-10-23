@@ -42,7 +42,7 @@ the box means it already has an episode.
 - [x] https://doi.org/10.1126/science.abb2762  <!-- 2020-03-27 | Science | Structural basis for the recognition of SARS-CoV-2 by full-length human ACE2 -->
 - [x] https://doi.org/10.1038/s41586-020-2179-y  <!-- 2020-03-30 | Nature | Structural basis of receptor recognition by SARS-CoV-2 -->
 - [x] https://doi.org/10.1016/j.cell.2020.02.052  <!-- 2020-04-01 | Cell | SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor -->
-- [ ] https://doi.org/10.1038/s41586-020-2286-9  <!-- 2020-04-30 | Nature | A SARS-CoV-2 protein interaction map reveals targets for drug repurposing -->
+- [x] https://doi.org/10.1038/s41586-020-2286-9  <!-- 2020-04-30 | Nature | A SARS-CoV-2 protein interaction map reveals targets for drug repurposing -->
 - [ ] https://doi.org/10.1016/j.cell.2020.04.011  <!-- 2020-05-01 | Cell | The Architecture of SARS-CoV-2 Transcriptome -->
 - [ ] https://doi.org/10.1016/j.cell.2020.04.021  <!-- 2020-05-01 | Cell | Coast-to-Coast Spread of SARS-CoV-2 during the Early Epidemic in the United States -->
 - [ ] https://doi.org/10.1038/s41564-020-0770-5  <!-- 2020-07-15 | Nature Microbiology | A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology -->
