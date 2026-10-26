@@ -131,3 +131,4 @@ This show does not search sources — it pulls the first unchecked line from `pa
 - Full text fetch: `scripts/fetch_paper.py` returned exit 3 (PMC XML endpoint 500'd); fallback `WebFetch` on `pmc.ncbi.nlm.nih.gov/articles/PMC7431030/` succeeded and returned methods/results/discussion in full, so the episode is not abstract-only.
 - TTS: one Mistral chunk hit a 429 and succeeded on retry after the built-in 60s backoff; no fallback to ElevenLabs needed.
 === 2026-10-23T05:08:30-07:00 done  paper-overview (exit 0) ===
+=== 2026-10-26T05:00:08-07:00 start paper-overview ===
