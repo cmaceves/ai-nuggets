@@ -132,3 +132,19 @@ This show does not search sources — it pulls the first unchecked line from `pa
 - TTS: one Mistral chunk hit a 429 and succeeded on retry after the built-in 60s backoff; no fallback to ElevenLabs needed.
 === 2026-10-23T05:08:30-07:00 done  paper-overview (exit 0) ===
 === 2026-10-26T05:00:08-07:00 start paper-overview ===
+Episode 9 shipped.
+
+- **Paper:** Kim et al., "The Architecture of SARS-CoV-2 Transcriptome." *Cell*, 23 April 2020. doi:10.1016/j.cell.2020.04.011
+- **Script:** `podcasts/paper-overview/scripts/2026-10-26-transcriptome-architecture.md` (~22K chars)
+- **Audio:** 20:19, 9,749,149 bytes — Mistral `voxtral-mini-tts-2603` / Paul Neutral (one 429 retried cleanly)
+- **R2 publish:** uploaded to `ai-nuggets-episodes` bucket
+- **Feed:** new `<item>` prepended with Episode 9 entry; show notes carry the full citation in both `<description>` and `<itunes:summary>`
+- **Queue:** paper checked off in `papers.md`
+- **Commit:** `31a24dd` (orchestrator will push)
+
+### Source selection (per PROMPT.md — queue-driven, no funnel)
+
+- Queue (`podcasts/paper-overview/papers.md`): 41 lines, 8 previously checked off, 33 pending.
+- First pending line (top-to-bottom): `https://doi.org/10.1016/j.cell.2020.04.011` — Kim et al., *Cell*, "The Architecture of SARS-CoV-2 Transcriptome". **Picked.** No funnel-style scoring applies; this show always takes the oldest unchecked paper.
+- Full text obtained via `scripts/fetch_paper.py` (PMC7179501), exit 0.
+=== 2026-10-26T05:07:01-07:00 done  paper-overview (exit 0) ===
