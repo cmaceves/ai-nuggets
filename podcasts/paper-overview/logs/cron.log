@@ -149,3 +149,13 @@ Episode 9 shipped.
 - Full text obtained via `scripts/fetch_paper.py` (PMC7179501), exit 0.
 === 2026-10-26T05:07:01-07:00 done  paper-overview (exit 0) ===
 === 2026-10-28T05:00:11-07:00 start paper-overview ===
+Episode 10 shipped.
+
+- **Paper:** Fauver et al., "Coast-to-Coast Spread of SARS-CoV-2 during the Early Epidemic in the United States." *Cell*, 7 May 2020. DOI 10.1016/j.cell.2020.04.021
+- **Script:** `podcasts/paper-overview/scripts/2026-10-28-coast-to-coast-us-spread.md`
+- **Audio:** 7,477,332 bytes · 15:35 · published to R2
+- **Feed:** new `<item>` prepended; `papers.md` ticked off
+- **Commit:** `95ee69a` on `main` (not pushed — orchestrator handles that)
+
+Candidate funnel: n/a for this show — the queue is deterministic (next pending paper, top to bottom). Previous episode's teaser already pointed here, so continuity is clean. Next in queue: Rambaut et al. 2020 (Pango lineage nomenclature, Nature Microbiology, 15 July 2020).
+=== 2026-10-28T05:06:35-07:00 done  paper-overview (exit 0) ===
