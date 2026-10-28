@@ -148,3 +148,4 @@ Episode 9 shipped.
 - First pending line (top-to-bottom): `https://doi.org/10.1016/j.cell.2020.04.011` — Kim et al., *Cell*, "The Architecture of SARS-CoV-2 Transcriptome". **Picked.** No funnel-style scoring applies; this show always takes the oldest unchecked paper.
 - Full text obtained via `scripts/fetch_paper.py` (PMC7179501), exit 0.
 === 2026-10-26T05:07:01-07:00 done  paper-overview (exit 0) ===
+=== 2026-10-28T05:00:11-07:00 start paper-overview ===
