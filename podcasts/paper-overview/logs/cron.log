@@ -160,3 +160,18 @@ Episode 10 shipped.
 Candidate funnel: n/a for this show — the queue is deterministic (next pending paper, top to bottom). Previous episode's teaser already pointed here, so continuity is clean. Next in queue: Rambaut et al. 2020 (Pango lineage nomenclature, Nature Microbiology, 15 July 2020).
 === 2026-10-28T05:06:35-07:00 done  paper-overview (exit 0) ===
 === 2026-10-30T05:00:05-07:00 start paper-overview ===
+Episode 11 shipped. Final summary:
+
+**Episode:** 11 — "A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology" — Nature Microbiology, 15 July 2020 (Rambaut, Holmes, O'Toole, Hill, McCrone, Ruis, du Plessis, Pybus). The Pango nomenclature paper.
+
+**Mechanics:**
+- Script: `podcasts/paper-overview/scripts/2026-10-30-pango-lineage-nomenclature.md`
+- Audio: `2026-10-30-pango-lineage-nomenclature.mp3` — 9,113,852 bytes, 18:59
+- TTS: Mistral `en_paul_neutral`, 9 chunks (one 429 retry, resolved)
+- R2 publish: OK
+- Feed: new `<item>` prepended, XML validates, pubDate `Fri, 30 Oct 2026 12:04:00 +0000`
+- Queue: `papers.md` marked `[x]` for this entry
+- Commit: `b126eb7` under flock, no push (orchestrator will push)
+
+**Candidate funnel:** N/A — this show reads from a fixed historical queue, not daily news. The next pending line in `papers.md` was taken top-to-bottom with no selection among alternatives, per the show's PROMPT.md.
+=== 2026-10-30T05:06:17-07:00 done  paper-overview (exit 0) ===
