@@ -45,7 +45,7 @@ the box means it already has an episode.
 - [x] https://doi.org/10.1038/s41586-020-2286-9  <!-- 2020-04-30 | Nature | A SARS-CoV-2 protein interaction map reveals targets for drug repurposing -->
 - [x] https://doi.org/10.1016/j.cell.2020.04.011  <!-- 2020-05-01 | Cell | The Architecture of SARS-CoV-2 Transcriptome -->
 - [x] https://doi.org/10.1016/j.cell.2020.04.021  <!-- 2020-05-01 | Cell | Coast-to-Coast Spread of SARS-CoV-2 during the Early Epidemic in the United States -->
-- [ ] https://doi.org/10.1038/s41564-020-0770-5  <!-- 2020-07-15 | Nature Microbiology | A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology -->
+- [x] https://doi.org/10.1038/s41564-020-0770-5  <!-- 2020-07-15 | Nature Microbiology | A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology -->
 - [ ] https://doi.org/10.1126/science.abc1917  <!-- 2020-07-17 | Science | Introductions and early spread of SARS-CoV-2 in the New York City area -->
 - [ ] https://doi.org/10.1126/science.abb9263  <!-- 2020-07-31 | Science | Genomic surveillance reveals multiple introductions of SARS-CoV-2 into Northern California -->
 - [ ] https://doi.org/10.1016/j.cell.2020.06.043  <!-- 2020-08-01 | Cell | Tracking Changes in SARS-CoV-2 Spike: Evidence that D614G Increases Infectivity of the COVID-19 Virus -->
