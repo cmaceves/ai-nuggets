@@ -176,3 +176,12 @@ Episode 11 shipped. Final summary:
 **Candidate funnel:** N/A — this show reads from a fixed historical queue, not daily news. The next pending line in `papers.md` was taken top-to-bottom with no selection among alternatives, per the show's PROMPT.md.
 === 2026-10-30T05:06:17-07:00 done  paper-overview (exit 0) ===
 === 2026-11-02T05:00:04-08:00 start paper-overview ===
+Episode 12 published. Script written, 15-minute mp3 generated via Mistral TTS, uploaded to R2, feed updated, paper marked done in queue, commit `6c3315a` created on the git lock (orchestrator will push).
+
+## Candidate funnel
+
+- **Source**: fixed queue in `podcasts/paper-overview/papers.md` (chronological, no discovery)
+- **Picked**: first pending line — Gonzalez-Reiche et al., *Introductions and early spread of SARS-CoV-2 in the New York City area* (Science, 29 May 2020, doi:10.1126/science.abc1917)
+  - Full text fetched via `scripts/fetch_paper.py` → PMC7259823, read in full before drafting
+- **Reason over alternatives**: queue order mandates — no selection step for this show
+=== 2026-11-02T05:06:21-08:00 done  paper-overview (exit 0) ===
