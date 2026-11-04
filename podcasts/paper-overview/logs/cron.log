@@ -185,3 +185,27 @@ Episode 12 published. Script written, 15-minute mp3 generated via Mistral TTS, u
   - Full text fetched via `scripts/fetch_paper.py` → PMC7259823, read in full before drafting
 - **Reason over alternatives**: queue order mandates — no selection step for this show
 === 2026-11-02T05:06:21-08:00 done  paper-overview (exit 0) ===
+=== 2026-11-04T05:00:03-08:00 start paper-overview ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-11-04T05:00:08-08:00 done  paper-overview (exit 0) ===
+=== 2026-11-04T05:00:08-08:00 no episode produced for paper-overview; retrying in 180s ===
+=== 2026-11-04T05:03:08-08:00 start paper-overview (retry 1) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-11-04T05:03:13-08:00 done  paper-overview (exit 0) (retry 1) ===
+=== 2026-11-04T05:03:13-08:00 no episode produced for paper-overview; retrying in 180s ===
+=== 2026-11-04T05:06:13-08:00 start paper-overview (retry 2, --model claude-sonnet-4-6) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-11-04T05:06:17-08:00 done  paper-overview (exit 0) (retry 2, --model claude-sonnet-4-6) ===
+=== 2026-11-04T05:06:17-08:00 no episode produced for paper-overview; retrying in 180s ===
+=== 2026-11-04T05:09:17-08:00 start paper-overview (retry 3, --model claude-sonnet-4-6) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-11-04T05:09:22-08:00 done  paper-overview (exit 0) (retry 3, --model claude-sonnet-4-6) ===
+=== 2026-11-04T05:09:22-08:00 no episode produced for paper-overview; retrying in 180s ===
+=== 2026-11-04T05:12:22-08:00 start paper-overview (retry 4, --model claude-haiku-4-5-20251001) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-11-04T05:12:27-08:00 done  paper-overview (exit 0) (retry 4, --model claude-haiku-4-5-20251001) ===
+=== 2026-11-04T05:12:27-08:00 no episode produced for paper-overview; retrying in 180s ===
+=== 2026-11-04T05:15:27-08:00 start paper-overview (retry 5, --model claude-haiku-4-5-20251001) ===
+Failed to authenticate. API Error: 401 OAuth access token has expired. Re-authenticate to continue.
+=== 2026-11-04T05:15:31-08:00 done  paper-overview (exit 0) (retry 5, --model claude-haiku-4-5-20251001) ===
+=== 2026-11-04T05:15:31-08:00 FAILED: no episode produced for paper-overview after all retries ===
